@@ -7,18 +7,12 @@
 **MORSA LOHBENER**
 **Monitoring Desa Lohbener**
 
-<<<<<<< HEAD
+
 kelompok 1 :
 Jakaria (1603101)
 Hilmy lazuardi (1603099)
 Ismatul maula (1603100)
-=======
-Kelompok 1
-Jakaria 1603101
-Hilmy Lazuardi 1603099
-Ismatul Maula 1603100
 
->>>>>>> f2293ff13626a57eaf8216f86d9534cb27a1a96c
 **Jurusan D3 Teknik Informatika**
 **Politeknik Negeri Indramayu**
 **2018**
