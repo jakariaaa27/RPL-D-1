@@ -7,10 +7,18 @@
 **MORSA LOHBENER**
 **Monitoring Desa Lohbener**
 
+<<<<<<< HEAD
 kelompok 1 :
 Jakaria (1603101)
 Hilmy lazuardi (1603099)
 Ismatul maula (1603100)
+=======
+Kelompok 1
+Jakaria 1603101
+Hilmy Lazuardi 1603099
+Ismatul Maula 1603100
+
+>>>>>>> f2293ff13626a57eaf8216f86d9534cb27a1a96c
 **Jurusan D3 Teknik Informatika**
 **Politeknik Negeri Indramayu**
 **2018**
@@ -49,8 +57,12 @@ Ismatul maula (1603100)
 	2.2	Spesifikasi Kebutuhan fungsional
 	2.3	Spesifikasi Kebutuhan non-fungsional
 	2.4	Karakteristik pengguna
+			Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 	2.5	Batasan-batasan
+			1. Perangkat lunak web hanya dijalankan di windows (7,8,10). Dan perangkat lunak mobile hanya bisa dijalankan di android (min. API 16/Jelly Bean).
+			2. Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 	2.6	Asumsi-asumsi
+			Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
 	2.7	Kebutuhan Penyeimbang
 3. Requirement specification
 	
