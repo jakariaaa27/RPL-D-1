@@ -7,6 +7,10 @@
 **MORSA LOHBENER**
 **Monitoring Desa Lohbener**
 
+kelompok 1 :
+Jakaria (1603101)
+Hilmy lazuardi (1603099)
+Ismatul maula (1603100)
 **Jurusan D3 Teknik Informatika**
 **Politeknik Negeri Indramayu**
 **2018**
