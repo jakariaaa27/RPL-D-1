@@ -1,3 +1,4 @@
+
 **Software Requirements Specification**
 
 **Version beta**
@@ -42,7 +43,7 @@ Definisi :
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 - https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
 - http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-
+- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. 
 1.5	Overview		
 
 Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
