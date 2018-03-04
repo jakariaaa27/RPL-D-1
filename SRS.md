@@ -85,65 +85,235 @@ kelompok 1 :
 	Skip
 	- Operasi-operasi
 	
-| Operasi | Fungsi |
-| ------ | ------ |
-|Daftar Masyarakat|Digunakan bagi masyarakat untuk mendaftar|
-| Login | Digunakan untuk mengakses aplikasi |
-| Input Data | Digunakan untuk memasukkan data-data |
-| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
-| Hapus | Digunakan untuk menghapus data |
-| Edit | Digunakan untuk mengubah data |
-| View | Digunakan untuk menampilkan data |
-| Simpan | Digunakan untuk menyimpan data |
-| Cetak | Digunakan untuk mencetak laporan |
-| Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
-
+	| Operasi | Fungsi |
+	| ------ | ------ |
+	|Daftar Masyarakat|Digunakan bagi masyarakat untuk mendaftar|
+	| Login | Digunakan untuk mengakses aplikasi |
+	| Input Data | Digunakan untuk memasukkan data-data |
+	| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+	| Hapus | Digunakan untuk menghapus data |
+	| Edit | Digunakan untuk mengubah data |
+	| View | Digunakan untuk menampilkan data |
+	| Simpan | Digunakan untuk menyimpan data |
+	| Cetak | Digunakan untuk mencetak laporan |
+	| Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
 
 	- Kebutuhan adaptasi
 	Skip
 
-2.2	Spesifikasi Kebutuhan fungsional
+	2.2	Spesifikasi Kebutuhan fungsional
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/$R4LLASQ.jpeg)
 
-- Tabel Kebutuhan Fungsional 
+	- Tabel Kebutuhan Fungsional 
 
-| No | Deskripsi |
-| ------ | ------ |
-| 1 | Perangkat lunak dapat menampilkan halaman login pada website  |
-| 2 | Perangkat lunak dapat menampilkan halaman login pada android |
-| 3 | Perangkat lunak dapat menampilkan Halaman daftar akun pada android |
-| 4 | Perangkat lunak dapat menginputkan kependudukan, pendidikan ,agama, pekerjaan, anggaran dan laporan pada website admin
-| 5 | Perangkat lunak dapat menampilkan grafik pada halaman sistem user |
-| 6 | Perangkat lunak dapat mengirimkan notifikasi komentar user kepada admin |
-| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
+	| No | Deskripsi |
+	| ------ | ------ |
+	| 1 | Perangkat lunak dapat menampilkan halaman login pada website  |
+	| 2 | Perangkat lunak dapat menampilkan halaman login pada android |
+	| 3 | Perangkat lunak dapat menampilkan Halaman daftar akun pada android |
+	| 4 | Perangkat lunak dapat menginputkan kependudukan, pendidikan ,agama, pekerjaan, anggaran dan laporan pada website admin
+	| 5 | Perangkat lunak dapat menampilkan grafik pada halaman sistem user |
+	| 6 | Perangkat lunak dapat mengirimkan notifikasi komentar user kepada admin |
+	| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
+	2.2.1 Masyarakat Login
+		Use Case: Login
+		Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
+		Deskripsi Singkat
+		Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
+		Deskripsi langkah-langkah
+		1. Masyarakat melakukan login dengan username dan password
+		2. Sistem melakukan validasi login
+		3. Bila sukses sistem akan mengarahkan ke halaman beranda
+		4. Bila gagal sistem akan menampilkan peringatan
+		Xref: Bagian 3.2.1, Login masyarakat
+	
+	2.2.2 Masyarakat melihat data dan grafik
+		Use Case: View data dan grafik
+		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
+		Deskripsi Singkat
+		Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
+		Deskripsi Langkah-langkah:
+		1. Sistem menampilkan halaman beranda yang berisi button ikon.
+		2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll.
+		3. Sistem menampilkan data dan grafik
+		Xref: Bagian 3.2.2, View data dan grafik masyaratkat
+	
+	2.2.3 Masyarakat mengirim kritik dan saran
+		Use Case: Kritik dan Saran
+		Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
+		Deskripsi Singkat
+		Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
+		Deskripsi Langkah-langkah
+		1. Masyarakat mengklik tombol kritik dan saran
+		2. Sitem akan menampilkan form kritik dan saran
+		3. Masyrakat mengisi form tersebut dan klik tombol kirim
+		4. Sistem akan mengirimkan ke admin.
+		Xref: Bagian 3.2.3, Kritik dan saran
 
-2.3	Spesifikasi Kebutuhan non-fungsional
+	2.2.4 admin login
+		Use Case: Login
+		Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
+		Deskripsi Singkat
+		Admin melakukan login dengan memasukan username password.
+		Deskripsi Langkah-langkah
+		1. admin melakukan login dengan username dan password
+		2. Sistem melakukan validasi login
+		3. Bila sukses sistem akan mengarahkan ke halaman beranda
+		4. Bila gagal sistem akan menampilkan peringatan
+		Xref: Bagian 3.2.4, Login admin
+		
+	2.2.5 Input data dan menampilkan data & grafik
+		Use Case: Input data dan menampilkan data & grafik
+		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
+		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
+		Deskripsi Singkat
+		Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
+		Deskripsi Langkah-langkah
+		1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
+		2. Admin mengklik tombol simpan
+		3. Sistem menampilkan data dan grafik
+		4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+		Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
-- Tabel Kebutuhan Non-Fungsional 
+	2.2.6 notifikasi kritik dan saran
+		Use Case: notifikasi kritik saran
+		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+		Deskripsi Singkat
+		Admin akan mendapat notifikasi di web dan melihat kritik saran
+		Deskripsi Langkah-langkah
+		1. Sistem akan menampilkan notifikasi
+		2. Admin membuka notifikasi
+		3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
+		Xref: Bagian 3.2.6, notifikasi kritik dan saran
+	
+	2.2.7 Cetak Laporan
+		Use Case: Laporan
+		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
+		Deskripsi Singkat
+		Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+		Deskripsi Langkah-langkah
+		1. Sistem menampilkan laporan kependudukan
+		2. Admin mencetak laporan 
+		3. Laporan diserahkan ke kuwu atau sekdes
+		Xref: Bagian 3.2.7, Cetak Laporan
 
-| No | Deskripsi |
-| ------ | ------ |
-| 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-| 2 | Perangkat Lunak mampu mengirimkan notifikasi kepada admin maksimal dalam waktu 1 menit |
-| 3 | Perangkat lunak menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter |
-| 4 | Perangkat Lunak dapat dipakai di platofrm Windows ( Admin ) dan Android Os ( User )
+	2.3	Spesifikasi Kebutuhan non-fungsional
+
+	- Tabel Kebutuhan Non-Fungsional 
+
+	| No | Deskripsi |
+	| ------ | ------ |
+	| 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
+	| 2 | Perangkat Lunak mampu mengirimkan notifikasi kepada admin maksimal dalam waktu 1 menit |
+	| 3 | Perangkat lunak menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter |
+	| 4 | Perangkat Lunak dapat dipakai di platofrm Windows ( Admin ) dan Android Os ( User )
  
-2.4	Karakteristik pengguna
+	2.4	Karakteristik pengguna
 
-Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
+	Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
-2.5	Batasan-batasan
+	2.5	Batasan-batasan
 
-- Perangkat lunak web hanya dijalankan di windows (7,8,10). Dan perangkat lunak mobile hanya bisa dijalankan di android (min. API 16/Jelly Bean).
-- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+	- Perangkat lunak web hanya dijalankan di windows (7,8,10). Dan perangkat lunak mobile hanya bisa dijalankan di android (min. API 16/Jelly Bean).
+	- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 
-2.6	Asumsi-asumsi
+	2.6	Asumsi-asumsi
 
-Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
+	Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
 
-2.7	Kebutuhan Penyeimbang
-Skip
+	2.7	Kebutuhan Penyeimbang
+	Skip
 
 3. BAB III Requirement specification
 	
-
+	3.1 Persyaratan Antarmuka Eksternal
+		Salah satu cara mengakses aplikasi ini yaitu dengan mendaftar, Pendaftaran secara online melalui aplikasi ini dengan mencantumkan NIK kemudian sistem akan mencocokkan NIK masyarakat lohbener. Setelah login berhasil masyarakat dapat memantau perkembangan kependudukan desa lohbener dan dapat mengirimkan kritik dan saran di aplikasi tersebut.
+		
+	3.2 Functional Requirement
+		Logika Struktur terdapat pada bagian 3.3.1
+		
+	3.2.1 Login masyarakat
+	| . |  |
+	|--|--|
+	| Nama Fungsi | Login |
+	| Xref | Bagian 2.2.1, Login masyarakat |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Halaman utama untuk login |
+	| Basic Path | 1. Masyarakat mengisi form dengan username dan password 2.Masyarakat mengklik fungsi login |
+	| Alternative | Tidak ada |
+	| Post Condition | User dapat login dan mengakses aplikasi monitoring |
+	| Exception Push | Username dan password salah |
+	
+	3.2.2 masyarakat melihat data dan grafik
+	| . |  |
+	|--|--|
+	| Nama Fungsi | View data dan grafik |
+	| Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Setelah login dengan usernmae dan password |
+	| Basic Path | User mengkilik button data dan grafik kependudukan |
+	| Alternative | Tidak ada |
+	| Post Condition | User melihat data dan grafik |
+	| Exception Push | Tidak ada koneksi |
+	
+	3.2.3 masyarakat mengirim kritik dan saran
+	| . |  |
+	|--|--|
+	| Nama Fungsi | Kritik dan Saran |
+	| Xref | Bagian 22.3, Kritik dan saran |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Membuka halaman data dan grafik kependudukan |
+	| Basic Path | User mengklik button kritik dan saran |
+	| Alternative | Tidak ada |
+	| Post Condition | User Mengisi form kritik dan saran |
+	| Exception Push | Tidak ada koneksi |
+	
+	3.2.4 admin login
+	| . |  |
+	|--|--|
+	| Nama Fungsi | Login |
+	| Xref | Bagian 2.2.4, Login admin |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Halaman utama untuk login |
+	| Basic Path | 1. Admin mengisi form dengan username dan password 2. Admin mengklik fungsi login |
+	| Alternative | Tidak ada |
+	| Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
+	| Exception Push | Username dan password salah |
+	
+	3.2.5 Input data dan menampilkan data & grafik
+	| . |  |
+	|--|--|
+	| Nama Fungsi | Input data dan menampilkan data & grafik |
+	| Xref | 2.5, Input data dan menampilkan data & grafik |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Sesudah login admin |
+	| Basic Path | 1. Admin menginputkan data kependudukan 2. Sistem menampilkan data dan grafik |
+	| Alternative | Tidak ada |
+	| Post Condition | Halaman form input data |
+	| Exception Push | Tidak ada koneksi |
+	
+	3.2.6 notifikasi kritik dan saran
+	| . |  |
+	|--|--|
+	| Nama Fungsi | notifikasi kritik saran |
+	| Xref | Bagian 2.2.6, notifikasi kritik dan saran |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | Halaman form input data |
+	| Basic Path | 1. Sistem menampilkan notifikasi 2. Admin menyortir kritik dan saran|
+	| Alternative | Tidak ada |
+	| Post Condition | Halaman kritik dan saran |
+	| Exception Push | Tidak ada koneksi |
+	
+	3.2.7 Cetak Laporan
+	| . |  |
+	|--|--|
+	| Nama Fungsi | Laporan |
+	| Xref | Bagian 2.2.7, Cetak Laporan |
+	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+	| Precondition | halaman awal aplikasi |
+	| Basic Path | Tampil laporan kependudukan dan cetak laporan |
+	| Alternative | Tidak ada |
+	| Post Condition | Halaman Laporan |
+	| Exception Push | Tidak ada koneksi, data belum diinput |
+	
+	3.3 Struktur Detail Kebutuhan Non-Fungsional
