@@ -93,6 +93,13 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 
    - **Mockup User ( Android )**
  
+|  |  |
+|--|--|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/loading.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/login%20user.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/buat%20akun.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20awal.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20data%20pendidikan.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20data%20pendidikan%20copy.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20maps.png) |
+
 **2.1.3 Antarmuka perangkat keras**
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
@@ -377,3 +384,5 @@ Logika Struktur terdapat pada bagian 3.3.1
 	
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
+3.3.1 Logika Struktur Data
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd.jpg)
