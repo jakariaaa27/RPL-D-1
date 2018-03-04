@@ -234,6 +234,7 @@ kelompok 1 :
 		Logika Struktur terdapat pada bagian 3.3.1
 		
 3.2.1 Login masyarakat
+
 | . |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -246,6 +247,7 @@ kelompok 1 :
 | Exception Push | Username dan password salah |
 	
 3.2.2 masyarakat melihat data dan grafik
+
 | . |  |
 |--|--|
 | Nama Fungsi | View data dan grafik |
@@ -258,6 +260,7 @@ kelompok 1 :
 | Exception Push | Tidak ada koneksi |
 	
 3.2.3 masyarakat mengirim kritik dan saran
+
 | . |  |
 |--|--|
 | Nama Fungsi | Kritik dan Saran |
@@ -270,6 +273,7 @@ kelompok 1 :
 | Exception Push | Tidak ada koneksi |
 	
 3.2.4 admin login
+
 | . |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -282,6 +286,7 @@ kelompok 1 :
 | Exception Push | Username dan password salah |
 	
 3.2.5 Input data dan menampilkan data & grafik
+
 | . |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
@@ -294,6 +299,7 @@ kelompok 1 :
 | Exception Push | Tidak ada koneksi |
 	
 3.2.6 notifikasi kritik dan saran
+
 | . |  |
 |--|--|
 | Nama Fungsi | notifikasi kritik saran |
@@ -306,6 +312,7 @@ kelompok 1 :
 | Exception Push | Tidak ada koneksi |
 	
 3.2.7 Cetak Laporan
+
 | . |  |
 |--|--|
 | Nama Fungsi | Laporan |
