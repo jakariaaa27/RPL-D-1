@@ -74,54 +74,17 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 2.1	Perspektif produk
 ----------
 **2.1.1 Antarmuka sistem**
+
 **2.1.2 Antarmuka pengguna**
+
    - **Mockup Admin ( Website )**
-    <table>
-		<tr align="center">
-			<td><b>Welcome</b></td>
-			<td><b>Daftar Dosen</b></td>
-			<td width="300"><b>Daftar Mahasaiswa</b></td>
-		</tr>
-		<tr  valign="top" align="center">
-				<td><img src="https://4.bp.blogspot.com/-zzgWaZB2bB0/WpJgmjU089I/AAAAAAAAA2U/0KETw2usos0gSGdT0AAbNttPZQAc6cQjACLcBGAs/s1600/1.png" width="180" height="350" /><br><p align="justify">Tampilan Welcome akan muncul ketika device belum terdaftar pada sistem. pada tampilan ini terdapat keterangan bahwa harus mendaftarkan device terlebih dahulu. kemudian ada 2 tombol yakni daftar sebagai dosen atau mahasiswa.</p></td>
-				<td><img src="https://2.bp.blogspot.com/-fj4ii9zpBsw/WpJgoZF7XyI/AAAAAAAAA2o/9RdQTPaJv5womKARBrt1OQU4Xj0RjZqdwCLcBGAs/s1600/2.png" width="180" height="350" /><br><p align="justify">Pada tampilan daftar dosen, terdapat 2 inputan yakni masukan NIP dan lalamat MAC device dan 2 tombol yakni tombol daftar dan tombol batal</p></td>
-				<td><img src="https://3.bp.blogspot.com/-DmSeKlhuck4/WpJgo8IIQhI/AAAAAAAAA2s/K8PxNOj12yQYs0EOA8KRvHOcMm3W74cbwCLcBGAs/s1600/3.png" width="180" height="350" /><br><p align="justify">Pada daftar mahasiswa sama seperti daftar dosen, hanya saja inputanya berupa NIM</p></td>		
-		</tr>
-		<tr align="center">
-			<td><b>Halaman Mahasiswa </td>
-			<td><b>Scan QR Code</td>
-			<td><b>Scan Sukses</td>
-		</tr>
-		<tr valign="top" align="center">
-				<td><img src="https://4.bp.blogspot.com/-E6WsXFSeBKY/WpJgpJCujnI/AAAAAAAAA2w/oZaaTQgnRxM2RVHAlpjjXbMA9jy5Qa5XACLcBGAs/s1600/4.png" width="180" height="350" /><br><p align="justify">Pada tampilan halaman mahasiswa terdapat beberapa informasi yang bisa dilihat yakni, absensi, presensi, dan kompensasi. Ada juga 2 tombol yakni tombol jadwal dan tombol scan</p></td>
-				<td><img src="https://4.bp.blogspot.com/-p5vpVwLNvXk/WpJgppoj0-I/AAAAAAAAA20/2mWWNUOtSBc-6vQVD31ILMDekuer3EHrQCLcBGAs/s1600/5.png" width="180" height="350" /><br><p align="justify">Pada tampilan scan menggunakan kamera pada device untuk memindai kode QR</p></td>
-				<td><img src="https://2.bp.blogspot.com/-S32nItnw8Ag/WpJgqG6bWUI/AAAAAAAAA24/o68LXWmrJE8T5Lg6I6pH-LmrcwSLzFozQCLcBGAs/s1600/6.png" width="180" height="350" /><br><p align="justify">Pada Tampilan sukses akan ada keterangan bahwa sudah berhasil menscan dan ada tombol tutup untuk kembali ke halaman utama</p></td>		
-		</tr>
-			</tr>
-		<tr align="center">
-			<td><b>Halaman Dosen</td>
-			<td><b>Menu Dosen</td>
-			<td><b>Menu Jadwal</td>
-		</tr>
-
-    
- **2.1.3 Antarmuka perangkat keras**
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
-	  <ol><li>PC atau Laptop</li>
-	  <li>Android</li>
-	  <li>Mouse</li>
-	  <li>Keyboard</li>
-	  <li>Monitor</li>
- **2.1.4 Antarmuka perangkat lunak**
- **2.1.5 Antarmuka komunikasi**
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-		 <ol><li>Kabel Lan UTP RJ45</li>
-		 <li>Modem</li>
-		 <li>wifi</li><ol>
-
+   
 **2.1.6 Batasan memori**
+
 Skip
+
 **2.1.7 Operasi-operasi**
+
 | Operasi | Fungsi |
 | ------ | ------ |
 |Daftar Masyarakat|Digunakan bagi masyarakat untuk mendaftar|
@@ -134,8 +97,10 @@ Skip
 | Simpan | Digunakan untuk menyimpan data |
 | Cetak | Digunakan untuk mencetak laporan |
 | Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
+
 **2.1.8 Kebutuhan adaptasi**
-	Skip
+
+Skip
 	
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
