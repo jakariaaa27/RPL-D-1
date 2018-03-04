@@ -1,3 +1,4 @@
+
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -78,6 +79,18 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
+   
+|  |  |
+|--|--|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Login.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Dashboard.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Angka%20Kelahiran.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Angka%20Kematian.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Agama.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Pekerjaan.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Anggaran%20Desa.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Laporan.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Dropdone%20Kependudukan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Angka%20kelahiran.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Angka%20kematian.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Agama.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Pekerjaan.png) |  |
+
+
    - **Mockup User ( Android )**
  
 **2.1.3 Antarmuka perangkat keras**
