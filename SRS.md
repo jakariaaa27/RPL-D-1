@@ -138,8 +138,10 @@ Skip
 	| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
 	
 **2.2.1 Masyarakat Login**
-		Use Case: Login
-		Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
+
+Use Case: Login
+
+Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
 		Deskripsi Singkat
 Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
 		Deskripsi langkah-langkah
@@ -150,8 +152,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.1, Login masyarakat
 	
 **2.2.2 Masyarakat melihat data dan grafik**
-		Use Case: View data dan grafik
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
+
+Use Case: View data dan grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 		Deskripsi Singkat
 		Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
 		Deskripsi Langkah-langkah:
@@ -161,8 +165,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 	
 **2.2.3 Masyarakat mengirim kritik dan saran**
-		Use Case: Kritik dan Saran
-		Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
+
+Use Case: Kritik dan Saran
+
+Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
 		Deskripsi Singkat
 		Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
 		Deskripsi Langkah-langkah
@@ -173,8 +179,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.3, Kritik dan saran
 
 **2.2.4 admin login**
-		Use Case: Login
-		Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
+
+Use Case: Login
+
+Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
 		Deskripsi Singkat
 		Admin melakukan login dengan memasukan username password.
 		Deskripsi Langkah-langkah
@@ -185,8 +193,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.4, Login admin
 		
 **2.2.5 Input data dan menampilkan data & grafik**
-		Use Case: Input data dan menampilkan data & grafik
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
+
+Use Case: Input data dan menampilkan data & grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
 		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		Deskripsi Singkat
 		Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
@@ -198,8 +208,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
 **2.2.6 notifikasi kritik dan saran**
-		Use Case: notifikasi kritik saran
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+
+Use Case: notifikasi kritik saran
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
 		Deskripsi Singkat
 		Admin akan mendapat notifikasi di web dan melihat kritik saran
 		Deskripsi Langkah-langkah
@@ -209,8 +221,10 @@ Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila
 		Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
 **2.2.7 Cetak Laporan**
-		Use Case: Laporan
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
+
+Use Case: Laporan
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
 		Deskripsi Singkat
 		Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 		Deskripsi Langkah-langkah
@@ -258,6 +272,7 @@ Salah satu cara mengakses aplikasi ini yaitu dengan mendaftar, Pendaftaran secar
 Logika Struktur terdapat pada bagian 3.3.1
 		
 **3.2.1 Login masyarakat**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -270,6 +285,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Username dan password salah |
 	
 **3.2.2 masyarakat melihat data dan grafik**
+
 |  |  |
 |--|--|
 | Nama Fungsi | View data dan grafik |
@@ -282,6 +298,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.3 masyarakat mengirim kritik dan saran**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Kritik dan Saran |
@@ -294,6 +311,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.4 admin login**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -306,6 +324,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Username dan password salah |
 	
 **3.2.5 Input data dan menampilkan data & grafik**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
@@ -318,6 +337,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.6 notifikasi kritik dan saran**
+
 |  |  |
 |--|--|
 | Nama Fungsi | notifikasi kritik saran |
@@ -330,6 +350,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.7 Cetak Laporan**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Laporan |
