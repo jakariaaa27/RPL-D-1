@@ -81,9 +81,9 @@ kelompok 1 :
 		 <li>Modem</li>
 		 <li>wifi</li><ol>
 
-	- Batasan memori
+- Batasan memori
 	Skip
-	- Operasi-operasi
+- Operasi-operasi
 	
 	| Operasi | Fungsi |
 	| ------ | ------ |
@@ -98,13 +98,13 @@ kelompok 1 :
 	| Cetak | Digunakan untuk mencetak laporan |
 	| Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
 
-	- Kebutuhan adaptasi
+- Kebutuhan adaptasi
 	Skip
 
 	2.2	Spesifikasi Kebutuhan fungsional
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/$R4LLASQ.jpeg)
 
-	- Tabel Kebutuhan Fungsional 
+- Tabel Kebutuhan Fungsional 
 
 	| No | Deskripsi |
 	| ------ | ------ |
@@ -115,7 +115,8 @@ kelompok 1 :
 	| 5 | Perangkat lunak dapat menampilkan grafik pada halaman sistem user |
 	| 6 | Perangkat lunak dapat mengirimkan notifikasi komentar user kepada admin |
 	| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
-	2.2.1 Masyarakat Login
+	
+2.2.1 Masyarakat Login
 		Use Case: Login
 		Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
 		Deskripsi Singkat
@@ -127,7 +128,7 @@ kelompok 1 :
 		4. Bila gagal sistem akan menampilkan peringatan
 		Xref: Bagian 3.2.1, Login masyarakat
 	
-	2.2.2 Masyarakat melihat data dan grafik
+2.2.2 Masyarakat melihat data dan grafik
 		Use Case: View data dan grafik
 		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 		Deskripsi Singkat
@@ -138,7 +139,7 @@ kelompok 1 :
 		3. Sistem menampilkan data dan grafik
 		Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 	
-	2.2.3 Masyarakat mengirim kritik dan saran
+2.2.3 Masyarakat mengirim kritik dan saran
 		Use Case: Kritik dan Saran
 		Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
 		Deskripsi Singkat
@@ -150,7 +151,7 @@ kelompok 1 :
 		4. Sistem akan mengirimkan ke admin.
 		Xref: Bagian 3.2.3, Kritik dan saran
 
-	2.2.4 admin login
+2.2.4 admin login
 		Use Case: Login
 		Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
 		Deskripsi Singkat
@@ -162,7 +163,7 @@ kelompok 1 :
 		4. Bila gagal sistem akan menampilkan peringatan
 		Xref: Bagian 3.2.4, Login admin
 		
-	2.2.5 Input data dan menampilkan data & grafik
+2.2.5 Input data dan menampilkan data & grafik
 		Use Case: Input data dan menampilkan data & grafik
 		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
 		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
@@ -175,7 +176,7 @@ kelompok 1 :
 		4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
 		Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
-	2.2.6 notifikasi kritik dan saran
+2.2.6 notifikasi kritik dan saran
 		Use Case: notifikasi kritik saran
 		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
 		Deskripsi Singkat
@@ -186,7 +187,7 @@ kelompok 1 :
 		3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
 		Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
-	2.2.7 Cetak Laporan
+2.2.7 Cetak Laporan
 		Use Case: Laporan
 		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
 		Deskripsi Singkat
@@ -197,9 +198,9 @@ kelompok 1 :
 		3. Laporan diserahkan ke kuwu atau sekdes
 		Xref: Bagian 3.2.7, Cetak Laporan
 
-	2.3	Spesifikasi Kebutuhan non-fungsional
+2.3	Spesifikasi Kebutuhan non-fungsional
 
-	- Tabel Kebutuhan Non-Fungsional 
+- Tabel Kebutuhan Non-Fungsional 
 
 	| No | Deskripsi |
 	| ------ | ------ |
@@ -226,13 +227,13 @@ kelompok 1 :
 
 3. BAB III Requirement specification
 	
-	3.1 Persyaratan Antarmuka Eksternal
+3.1 Persyaratan Antarmuka Eksternal
 		Salah satu cara mengakses aplikasi ini yaitu dengan mendaftar, Pendaftaran secara online melalui aplikasi ini dengan mencantumkan NIK kemudian sistem akan mencocokkan NIK masyarakat lohbener. Setelah login berhasil masyarakat dapat memantau perkembangan kependudukan desa lohbener dan dapat mengirimkan kritik dan saran di aplikasi tersebut.
 		
-	3.2 Functional Requirement
+3.2 Functional Requirement
 		Logika Struktur terdapat pada bagian 3.3.1
 		
-	3.2.1 Login masyarakat
+3.2.1 Login masyarakat
 	| . |  |
 	|--|--|
 	| Nama Fungsi | Login |
@@ -244,7 +245,7 @@ kelompok 1 :
 	| Post Condition | User dapat login dan mengakses aplikasi monitoring |
 	| Exception Push | Username dan password salah |
 	
-	3.2.2 masyarakat melihat data dan grafik
+3.2.2 masyarakat melihat data dan grafik
 	| . |  |
 	|--|--|
 	| Nama Fungsi | View data dan grafik |
@@ -256,7 +257,7 @@ kelompok 1 :
 	| Post Condition | User melihat data dan grafik |
 	| Exception Push | Tidak ada koneksi |
 	
-	3.2.3 masyarakat mengirim kritik dan saran
+3.2.3 masyarakat mengirim kritik dan saran
 	| . |  |
 	|--|--|
 	| Nama Fungsi | Kritik dan Saran |
@@ -268,7 +269,7 @@ kelompok 1 :
 	| Post Condition | User Mengisi form kritik dan saran |
 	| Exception Push | Tidak ada koneksi |
 	
-	3.2.4 admin login
+3.2.4 admin login
 	| . |  |
 	|--|--|
 	| Nama Fungsi | Login |
@@ -280,7 +281,7 @@ kelompok 1 :
 	| Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
 	| Exception Push | Username dan password salah |
 	
-	3.2.5 Input data dan menampilkan data & grafik
+3.2.5 Input data dan menampilkan data & grafik
 	| . |  |
 	|--|--|
 	| Nama Fungsi | Input data dan menampilkan data & grafik |
@@ -292,7 +293,7 @@ kelompok 1 :
 	| Post Condition | Halaman form input data |
 	| Exception Push | Tidak ada koneksi |
 	
-	3.2.6 notifikasi kritik dan saran
+3.2.6 notifikasi kritik dan saran
 	| . |  |
 	|--|--|
 	| Nama Fungsi | notifikasi kritik saran |
@@ -304,7 +305,7 @@ kelompok 1 :
 	| Post Condition | Halaman kritik dan saran |
 	| Exception Push | Tidak ada koneksi |
 	
-	3.2.7 Cetak Laporan
+3.2.7 Cetak Laporan
 	| . |  |
 	|--|--|
 	| Nama Fungsi | Laporan |
@@ -316,4 +317,4 @@ kelompok 1 :
 	| Post Condition | Halaman Laporan |
 	| Exception Push | Tidak ada koneksi, data belum diinput |
 	
-	3.3 Struktur Detail Kebutuhan Non-Fungsional
+3.3 Struktur Detail Kebutuhan Non-Fungsional
