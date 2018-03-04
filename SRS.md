@@ -1,18 +1,19 @@
 
+
 **Software Requirements Specification**
 
-**Version beta**
+**Version 1.0**
 
-22/2/2018
+22 Februari 2018
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png)
 
-**MORSA LOHBENER**
-**Monitoring Desa Lohbener**
-
+**MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER**
 
 kelompok 1 :
-- Hilmy lazuardi (1603099)
-- Ismatul maula (1603100)
-- Jakaria (1603101)
+
+ 1. Hilmy lazuardi (1603099)
+ 2. Ismatul maula (1603100)
+ 3. Jakaria (1603101)
 
 **Jurusan D3 Teknik Informatika**
 **Politeknik Negeri Indramayu**
@@ -21,74 +22,88 @@ kelompok 1 :
 
 1. BAB I Pendahuluan
 
-1.1 Tujuan
+	1.1 Tujuan
 
-Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Aplikasi Monitoring Desa Lohbener". Dokumen ini dibangun untuk memudahkan penduduk desa Lohbener dalam melihat perkembangan yang ada didesa nya dan memudahkan admin untuk menginput data-data kependudukan yang ada di Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MOSRA LOHBENER" (monitoring desa lohbener).
+	Dokumen Software Requirement Specification (SRS) merupakan dokumen 	spesifikasi perangkat lunak untuk membangun "Aplikasi Monitoring Desa Lohbener". Dokumen ini dibangun untuk memudahkan penduduk desa Lohbener dalam melihat perkembangan yang ada didesa nya dan memudahkan admin untuk menginput data-data kependudukan yang ada di Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER".
 
-1.2	Lingkup
+	1.2	Lingkup
 
-MORSA LOHBENER merupakan aplikasi yang kami bangun untuk mempermudah penduduk desa Lohbener dalam melihat perkembangan yang ada di desanya khususnya perkembangan Anggaran desa, Kelulusan, piramida, pendidikan, kependudukan, agama, pekerjaan. dan memudahkan admin dalam mnginput data-datanya.
+	Monitoiring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah penduduk desa Lohbener dalam melihat perkembangan yang ada di desanya khususnya perkembangan Anggaran desa, Kelulusan, piramida, pendidikan, kependudukan, agama, pekerjaan. dan memudahkan admin dalam mnginput data-datanya.
 
-1.3	 Akronim, singkatan, definisi
+	1.3	 Akronim, singkatan, definisi
+	Akronim dan singkatan :
+	- SRS : Software Requirement Specification
 
-Akronim dan singkatan :
- - Morsa : Monitoring Desa Lohbener
-- SRS : Software Requirement Specification
+	Definisi :
+	- software Requirement Specification adalah perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna
+	- use case adalah situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda. 
 
-Definisi :
-- software Requirement Specification adalah perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna
-- use case adalah situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda. 
+	1.4	Referensi
+	Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
+	- https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
+	- http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
+	- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software 	Requirements Specifications. IEEE Computer Society, 1998. 1.5	Overview		
 
-1.4	Referensi
-Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
-- https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
-- http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. 1.5	Overview		
-
-Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
-- bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
-- Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
-- Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
+	Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
+	- bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
+	- Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
+	- Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
 
 2. BAB II Gambaran umum
 
-2.1	Perspektif produk
+	2.1	Perspektif produk
 
-- Antarmuka sistem
+	- Antarmuka sistem
 
-Perangkat lunak ini mempunyai ketergantungan kepada sistem admin.
+	- Antarmuka pengguna
 
-- Antarmuka pengguna
-
-Antarmuka pengguna yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-   <ol><li> Tampilan awal web </li>
-    <li>Tampilan Input Kependudukan, Pendidikan, Agama, Pekerjaan, Anggaran Desa dan Laporan untuk admin. </li> 
-    <li>Tampilan monitoring pada menu user dan fungsi komentar </li>
-    <li>Tampilan login di website </li> 
-    <li>Tampilan login di Android </li>
-    <li>Tampilan pendaftaran akun user pada android </li></ol>
+		Antarmuka pengguna yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
+	   <ol><li> Tampilan awal web </li>
+	    <li>Tampilan Input Kependudukan, Pendidikan, Agama, Pekerjaan, Anggaran Desa dan Laporan untuk admin. </li> 
+	    <li>Tampilan monitoring pada menu user dan fungsi komentar </li>
+	    <li>Tampilan login di website </li> 
+	    <li>Tampilan login di Android </li>
+	    <li>Tampilan pendaftaran akun user pada android </li></ol>
     
-- Antarmuka perangkat keras
+	- Antarmuka perangkat keras
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-  <ol><li>PC atau Laptop</li>
-  <li>Android</li>
-  <li>Mouse</li>
-  <li>Keyboard</li>
-  <li>Monitor</li>
+		Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
+	  <ol><li>PC atau Laptop</li>
+	  <li>Android</li>
+	  <li>Mouse</li>
+	  <li>Keyboard</li>
+	  <li>Monitor</li>
   
-- Antarmuka komunikasi
+	- Antarmuka komunikasi
 
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
- <ol><li>Kabel Lan UTP RJ45</li>
- <li>Modem</li>
- <li>wifi</li><ol>
+		Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
+		 <ol><li>Kabel Lan UTP RJ45</li>
+		 <li>Modem</li>
+		 <li>wifi</li><ol>
 
-- Batasan memori
-- Operasi-operasi
-- Kebutuhan adaptasi
+	- Batasan memori
+	Skip
+	- Operasi-operasi
+	
+| Operasi | Fungsi |
+| ------ | ------ |
+|Daftar Masyarakat|Digunakan bagi masyarakat untuk mendaftar|
+| Login | Digunakan untuk mengakses aplikasi |
+| Input Data | Digunakan untuk memasukkan data-data |
+| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+| Hapus | Digunakan untuk menghapus data |
+| Edit | Digunakan untuk mengubah data |
+| View | Digunakan untuk menampilkan data |
+| Simpan | Digunakan untuk menyimpan data |
+| Cetak | Digunakan untuk mencetak laporan |
+| Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
+
+
+	- Kebutuhan adaptasi
+	Skip
 
 2.2	Spesifikasi Kebutuhan fungsional
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/$R4LLASQ.jpeg)
 
 - Tabel Kebutuhan Fungsional 
 
@@ -127,6 +142,7 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
 
 2.7	Kebutuhan Penyeimbang
+Skip
 
 3. BAB III Requirement specification
 	
