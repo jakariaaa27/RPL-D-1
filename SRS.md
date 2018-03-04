@@ -235,7 +235,7 @@ kelompok 1 :
 		
 3.2.1 Login masyarakat
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.1, Login masyarakat |
@@ -248,7 +248,7 @@ kelompok 1 :
 	
 3.2.2 masyarakat melihat data dan grafik
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | View data dan grafik |
 | Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
@@ -261,7 +261,7 @@ kelompok 1 :
 	
 3.2.3 masyarakat mengirim kritik dan saran
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | Kritik dan Saran |
 | Xref | Bagian 22.3, Kritik dan saran |
@@ -274,7 +274,7 @@ kelompok 1 :
 	
 3.2.4 admin login
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.4, Login admin |
@@ -287,7 +287,7 @@ kelompok 1 :
 	
 3.2.5 Input data dan menampilkan data & grafik
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
 | Xref | 2.5, Input data dan menampilkan data & grafik |
@@ -300,7 +300,7 @@ kelompok 1 :
 	
 3.2.6 notifikasi kritik dan saran
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | notifikasi kritik saran |
 | Xref | Bagian 2.2.6, notifikasi kritik dan saran |
@@ -313,7 +313,7 @@ kelompok 1 :
 	
 3.2.7 Cetak Laporan
 
-| . |  |
+|  |  |
 |--|--|
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.7, Cetak Laporan |
