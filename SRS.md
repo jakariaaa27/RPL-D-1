@@ -78,7 +78,26 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
-   
+   - **Mockup User ( Android )**
+ 
+**2.1.3 Antarmuka perangkat keras**
+
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
+	  <ol><li>PC atau Laptop</li>
+	  <li>Android</li>
+	  <li>Mouse</li>
+	  <li>Keyboard</li>
+	  <li>Monitor</li>
+
+**2.1.4 Antarmuka perangkat lunak**
+
+**2.1.5 Antarmuka Komunikasi**
+
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
+		 <ol><li>Kabel Lan UTP RJ45</li>
+		 <li>Modem</li>
+		 <li>wifi</li><ol>
+
 **2.1.6 Batasan memori**
 
 Skip
@@ -118,11 +137,13 @@ Skip
 	| 6 | Perangkat lunak dapat mengirimkan notifikasi komentar user kepada admin |
 	| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
 	
-2.2.1 Masyarakat Login
-		Use Case: Login
-		Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
+**2.2.1 Masyarakat Login**
+
+Use Case: Login
+
+Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
 		Deskripsi Singkat
-		Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
+Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
 		Deskripsi langkah-langkah
 		1. Masyarakat melakukan login dengan username dan password
 		2. Sistem melakukan validasi login
@@ -130,9 +151,11 @@ Skip
 		4. Bila gagal sistem akan menampilkan peringatan
 		Xref: Bagian 3.2.1, Login masyarakat
 	
-2.2.2 Masyarakat melihat data dan grafik
-		Use Case: View data dan grafik
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
+**2.2.2 Masyarakat melihat data dan grafik**
+
+Use Case: View data dan grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 		Deskripsi Singkat
 		Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
 		Deskripsi Langkah-langkah:
@@ -141,9 +164,11 @@ Skip
 		3. Sistem menampilkan data dan grafik
 		Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 	
-2.2.3 Masyarakat mengirim kritik dan saran
-		Use Case: Kritik dan Saran
-		Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
+**2.2.3 Masyarakat mengirim kritik dan saran**
+
+Use Case: Kritik dan Saran
+
+Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
 		Deskripsi Singkat
 		Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
 		Deskripsi Langkah-langkah
@@ -153,9 +178,11 @@ Skip
 		4. Sistem akan mengirimkan ke admin.
 		Xref: Bagian 3.2.3, Kritik dan saran
 
-2.2.4 admin login
-		Use Case: Login
-		Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
+**2.2.4 admin login**
+
+Use Case: Login
+
+Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
 		Deskripsi Singkat
 		Admin melakukan login dengan memasukan username password.
 		Deskripsi Langkah-langkah
@@ -165,9 +192,11 @@ Skip
 		4. Bila gagal sistem akan menampilkan peringatan
 		Xref: Bagian 3.2.4, Login admin
 		
-2.2.5 Input data dan menampilkan data & grafik
-		Use Case: Input data dan menampilkan data & grafik
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
+**2.2.5 Input data dan menampilkan data & grafik**
+
+Use Case: Input data dan menampilkan data & grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
 		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		Deskripsi Singkat
 		Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
@@ -178,9 +207,11 @@ Skip
 		4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
 		Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
-2.2.6 notifikasi kritik dan saran
-		Use Case: notifikasi kritik saran
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+**2.2.6 notifikasi kritik dan saran**
+
+Use Case: notifikasi kritik saran
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
 		Deskripsi Singkat
 		Admin akan mendapat notifikasi di web dan melihat kritik saran
 		Deskripsi Langkah-langkah
@@ -189,9 +220,11 @@ Skip
 		3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
 		Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
-2.2.7 Cetak Laporan
-		Use Case: Laporan
-		Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
+**2.2.7 Cetak Laporan**
+
+Use Case: Laporan
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
 		Deskripsi Singkat
 		Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 		Deskripsi Langkah-langkah
@@ -239,6 +272,7 @@ Salah satu cara mengakses aplikasi ini yaitu dengan mendaftar, Pendaftaran secar
 Logika Struktur terdapat pada bagian 3.3.1
 		
 **3.2.1 Login masyarakat**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -251,6 +285,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Username dan password salah |
 	
 **3.2.2 masyarakat melihat data dan grafik**
+
 |  |  |
 |--|--|
 | Nama Fungsi | View data dan grafik |
@@ -263,6 +298,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.3 masyarakat mengirim kritik dan saran**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Kritik dan Saran |
@@ -275,6 +311,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.4 admin login**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
@@ -287,6 +324,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Username dan password salah |
 	
 **3.2.5 Input data dan menampilkan data & grafik**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
@@ -299,6 +337,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.6 notifikasi kritik dan saran**
+
 |  |  |
 |--|--|
 | Nama Fungsi | notifikasi kritik saran |
@@ -311,6 +350,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Exception Push | Tidak ada koneksi |
 	
 **3.2.7 Cetak Laporan**
+
 |  |  |
 |--|--|
 | Nama Fungsi | Laporan |
