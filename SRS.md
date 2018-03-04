@@ -234,87 +234,87 @@ kelompok 1 :
 		Logika Struktur terdapat pada bagian 3.3.1
 		
 3.2.1 Login masyarakat
-	| . |  |
-	|--|--|
-	| Nama Fungsi | Login |
-	| Xref | Bagian 2.2.1, Login masyarakat |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Halaman utama untuk login |
-	| Basic Path | 1. Masyarakat mengisi form dengan username dan password 2.Masyarakat mengklik fungsi login |
-	| Alternative | Tidak ada |
-	| Post Condition | User dapat login dan mengakses aplikasi monitoring |
-	| Exception Push | Username dan password salah |
+| . |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.1, Login masyarakat |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Halaman utama untuk login |
+| Basic Path | 1. Masyarakat mengisi form dengan username dan password 2.Masyarakat mengklik fungsi login |
+| Alternative | Tidak ada |
+| Post Condition | User dapat login dan mengakses aplikasi monitoring |
+| Exception Push | Username dan password salah |
 	
 3.2.2 masyarakat melihat data dan grafik
-	| . |  |
-	|--|--|
-	| Nama Fungsi | View data dan grafik |
-	| Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Setelah login dengan usernmae dan password |
-	| Basic Path | User mengkilik button data dan grafik kependudukan |
-	| Alternative | Tidak ada |
-	| Post Condition | User melihat data dan grafik |
-	| Exception Push | Tidak ada koneksi |
+| . |  |
+|--|--|
+| Nama Fungsi | View data dan grafik |
+| Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Setelah login dengan usernmae dan password |
+| Basic Path | User mengkilik button data dan grafik kependudukan |
+| Alternative | Tidak ada |
+| Post Condition | User melihat data dan grafik |
+| Exception Push | Tidak ada koneksi |
 	
 3.2.3 masyarakat mengirim kritik dan saran
-	| . |  |
-	|--|--|
-	| Nama Fungsi | Kritik dan Saran |
-	| Xref | Bagian 22.3, Kritik dan saran |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Membuka halaman data dan grafik kependudukan |
-	| Basic Path | User mengklik button kritik dan saran |
-	| Alternative | Tidak ada |
-	| Post Condition | User Mengisi form kritik dan saran |
-	| Exception Push | Tidak ada koneksi |
+| . |  |
+|--|--|
+| Nama Fungsi | Kritik dan Saran |
+| Xref | Bagian 22.3, Kritik dan saran |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Membuka halaman data dan grafik kependudukan |
+| Basic Path | User mengklik button kritik dan saran |
+| Alternative | Tidak ada |
+| Post Condition | User Mengisi form kritik dan saran |
+| Exception Push | Tidak ada koneksi |
 	
 3.2.4 admin login
-	| . |  |
-	|--|--|
-	| Nama Fungsi | Login |
-	| Xref | Bagian 2.2.4, Login admin |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Halaman utama untuk login |
-	| Basic Path | 1. Admin mengisi form dengan username dan password 2. Admin mengklik fungsi login |
-	| Alternative | Tidak ada |
-	| Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
-	| Exception Push | Username dan password salah |
+| . |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.4, Login admin |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Halaman utama untuk login |
+| Basic Path | 1. Admin mengisi form dengan username dan password 2. Admin mengklik fungsi login |
+| Alternative | Tidak ada |
+| Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
+| Exception Push | Username dan password salah |
 	
 3.2.5 Input data dan menampilkan data & grafik
-	| . |  |
-	|--|--|
-	| Nama Fungsi | Input data dan menampilkan data & grafik |
-	| Xref | 2.5, Input data dan menampilkan data & grafik |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Sesudah login admin |
-	| Basic Path | 1. Admin menginputkan data kependudukan 2. Sistem menampilkan data dan grafik |
-	| Alternative | Tidak ada |
-	| Post Condition | Halaman form input data |
-	| Exception Push | Tidak ada koneksi |
+| . |  |
+|--|--|
+| Nama Fungsi | Input data dan menampilkan data & grafik |
+| Xref | 2.5, Input data dan menampilkan data & grafik |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Sesudah login admin |
+| Basic Path | 1. Admin menginputkan data kependudukan 2. Sistem menampilkan data dan grafik |
+| Alternative | Tidak ada |
+| Post Condition | Halaman form input data |
+| Exception Push | Tidak ada koneksi |
 	
 3.2.6 notifikasi kritik dan saran
-	| . |  |
-	|--|--|
-	| Nama Fungsi | notifikasi kritik saran |
-	| Xref | Bagian 2.2.6, notifikasi kritik dan saran |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | Halaman form input data |
-	| Basic Path | 1. Sistem menampilkan notifikasi 2. Admin menyortir kritik dan saran|
-	| Alternative | Tidak ada |
-	| Post Condition | Halaman kritik dan saran |
-	| Exception Push | Tidak ada koneksi |
+| . |  |
+|--|--|
+| Nama Fungsi | notifikasi kritik saran |
+| Xref | Bagian 2.2.6, notifikasi kritik dan saran |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | Halaman form input data |
+| Basic Path | 1. Sistem menampilkan notifikasi 2. Admin menyortir kritik dan saran|
+| Alternative | Tidak ada |
+| Post Condition | Halaman kritik dan saran |
+| Exception Push | Tidak ada koneksi |
 	
 3.2.7 Cetak Laporan
-	| . |  |
-	|--|--|
-	| Nama Fungsi | Laporan |
-	| Xref | Bagian 2.2.7, Cetak Laporan |
-	| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-	| Precondition | halaman awal aplikasi |
-	| Basic Path | Tampil laporan kependudukan dan cetak laporan |
-	| Alternative | Tidak ada |
-	| Post Condition | Halaman Laporan |
-	| Exception Push | Tidak ada koneksi, data belum diinput |
+| . |  |
+|--|--|
+| Nama Fungsi | Laporan |
+| Xref | Bagian 2.2.7, Cetak Laporan |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Precondition | halaman awal aplikasi |
+| Basic Path | Tampil laporan kependudukan dan cetak laporan |
+| Alternative | Tidak ada |
+| Post Condition | Halaman Laporan |
+| Exception Push | Tidak ada koneksi, data belum diinput |
 	
 3.3 Struktur Detail Kebutuhan Non-Fungsional
