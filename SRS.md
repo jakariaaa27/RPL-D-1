@@ -83,20 +83,20 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 **2.1.3 Antarmuka perangkat keras**
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
-	  <ol><li>PC atau Laptop</li>
-	  <li>Android</li>
-	  <li>Mouse</li>
-	  <li>Keyboard</li>
-	  <li>Monitor</li>
+1.	PC atau Laptop
+2.	Android
+3.	Mouse
+4.	Keyboard
+5.	Monitor
 
 **2.1.4 Antarmuka perangkat lunak**
 
 **2.1.5 Antarmuka Komunikasi**
 
 Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-<ol><li>Kabel Lan UTP RJ45</li>
-<li>Modem</li>
-<li>wifi</li><ol>
+1.	Kabel Lan UTP RJ45
+2.	Modem
+3.	wifi
 
 **2.1.6 Batasan memori**
 
@@ -140,7 +140,9 @@ Skip
 **2.2.1 Masyarakat Login**
 
 Use Case: Login
-Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
+Diagram : 
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
 
 Deskripsi Singkat
 Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
@@ -154,7 +156,9 @@ Xref: Bagian 3.2.1, Login masyarakat
 **2.2.2 Masyarakat melihat data dan grafik**
 
 Use Case: View data dan grafik
-Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
+Diagram:
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 
 Deskripsi Singkat
 Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
@@ -167,7 +171,8 @@ Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 **2.2.3 Masyarakat mengirim kritik dan saran**
 
 Use Case: Kritik dan Saran
-Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
+Diagram:	
+	![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
 
 Deskripsi Singkat
 Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
@@ -181,7 +186,9 @@ Xref: Bagian 3.2.3, Kritik dan saran
 **2.2.4 admin login**
 
 Use Case: Login
-Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
+Diagram :
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
@@ -195,7 +202,9 @@ Xref: Bagian 3.2.4, Login admin
 **2.2.5 Input data dan menampilkan data & grafik**
 
 Use Case: Input data dan menampilkan data & grafik
-Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
+Diagram:
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
 		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		
 Deskripsi Singkat
@@ -210,7 +219,9 @@ Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 **2.2.6 notifikasi kritik dan saran**
 
 Use Case: notifikasi kritik saran
-Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+Diagram:
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
 
 Deskripsi Singkat
 Admin akan mendapat notifikasi di web dan melihat kritik saran
@@ -223,7 +234,9 @@ Xref: Bagian 3.2.6, notifikasi kritik dan saran
 **2.2.7 Cetak Laporan**
 
 Use Case: Laporan
-Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
+Diagram:
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
 
 Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
