@@ -1,4 +1,3 @@
-
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -47,11 +46,7 @@ Monitoiring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 - https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
 - http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software 	Requirements Specifications. IEEE Computer Society, 1998. 1.5	
-
-
-## 1.5 Overview
-----------
+- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software 	Requirements Specifications. IEEE Computer Society, 1998. 1.5	Overview	
 
 Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 - bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
@@ -79,32 +74,12 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 2.1	Perspektif produk
 ----------
 **2.1.1 Antarmuka sistem**
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Antarmuka%20sistem.png)
 
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
-   
-|  |  |
-|--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Login.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Dashboard.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Angka%20Kelahiran.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Angka%20Kematian.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Agama.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Pekerjaan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Anggaran%20Desa.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Input%20Laporan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Dropdone%20Kependudukan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Angka%20kelahiran.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Angka%20kematian.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Agama.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Grafik%20Pekerjaan.png) |  |
-
-
    - **Mockup User ( Android )**
  
-|  |  |
-|--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/loading.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/login%20user.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/buat%20akun.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20awal.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Halaman%20Pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20data%20pendidikan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20data%20pendidikan%20copy.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/halaman%20maps.png) |
-
 **2.1.3 Antarmuka perangkat keras**
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
@@ -119,9 +94,9 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Mo
 **2.1.5 Antarmuka Komunikasi**
 
 Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-		 <ol><li>Kabel Lan UTP RJ45</li>
-		 <li>Modem</li>
-		 <li>wifi</li><ol>
+<ol><li>Kabel Lan UTP RJ45</li>
+<li>Modem</li>
+<li>wifi</li><ol>
 
 **2.1.6 Batasan memori**
 
@@ -165,98 +140,98 @@ Skip
 **2.2.1 Masyarakat Login**
 
 Use Case: Login
-
 Diagram : ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
-		Deskripsi Singkat
+
+Deskripsi Singkat
 Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
-		Deskripsi langkah-langkah
-		1. Masyarakat melakukan login dengan username dan password
-		2. Sistem melakukan validasi login
-		3. Bila sukses sistem akan mengarahkan ke halaman beranda
-		4. Bila gagal sistem akan menampilkan peringatan
-		Xref: Bagian 3.2.1, Login masyarakat
+Deskripsi langkah-langkah
+1. Masyarakat melakukan login dengan username dan password
+2. Sistem melakukan validasi login
+3. Bila sukses sistem akan mengarahkan ke halaman beranda
+4. Bila gagal sistem akan menampilkan peringatan
+Xref: Bagian 3.2.1, Login masyarakat
 	
 **2.2.2 Masyarakat melihat data dan grafik**
 
 Use Case: View data dan grafik
-
 Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
-		Deskripsi Singkat
-		Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
-		Deskripsi Langkah-langkah:
-		1. Sistem menampilkan halaman beranda yang berisi button ikon.
-		2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll.
-		3. Sistem menampilkan data dan grafik
-		Xref: Bagian 3.2.2, View data dan grafik masyaratkat
+
+Deskripsi Singkat
+Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
+Deskripsi Langkah-langkah:
+1. Sistem menampilkan halaman beranda yang berisi button ikon.
+2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll.
+3. Sistem menampilkan data dan grafik
+Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 	
 **2.2.3 Masyarakat mengirim kritik dan saran**
 
 Use Case: Kritik dan Saran
-
 Diagram:		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
-		Deskripsi Singkat
-		Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
-		Deskripsi Langkah-langkah
-		1. Masyarakat mengklik tombol kritik dan saran
-		2. Sitem akan menampilkan form kritik dan saran
-		3. Masyrakat mengisi form tersebut dan klik tombol kirim
-		4. Sistem akan mengirimkan ke admin.
-		Xref: Bagian 3.2.3, Kritik dan saran
+
+Deskripsi Singkat
+Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
+Deskripsi Langkah-langkah
+1. Masyarakat mengklik tombol kritik dan saran
+2. Sitem akan menampilkan form kritik dan saran
+3. Masyrakat mengisi form tersebut dan klik tombol kirim
+4. Sistem akan mengirimkan ke admin.
+Xref: Bagian 3.2.3, Kritik dan saran
 
 **2.2.4 admin login**
 
 Use Case: Login
-
 Diagram :![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
-		Deskripsi Singkat
-		Admin melakukan login dengan memasukan username password.
-		Deskripsi Langkah-langkah
-		1. admin melakukan login dengan username dan password
-		2. Sistem melakukan validasi login
-		3. Bila sukses sistem akan mengarahkan ke halaman beranda
-		4. Bila gagal sistem akan menampilkan peringatan
-		Xref: Bagian 3.2.4, Login admin
+
+Deskripsi Singkat
+Admin melakukan login dengan memasukan username password.
+Deskripsi Langkah-langkah
+1. admin melakukan login dengan username dan password
+2. Sistem melakukan validasi login
+3. Bila sukses sistem akan mengarahkan ke halaman beranda
+4. Bila gagal sistem akan menampilkan peringatan
+Xref: Bagian 3.2.4, Login admin
 		
 **2.2.5 Input data dan menampilkan data & grafik**
 
 Use Case: Input data dan menampilkan data & grafik
-
 Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
 		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
-		Deskripsi Singkat
-		Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
-		Deskripsi Langkah-langkah
-		1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
-		2. Admin mengklik tombol simpan
-		3. Sistem menampilkan data dan grafik
-		4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
-		Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
+		
+Deskripsi Singkat
+Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
+Deskripsi Langkah-langkah
+1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
+2. Admin mengklik tombol simpan
+3. Sistem menampilkan data dan grafik
+4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
 **2.2.6 notifikasi kritik dan saran**
 
 Use Case: notifikasi kritik saran
-
 Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
-		Deskripsi Singkat
-		Admin akan mendapat notifikasi di web dan melihat kritik saran
-		Deskripsi Langkah-langkah
-		1. Sistem akan menampilkan notifikasi
-		2. Admin membuka notifikasi
-		3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
-		Xref: Bagian 3.2.6, notifikasi kritik dan saran
+
+Deskripsi Singkat
+Admin akan mendapat notifikasi di web dan melihat kritik saran
+Deskripsi Langkah-langkah
+1. Sistem akan menampilkan notifikasi
+2. Admin membuka notifikasi
+3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
+Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
 **2.2.7 Cetak Laporan**
 
 Use Case: Laporan
-
 Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
-		Deskripsi Singkat
-		Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
-		Deskripsi Langkah-langkah
-		1. Sistem menampilkan laporan kependudukan
-		2. Admin mencetak laporan 
-		3. Laporan diserahkan ke kuwu atau sekdes
-		Xref: Bagian 3.2.7, Cetak Laporan
+
+Deskripsi Singkat
+Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Deskripsi Langkah-langkah
+1. Sistem menampilkan laporan kependudukan
+2. Admin mencetak laporan 
+3. Laporan diserahkan ke kuwu atau sekdes
+Xref: Bagian 3.2.7, Cetak Laporan
 
 2.3	Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -389,5 +364,107 @@ Logika Struktur terdapat pada bagian 3.3.1
 	
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
-3.3.1 Logika Struktur Data
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd.jpg)
+**3.3.1 Logika Struktur Data**
+Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd2.jpg)
+
+**Tabel User**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_user| varchar | Nomer auto increment Id_user|
+| Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Password | varchar | berisikan password untuk login admin dan user |
+| level | varchar | untuk membedakan level saat login antara admin dan user
+
+**Tabel Peserta**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_peserta| varchar | Nomer auto increment Id_peserta|
+| Id_user| varchar | untuk mengambil username dan password peserta pada tabel user|
+| NIK | varchar | nomer kependudukan|
+| Nama_lengkap | varchar | nomer kependudukan|
+| Tmp_lahir | varchar | tempat lahir peserta |
+| Tgl_lahir | date | tanggal lahir peserta |
+| Alamat | varchar | alamat lengkap peserta |
+| Telp | varchar | nomer telepon peserta |
+
+
+**Tabel Admin**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_admin| varchar | Nomer auto increment Id_admin|
+| Id_user| varchar | untuk mengambil username dan password admin pada tabel user|
+
+**Tabel Kepedudukan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_admin| varchar | untuk mengidentifikasi admin|
+| Id_peserta| varchar | untuk mengidentifikasi peserta|
+| Id_kelahiran| varchar | untuk mengidentifikasi kelahiran|
+| Id_kematian| varchar | untuk mengidentifikasi kematian|
+| Id_agama| varchar | untuk mengidentifikasi agama|
+| Id_pekerjaan| varchar | untuk mengidentifikasi pekerjaan |
+| Id_angdes| varchar | untuk mengidentifikasi anggaran desa|
+| Id_laporan| varchar | untuk mengidentifikasi laporan|
+
+**Tabel Kelahiran**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_kelahiran| varchar | Nomer auto increment Id_kelahiran|
+| nama | varchar | nama anak|
+| tgl_lahir| date | tanggal lahir anak |
+| jns_kelamin| varchar | jenis kelamin anak|
+| jml_kelahiran | integer | total kelahiran
+
+**Tabel Kematian**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_kematian| varchar | Nomer auto increment Id_kematian|
+| nama | varchar | nama orang meninggal |
+| tgl_kematian| date | tanggal lahir anak |
+| jns_kelamin| varchar | jenis kelamin orang meninggal|
+| jml_kematian | integer |  total kematian |
+
+**Tabel Agama**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_agama| varchar | Nomer auto increment Id_agama|
+| nama | varchar | nama masyarakat |
+| agama| varchar | agama masyarakat  |
+
+
+**Tabel Pekerjaan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_pekerjaan| varchar | Nomer auto increment Id_pekerjaan|
+| nama | varchar | nama masyarakat |
+| pekerjaan| varchar | jenis pekerjaan  |
+
+**Tabel Anggaran Desa**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_angdes| varchar | Nomer auto increment Id_angdes|
+| nama_anggaran | varchar | nama anggaran desa |
+| jml_dana| varchar | Banyaknya anggaran Desa|
+| tgl_masuk | date | tanggal masuk anggaran |
+| alokasi_dana | varchar | keterangan penggunaan dana |
+
+**Tabel Laporan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_laporan| varchar | Nomer auto increment Id_laporan|
+| nama_laporan | varchar | nama laporan |
+| jns_laporan| varchar | jenis laporan|
+| tgl_laporan | date | tanggal laporan |
+| link | varchar | link download laporan |
+
