@@ -35,11 +35,13 @@ Monitoiring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami
 
 1.3	 Akronim, singkatan, definisi
 ----------
-- Akronim dan singkatan :
-  - SRS : Software Requirement Specification
-- Definisi :
-	- software Requirement Specification adalah perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna
-	- use case adalah situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda. 
+
+| Istilah | Definisi |
+| ------ | ------ |
+| SRS |Software Requirement Specification|
+| Login | Digunakan untuk mengakses aplikasi |
+| software Requirement Specification | perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
+| USe Case | ituasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
 
 1.4	Referensi
 ----------
@@ -52,6 +54,11 @@ Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 - bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
 - Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
 - Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
+
+1.4	Overview
+----------
+
+Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, Sistem Interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 
 **BAB II Gambaran umum**
 ----------
@@ -73,7 +80,16 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 
 2.1	Perspektif produk
 ----------
+Aplikasi Monitoring pekembangan kependudukan desa Lohboner adalah sebuah sistem monitoring yang di aplikasiskan pada android. Terdapat 2 jenis yaitu admin dan pengguna .Pengolahan data di kelola oleh admin pada website dan user hanya memview data pada android
+
+Pada sistem monitoring ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
+
 **2.1.1 Antarmuka sistem**
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Antarmuka%20sistem.png)
+
+Sistem aplikasi Monitoring Perkembangan penduduk desa lohbener memiliki 3 user yaitu masyarakat ,admin dan kepala desa .
+masyarakat dan kepala desa mempunyai fungsi yang sama yaitu melakukan view data namun pada kepala desa bissa view laporan dan hal itu tidak ada dalam fungsi masyarakat. Admin bertugas untuk mengelola data ,supaya data bisa di akses oleh masyarakat dan kepala desa
 
 **2.1.2 Antarmuka pengguna**
 
@@ -83,11 +99,12 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
 **2.1.3 Antarmuka perangkat keras**
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
-1.	PC atau Laptop
-2.	Android
-3.	Mouse
-4.	Keyboard
-5.	Monitor
+1. Smartphone Android
+
+Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android versi Jelly Beans
+
+3. PC / Laptop
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
 **2.1.4 Antarmuka perangkat lunak**
 
