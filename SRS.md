@@ -140,6 +140,7 @@ Skip
 **2.2.1 Masyarakat Login**
 
 Use Case: Login
+
 Diagram : 
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
@@ -156,6 +157,7 @@ Xref: Bagian 3.2.1, Login masyarakat
 **2.2.2 Masyarakat melihat data dan grafik**
 
 Use Case: View data dan grafik
+
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
@@ -171,6 +173,7 @@ Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 **2.2.3 Masyarakat mengirim kritik dan saran**
 
 Use Case: Kritik dan Saran
+
 Diagram:	
 	![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
 
@@ -186,6 +189,7 @@ Xref: Bagian 3.2.3, Kritik dan saran
 **2.2.4 admin login**
 
 Use Case: Login
+
 Diagram :
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
@@ -202,6 +206,7 @@ Xref: Bagian 3.2.4, Login admin
 **2.2.5 Input data dan menampilkan data & grafik**
 
 Use Case: Input data dan menampilkan data & grafik
+
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
@@ -219,6 +224,7 @@ Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 **2.2.6 notifikasi kritik dan saran**
 
 Use Case: notifikasi kritik saran
+
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
@@ -234,6 +240,7 @@ Xref: Bagian 3.2.6, notifikasi kritik dan saran
 **2.2.7 Cetak Laporan**
 
 Use Case: Laporan
+
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
