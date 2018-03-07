@@ -5,8 +5,8 @@
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center"><b>Version 1.0 </b><br>
-<p align="center">22 Februari 2018</b>
+<p align="center"><b>Version 1.5 </b><br>
+<p align="center">07 Maret 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/>
 </p>
@@ -444,8 +444,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 ----------
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd3.jpg)
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Erd.png)
 **Tabel User**
 
 | Data Item | Type | Deskripsi |
