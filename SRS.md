@@ -189,6 +189,7 @@ Deskripsi langkah-langkah
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
+
 Xref: Bagian 3.2.1, Login masyarakat
 	
 **2.2.2 Masyarakat melihat data dan grafik**
@@ -205,6 +206,7 @@ Deskripsi Langkah-langkah:
 1. Sistem menampilkan halaman beranda yang berisi button ikon.
 2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll.
 3. Sistem menampilkan data dan grafik
+
 Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 	
 **2.2.3 Masyarakat mengirim kritik dan saran**
@@ -221,6 +223,7 @@ Deskripsi Langkah-langkah
 2. Sitem akan menampilkan form kritik dan saran
 3. Masyrakat mengisi form tersebut dan klik tombol kirim
 4. Sistem akan mengirimkan ke admin.
+
 Xref: Bagian 3.2.3, Kritik dan saran
 
 **2.2.4 admin login**
@@ -238,6 +241,7 @@ Deskripsi Langkah-langkah
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
+
 Xref: Bagian 3.2.4, Login admin
 		
 **2.2.5 Input data dan menampilkan data & grafik**
@@ -256,6 +260,7 @@ Deskripsi Langkah-langkah
 2. Admin mengklik tombol simpan
 3. Sistem menampilkan data dan grafik
 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+
 Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
 **2.2.6 notifikasi kritik dan saran**
@@ -272,6 +277,7 @@ Deskripsi Langkah-langkah
 1. Sistem akan menampilkan notifikasi
 2. Admin membuka notifikasi
 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
+
 Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
 **2.2.7 Cetak Laporan**
