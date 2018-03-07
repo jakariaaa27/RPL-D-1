@@ -794,7 +794,7 @@ Deskripsi Langkah-langkah
 2. Admin mengklik tombol simpan
 3. Sistem menyimpan data kependudukan ke database
 
-Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
+Xref: Bagian 3.2.5, Input data kependudukan
 
 **2.2.6 notifikasi kritik dan saran**
 
@@ -807,6 +807,8 @@ Admin akan mendapat notifikasi di web dan melihat kritik saran
 Deskripsi Langkah-langkah
 1. Sistem akan menampilkan notifikasi kritik dan saran
 2. Admin membuka notifikasi
+3. Sistem menampilkan kritik dan saran
+4. Admin memfilter kritik dan saran untuk di tampilakan ke mobile
 
 Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
@@ -935,10 +937,10 @@ Logika Struktur terdapat pada bagian 3.3.1
 |  |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
-| Xref | 2.5, Input data dan menampilkan data & grafik |
+| Xref | 2.5, Input data kependudukan |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Sesudah login admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menampilkan data dan grafik <br> 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan |
+| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan ke database |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data |
 | Exception Push | Tidak ada koneksi |
@@ -951,7 +953,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, notifikasi kritik dan saran |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan notifikasi <br> 2. Admin membuka notifikasi <br> 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile|
+| Basic Path | 1. Sistem akan menampilkan notifikasi kritik dan saran <br> 2. Admin membuka notifikasi <br> 3. Sistem menampilkan kritik dan saran <br> 4. Admin memfilter kritik dan saran untuk di tampilakan ke mobile|
 | Alternative | Tidak ada |
 | Post Condition | Halaman kritik dan saran |
 | Exception Push | Tidak ada koneksi |
