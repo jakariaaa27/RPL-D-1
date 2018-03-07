@@ -1,22 +1,17 @@
-**Software Requirements Spesification**
+<h1 align="center" id="software-requirements-specification">SOFTWARE REQUIREMENTS SPECIFICATION</h1>  
+<p align="center"><strong>Version 1.5<br>  
+07 Maret 2018</strong><br>  
+</p><p align="center">  
+<img src="https://lh3.googleusercontent.com/qEHYPVzo0kjd8ikhrCIF4cI_PhR8pmK5vDU14oEp9OPyVT-eA54cVp8C9iyJ8rKDfH8OR1dnT1zv=s300" alt="enter image description here" title="logo">  
+</p><p align="center"><strong>Kelompok 1 D3TI2D</strong></p>  
+<p align="center"><strong>Hilmy Lazuardi (1603099)<br>  
+Ismatul Maula (1603100) <br>  
+Jakarai (1603101)</strong><br>  
+</p>  
+<h3 align="center"><strong>Jurusan D3 Teknik Informatika</strong></h3>  
+<h3 align="center"><strong>Politeknik Negeri Indramayu </strong></h3>  
+<h3 align="center"><strong>2018</strong></h3>  
 
-Version 1.5<br>
-07 Maret 2018<br>
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png)<br>
-
-
-MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER<br>
-Kelompok 1<br>
- Hilmy Lazuardi 				(1603099)<br>
- Ismatul Mauka		(1603100)<br>
- Jakaria			(1603101)
-
-Jurusan D3 Teknik Informatika<br>
-Politeknik Negeri Indramayu<br>
-2018
-
-----------
 **BAB I Pendahuluan**
 ----------
 1.1 Tujuan
