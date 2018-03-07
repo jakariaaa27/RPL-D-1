@@ -1,4 +1,6 @@
 
+
+
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -657,8 +659,7 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Mo
 Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android versi Jelly Beans
 
 3. PC / Laptop
-Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
-![enter image description here](https://camo.githubusercontent.com/e211b448d2ea1f5765c4077649cdaa731735b53c/68747470733a2f2f332e62702e626c6f6773706f742e636f6d2f2d4f5974546f6d386a6b54772f5770712d39556a413076492f41414141414141414134772f2d55444373567541716e41785247506167526f7134536b7a7634465170766d7067434c63424741732f73313630302f616e7461726d756b612b73697374656d2e706e67)
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Antarmuka%20Perangkat%20Keras.png)
 
 **2.1.4 Antarmuka perangkat lunak**
 
@@ -694,7 +695,7 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 	
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/$R4LLASQ.jpeg)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/BlankERD.png)
 
 - Tabel Kebutuhan Fungsional 
 
@@ -748,7 +749,7 @@ Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 Use Case: Kritik dan Saran
 
 Diagram:	
-	![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20masyarakat.png)
 
 Deskripsi Singkat
 Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
@@ -785,32 +786,29 @@ Use Case: Input data dan menampilkan data & grafik
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
-		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		
 Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
+Admin melakukan input data kependudukan dan sistem menyimpan data kependudukan ke database.
 Deskripsi Langkah-langkah
 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
 2. Admin mengklik tombol simpan
-3. Sistem menampilkan data dan grafik
-4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+3. Sistem menyimpan data kependudukan ke database
 
-Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
+Xref: Bagian 3.2.5, Input data kependudukan
 
 **2.2.6 notifikasi kritik dan saran**
 
 Use Case: notifikasi kritik saran
 
-Diagram:
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20%20not.png)
 
 Deskripsi Singkat
 Admin akan mendapat notifikasi di web dan melihat kritik saran
 Deskripsi Langkah-langkah
-1. Sistem akan menampilkan notifikasi
+1. Sistem akan menampilkan notifikasi kritik dan saran
 2. Admin membuka notifikasi
-3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
+3. Sistem menampilkan kritik dan saran
+4. Admin memfilter kritik dan saran untuk di tampilakan ke mobile
 
 Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
@@ -829,6 +827,20 @@ Deskripsi Langkah-langkah
 2. Admin mencetak laporan 
 
 Xref: Bagian 3.2.7, Cetak Laporan
+
+**2.2.8 Menampilkan data dan grafik**
+
+Use Case: View data dan grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
+
+Deskripsi Singkat
+Sistem akan menampilkan data kependudukan setelah di input oleh admin
+Deskripsi Langkah-langkah
+1. Sistem menampilkan data kependudukan
+2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data 
+
+Xref: Bagian 3.2.8, View data dan grafik
 
 2.3	Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -925,10 +937,10 @@ Logika Struktur terdapat pada bagian 3.3.1
 |  |  |
 |--|--|
 | Nama Fungsi | Input data dan menampilkan data & grafik |
-| Xref | 2.5, Input data dan menampilkan data & grafik |
+| Xref | 2.5, Input data kependudukan |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Sesudah login admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menampilkan data dan grafik <br> 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan |
+| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan ke database |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data |
 | Exception Push | Tidak ada koneksi |
@@ -941,7 +953,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, notifikasi kritik dan saran |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan notifikasi <br> 2. Admin membuka notifikasi <br> 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile|
+| Basic Path | 1. Sistem akan menampilkan notifikasi kritik dan saran <br> 2. Admin membuka notifikasi <br> 3. Sistem menampilkan kritik dan saran <br> 4. Admin memfilter kritik dan saran untuk di tampilakan ke mobile|
 | Alternative | Tidak ada |
 | Post Condition | Halaman kritik dan saran |
 | Exception Push | Tidak ada koneksi |
@@ -1064,5 +1076,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | jns_laporan| varchar | jenis laporan|
 | tgl_laporan | date | tanggal laporan |
 | link | varchar | link download laporan |
+
 
 
