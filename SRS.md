@@ -1,5 +1,6 @@
 
 
+
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -748,7 +749,8 @@ Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 Use Case: Kritik dan Saran
 
 Diagram:	
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20%20view%20masy.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20masyarakat.png)
+
 Deskripsi Singkat
 Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
 Deskripsi Langkah-langkah
