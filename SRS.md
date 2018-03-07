@@ -309,6 +309,22 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.7, Cetak Laporan
 
+**2.2.8 View Data dan Grafik**
+
+Use Case: View Data dan Grafik
+
+Diagram:
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
+
+Deskripsi Singkat
+Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Deskripsi Langkah-langkah
+1. Sistem menampilkan laporan kependudukan
+2. Admin mencetak laporan 
+
+Xref: Bagian 3.2.8, View Data dan Grafik
+
 
 
 2.3	Spesifikasi Kebutuhan non-fungsional
@@ -438,6 +454,18 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
+| Exception Push | Tidak ada koneksi, data belum diinput |
+
+**3.2.8  View Data  dan Grafik**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View Data dan Grafik |
+| Xref | Bagian 2.2.8, View Data dan Grafik |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener | 
+| Precondition | halaman input data kependudukan |
+| Basic Path | 1. Sistem menampilkan data kependudukan <br>2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
+| Post Condition | Halaman tampil data kependudukan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 	
 3.3 Struktur Detail Kebutuhan Non-Fungsional
