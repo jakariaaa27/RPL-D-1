@@ -5,7 +5,7 @@
 <p align="center"><b>Version 1.0 </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
-<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png"/>
+<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/>
 </p>
 
 <br><p align="center"><b>MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER</b><br>
