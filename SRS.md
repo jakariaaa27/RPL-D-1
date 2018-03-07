@@ -643,6 +643,7 @@ masyarakat dan kepala desa mempunyai fungsi yang sama yaitu melakukan view data 
 
    - **Mockup User ( Android )**
 
+   
 |  |  |
 |--|--|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/loading.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/login%20user.png) |
