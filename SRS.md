@@ -342,7 +342,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.1, Login masyarakat |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Halaman utama untuk login |
-| Basic Path | 1. Masyarakat mengisi form login dengan username dan password 2.Masyarakat mengklik tombol login 3. Sistem melakukan validasi login 4. Bila sukses sistem akan mengarahkan ke halaman beranda 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Masyarakat mengisi form login dengan username dan password <br> 2.Masyarakat mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | User dapat login dan mengakses aplikasi monitoring |
 | Exception Push | Username dan password salah |
@@ -355,7 +355,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Setelah login dengan usernmae dan password |
-| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button ikon. 2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll. 3. Sistem menampilkan data dan grafik |
+| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button ikon. <br> 2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll. <br> 3. Sistem menampilkan data dan grafik |
 | Alternative | Tidak ada |
 | Post Condition | User melihat data dan grafik |
 | Exception Push | Tidak ada koneksi |
@@ -368,7 +368,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 22.3, Kritik dan saran |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Membuka halaman data dan grafik kependudukan |
-| Basic Path | 1. Masyarakat mengklik tombol kritik dan saran 2. Sitem akan menampilkan form kritik dan saran 3. Masyrakat mengisi form tersebut dan klik tombol kirim 4. Sistem akan mengirimkan ke admin. |
+| Basic Path | 1. Masyarakat mengklik tombol kritik dan saran <br> 2. Sitem akan menampilkan form kritik dan saran <br>3. Masyrakat mengisi form tersebut dan klik tombol kirim <br>4. Sistem akan mengirimkan ke admin. |
 | Alternative | Tidak ada |
 | Post Condition | User Mengisi form kritik dan saran |
 | Exception Push | Tidak ada koneksi |
@@ -381,7 +381,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.4, Login admin |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Halaman utama untuk login |
-| Basic Path | 1. admin melakukan login dengan username dan password 2. Sistem melakukan validasi login 3. Bila sukses sistem akan mengarahkan ke halaman beranda 4. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
 | Exception Push | Username dan password salah |
@@ -394,7 +394,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | 2.5, Input data dan menampilkan data & grafik |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Sesudah login admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain 2. Admin mengklik tombol simpan 3. Sistem menampilkan data dan grafik 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan |
+| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menampilkan data dan grafik <br> 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data |
 | Exception Push | Tidak ada koneksi |
@@ -407,7 +407,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, notifikasi kritik dan saran |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan notifikasi 2. Admin membuka notifikasi 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile|
+| Basic Path | 1. Sistem akan menampilkan notifikasi <br> 2. Admin membuka notifikasi <br> 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile|
 | Alternative | Tidak ada |
 | Post Condition | Halaman kritik dan saran |
 | Exception Push | Tidak ada koneksi |
@@ -420,7 +420,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7, Cetak Laporan |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | halaman awal aplikasi |
-| Basic Path | 1. Admin mengklik tombol laporan 2. Sistem menampilkan laporan kependudukan 2. Admin mencetak laporan  |
+| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
