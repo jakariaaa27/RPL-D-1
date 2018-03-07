@@ -1,19 +1,19 @@
 **Software Requirements Spesification**
 
-Version 1.5
-07 Maret 2018
+Version 1.5<br>
+07 Maret 2018<br>
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png)<br>
 
 
-MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER
-Kelompok 1
- Hilmy Lazuardi 				(1603099)
- Ismatul Mauka		(1603100)
+MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER<br>
+Kelompok 1<br>
+ Hilmy Lazuardi 				(1603099)<br>
+ Ismatul Mauka		(1603100)<br>
  Jakaria			(1603101)
 
-Jurusan D3 Teknik Informatika
-Politeknik Negeri Indramayu
+Jurusan D3 Teknik Informatika<br>
+Politeknik Negeri Indramayu<br>
 2018
 
 ----------
@@ -534,7 +534,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| varchar | Nomer auto increment Id_agama|
 | nama | varchar | nama masyarakat |
 | agama| varchar | agama masyarakat  |
-
 
 **Tabel Pekerjaan**
 
