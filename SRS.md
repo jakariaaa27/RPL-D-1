@@ -266,15 +266,13 @@ Use Case: Input data dan menampilkan data & grafik
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
-		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		
 Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
+Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
 2. Admin mengklik tombol simpan
-3. Sistem menampilkan data dan grafik
-4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+3. Sistem menyimpan data kependudukan
 
 Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
@@ -994,6 +992,18 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
+| Exception Push | Tidak ada koneksi, data belum diinput |
+
+**3.2.8  View Data  dan Grafik**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View Data dan Grafik |
+| Xref | Bagian 2.2.8, View Data dan Grafik |
+| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener | 
+| Precondition | halaman input data kependudukan |
+| Basic Path | 1. Sistem menampilkan data kependudukan <br>2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
+| Post Condition | Halaman tampil data kependudukan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 	
 3.3 Struktur Detail Kebutuhan Non-Fungsional
