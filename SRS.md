@@ -137,7 +137,7 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 
 **2.1.6 Batasan memori**
 
-Skip
+
 
 **2.1.7 Operasi-operasi**
 
@@ -156,7 +156,7 @@ Skip
 
 **2.1.8 Kebutuhan adaptasi**
 
-Skip
+
 	
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
@@ -287,7 +287,7 @@ Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
 1. Sistem menampilkan laporan kependudukan
 2. Admin mencetak laporan 
-3. Laporan diserahkan ke kuwu atau sekdes
+
 Xref: Bagian 3.2.7, Cetak Laporan
 
 2.3	Spesifikasi Kebutuhan non-fungsional
@@ -316,7 +316,7 @@ Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, le
 
 2.7	Kebutuhan Penyeimbang
 ----------
-Skip
+
 
 BAB III Requirement specification
 ----------
