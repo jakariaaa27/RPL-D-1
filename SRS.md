@@ -1,29 +1,20 @@
+**Software Requirements Spesification**
+
+Version 1.5
+07 Maret 2018
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png)
 
 
+MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER
+Kelompok 1
+ Hilmy Lazuardi 				(1603099)
+ Ismatul Mauka		(1603100)
+ Jakaria			(1603101)
 
-<html>
-<body>
-<div align="center"><h1> Software Requirements Spesification</h1></div>
-
-<p align="center"><b>Version 1.5 </b><br>
-<p align="center">07 Maret 2018</b>
-<p align="center">
-<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/>
-</p>
-
-<br><p align="center"><b>MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER</b><br>
-<p align="center">Kelompok 1<br>
- Hilmy Lazuardi 				(1603099)<br>
- Ismatul Mauka		(1603100)<br>
- Jakaria			(1603101)<br><br><br>
-
-<p align="center"><b>Jurusan D3 Teknik Informatika</b><br>
-<p align="center"><b>Politeknik Negeri Indramayu</b>
-<p align="center"><b>2018</b>
-</p>
-</body>
-</html>
-
+Jurusan D3 Teknik Informatika
+Politeknik Negeri Indramayu
+2018
 
 ----------
 **BAB I Pendahuluan**
