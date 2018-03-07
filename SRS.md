@@ -58,7 +58,7 @@ Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 - Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
 - Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
 
-1.4	Overview
+1.5	Overview
 ----------
 
 Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, Sistem Interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
@@ -308,6 +308,8 @@ Deskripsi Langkah-langkah
 2. Admin mencetak laporan 
 
 Xref: Bagian 3.2.7, Cetak Laporan
+
+
 
 2.3	Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -1002,7 +1004,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.8, View Data dan Grafik |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener | 
 | Precondition | halaman input data kependudukan |
-| Basic Path | 1. Sistem menampilkan data kependudukan <br>2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
+| Basic Path | 1. Sistem menampilkan data kependudukan <br> 2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
 | Post Condition | Halaman tampil data kependudukan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 	
