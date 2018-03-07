@@ -1,4 +1,5 @@
 
+
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -694,7 +695,7 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 	
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/$R4LLASQ.jpeg)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/BlankERD.png)
 
 - Tabel Kebutuhan Fungsional 
 
@@ -785,15 +786,13 @@ Use Case: Input data dan menampilkan data & grafik
 Diagram:
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
-		![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
 		
 Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menampilkan data & grafik.
+Admin melakukan input data kependudukan dan sistem menyimpan data kependudukan ke database.
 Deskripsi Langkah-langkah
 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
 2. Admin mengklik tombol simpan
-3. Sistem menampilkan data dan grafik
-4. Admin dapat mengedit dan hapus data bila terjadi kesalahan
+3. Sistem menyimpan data kependudukan ke database
 
 Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
@@ -801,16 +800,13 @@ Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
 
 Use Case: notifikasi kritik saran
 
-Diagram:
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-kritik%20saran.jpg)
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20%20not.png)
 
 Deskripsi Singkat
 Admin akan mendapat notifikasi di web dan melihat kritik saran
 Deskripsi Langkah-langkah
-1. Sistem akan menampilkan notifikasi
+1. Sistem akan menampilkan notifikasi kritik dan saran
 2. Admin membuka notifikasi
-3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
 
 Xref: Bagian 3.2.6, notifikasi kritik dan saran
 	
@@ -829,6 +825,20 @@ Deskripsi Langkah-langkah
 2. Admin mencetak laporan 
 
 Xref: Bagian 3.2.7, Cetak Laporan
+
+**2.2.8 Menampilkan data dan grafik**
+
+Use Case: View data dan grafik
+
+Diagram:![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0083.jpg)
+
+Deskripsi Singkat
+Sistem akan menampilkan data kependudukan setelah di input oleh admin
+Deskripsi Langkah-langkah
+1. Sistem menampilkan data kependudukan
+2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data 
+
+Xref: Bagian 3.2.8, View data dan grafik
 
 2.3	Spesifikasi Kebutuhan non-fungsional
 ----------
