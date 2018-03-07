@@ -748,8 +748,7 @@ Xref: Bagian 3.2.2, View data dan grafik masyaratkat
 Use Case: Kritik dan Saran
 
 Diagram:	
-	![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0088.jpg)
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20%20view%20masy.png)
 Deskripsi Singkat
 Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
 Deskripsi Langkah-langkah
@@ -1073,5 +1072,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | jns_laporan| varchar | jenis laporan|
 | tgl_laporan | date | tanggal laporan |
 | link | varchar | link download laporan |
+
 
 
