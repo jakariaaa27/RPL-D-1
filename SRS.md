@@ -204,7 +204,7 @@ Deskripsi Singkat
 Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
 Deskripsi Langkah-langkah:
 1. Sistem menampilkan halaman beranda yang berisi button ikon.
-2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll.
+2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll.
 3. Sistem menampilkan data dan grafik
 
 Xref: Bagian 3.2.2, View data dan grafik masyaratkat
@@ -355,7 +355,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
 | Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
 | Precondition | Setelah login dengan usernmae dan password |
-| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button ikon. 2. Masyarakat dapat mengklik tombol button kependudukan, pekerjaan, agama, pendidikan, anggaran, dll. 3. Sistem menampilkan data dan grafik |
+| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button ikon. 2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll. 3. Sistem menampilkan data dan grafik |
 | Alternative | Tidak ada |
 | Post Condition | User melihat data dan grafik |
 | Exception Push | Tidak ada koneksi |
