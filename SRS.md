@@ -658,6 +658,7 @@ Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android vers
 
 3. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
+![enter image description here](https://camo.githubusercontent.com/e211b448d2ea1f5765c4077649cdaa731735b53c/68747470733a2f2f332e62702e626c6f6773706f742e636f6d2f2d4f5974546f6d386a6b54772f5770712d39556a413076492f41414141414141414134772f2d55444373567541716e41785247506167526f7134536b7a7634465170766d7067434c63424741732f73313630302f616e7461726d756b612b73697374656d2e706e67)
 
 **2.1.4 Antarmuka perangkat lunak**
 
