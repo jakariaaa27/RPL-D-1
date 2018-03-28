@@ -28,7 +28,7 @@
 
 **1.1** **Tujuan **
 
-Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Sistem Monitoring Perkembangan Penduduk Desa Lohbener, dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
+Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Sistem Monitoring Perkembangan Penduduk Desa Lohbener (Merdu Saloh), dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
 
 **1.2** **Lingkup Masalah**
 
@@ -39,9 +39,14 @@ Aplikasi Monitoring ini di desain dengan kebutuhan pihak pemerintahan desa Lohbe
 Adapun definisi, istilah dan singkatan yang digunakan dalam dokumen SDD ini adalah :
 
 a. SDD : Software Design Description
+
 b. CDM : Conceptual Data Model
+
 c. PDM : Physicall Data Model
+
 d. Query : Ekspresi yang digunakan dalam pengaksesan basis data
+
+e. Merdu Saloh : Montoring perkembangan penduduk desa lohbener
 
 **1.4** **Referensi**
 Dokumen yang digunakan sebagai acuan/rujukan dalam penyusunan dokumen SDD ini yaitu :
