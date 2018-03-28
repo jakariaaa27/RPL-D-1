@@ -2,13 +2,13 @@
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center"><b>Version 1.5 </b><br>
-<p align="center">07 Maret 2018</b>
+<p align="center"><b>Version 1.6 </b><br>
+<p align="center">28 Maret 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener
+<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener <br> ( Merdu Saloh )
 </b>
 <p align="center">Kelompok 1 <br>
  Hilmy Lazuardi 				(1603099)<br>
@@ -39,6 +39,7 @@ Monitoring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami 
 | Istilah | Definisi |
 | ------ | ------ |
 | SRS |Software Requirement Specification|
+| Merdu Saloh |Monitoring Perkembangan Kependudukan Desa Lohbener|
 | Login | Digunakan untuk mengakses aplikasi |
 | software Requirement Specification | perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
 | USe Case | ituasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
@@ -66,6 +67,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
    - Input Angka Kelahiran
    - Input Angka Kematian
    - Input Agama
+   - Input Pendidikan
    - Input Pekerjaan
    - Input Anggaran Desa
    - Laporan
@@ -75,7 +77,8 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah sat
    - View Angka Kematian
    - View Agama
    - View Pekerjaan
-   - View Anggaran
+   - View Pendidikan
+   - View Anggaran Desa
    - Kritik dan Saran
 
 2.1	Perspektif produk
@@ -469,22 +472,23 @@ Logika Struktur terdapat pada bagian 3.3.1
 ----------
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd4.jpg)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd6.jpg)
+
 **Tabel User**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| varchar | Nomer auto increment Id_user|
+| Id_user| int | Nomer auto increment Id_user|
 | Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
 | Password | varchar | berisikan password untuk login admin dan user |
 | level | varchar | untuk membedakan level saat login antara admin dan user
 
-**Tabel Peserta**
+**Tabel Masyarakat**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_peserta| varchar | Nomer auto increment Id_peserta|
-| Id_user| varchar | untuk mengambil username dan password peserta pada tabel user|
+| Id_masyarakat| int | Nomer auto increment Id_masyarakat|
+| Id_user| int | untuk mengambil username dan password peserta pada tabel user|
 | NIK | varchar | nomer kependudukan|
 | Nama_lengkap | varchar | nomer kependudukan|
 | Tmp_lahir | varchar | tempat lahir peserta |
@@ -493,68 +497,87 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Telp | varchar | nomer telepon peserta |
 
 
-**Tabel Admin**
+**Tabel Bioadmin**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_admin| varchar | Nomer auto increment Id_admin|
-| Id_user| varchar | untuk mengambil username dan password admin pada tabel user|
+| Id_bioadmin| int | Nomer auto increment Id_bioadmin|
+| Id_user| int | untuk mengambil username dan password admin pada tabel user|
+| nik| varchar | nik admin|
+| nama | varchar | nama admin|
+| jabatan | varchar | jabatan admin|
+| email | varchar | email admin|
+| telp | varchar | telepon admin|
+| foto | varchar | foto admin|
 
 **Tabel Kepedudukan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_admin| varchar | untuk mengidentifikasi admin|
-| Id_peserta| varchar | untuk mengidentifikasi peserta|
-| Id_kelahiran| varchar | untuk mengidentifikasi kelahiran|
-| Id_kematian| varchar | untuk mengidentifikasi kematian|
-| Id_agama| varchar | untuk mengidentifikasi agama|
-| Id_pekerjaan| varchar | untuk mengidentifikasi pekerjaan |
-| Id_angdes| varchar | untuk mengidentifikasi anggaran desa|
-| Id_laporan| varchar | untuk mengidentifikasi laporan|
+| Id_admin| int | untuk mengidentifikasi admin|
+| Id_peserta| int | untuk mengidentifikasi peserta|
+| Id_kelahiran| int | untuk mengidentifikasi kelahiran|
+| Id_kematian| int | untuk mengidentifikasi kematian|
+| Id_agama| int | untuk mengidentifikasi agama|
+| Id_pekerjaan| int | untuk mengidentifikasi pekerjaan |
+| Id_angdes| int | untuk mengidentifikasi anggaran desa|
+| Id_akun| int | untuk mengidentifikasi akun|
+| Id_laporan| int | untuk mengidentifikasi laporan|
 
 **Tabel Kelahiran**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kelahiran| varchar | Nomer auto increment Id_kelahiran|
+| Id_kelahiran| int | Nomer auto increment Id_kelahiran|
 | nama | varchar | nama anak|
 | tgl_lahir| date | tanggal lahir anak |
 | jns_kelamin| varchar | jenis kelamin anak|
-| jml_kelahiran | integer | total kelahiran
 
 **Tabel Kematian**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kematian| varchar | Nomer auto increment Id_kematian|
+| Id_kematian| int | Nomer auto increment Id_kematian|
 | nama | varchar | nama orang meninggal |
 | tgl_kematian| date | tanggal lahir anak |
 | jns_kelamin| varchar | jenis kelamin orang meninggal|
-| jml_kematian | integer |  total kematian |
 
 **Tabel Agama**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_agama| varchar | Nomer auto increment Id_agama|
+| Id_agama| int | Nomer auto increment Id_agama|
 | nama | varchar | nama masyarakat |
 | agama| varchar | agama masyarakat  |
+| tgl_input | date | tanggal input agama |
+| jns_kelamin| varchar | jenis kelamin  |
 
 **Tabel Pekerjaan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pekerjaan| varchar | Nomer auto increment Id_pekerjaan|
+| Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
 | nama | varchar | nama masyarakat |
-| pekerjaan| varchar | jenis pekerjaan  |
+| pekerjaan| varchar | pekerjaan masyarakat  |
+| tgl_input | date | tanggal input pekerjaan |
+| jns_kelamin| varchar | jenis kelamin  |
+
+**Tabel Pendidikan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_pendidikan| int | Nomer auto increment Id_pendidikan|
+| nama | varchar | nama masyarakat |
+| pendidikan| varchar | pendidikan masyarakat  |
+| tgl_input | date | tanggal input pekerjaan |
+| jns_kelamin| varchar | jenis kelamin  |
 
 **Tabel Anggaran Desa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_angdes| varchar | Nomer auto increment Id_angdes|
-| nama_anggaran | varchar | nama anggaran desa |
+| nama_anggaran | int | nama anggaran desa |
 | jml_dana| varchar | Banyaknya anggaran Desa|
 | tgl_masuk | date | tanggal masuk anggaran |
 | alokasi_dana | varchar | keterangan penggunaan dana |
@@ -563,10 +586,24 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_laporan| varchar | Nomer auto increment Id_laporan|
+| Id_laporan| int | Nomer auto increment Id_laporan|
 | nama_laporan | varchar | nama laporan |
 | jns_laporan| varchar | jenis laporan|
 | tgl_laporan | date | tanggal laporan |
 | link | varchar | link download laporan |
 
+
+**Tabel Akun**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_akun| int | Nomer auto increment Id_akun|
+| status | varchar | status akun masyarakat |
+
+**Tabel Krisan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_krisan| int | Nomer auto increment Id_krisan|
+| krisan | varchar | kritik dan Saran masyarakat |
 
