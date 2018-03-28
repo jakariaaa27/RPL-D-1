@@ -8,9 +8,9 @@
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Aplikasi Monitoring Perkembangan Penduduk Desa Lohbener
+<p align="center"><b>Monitoring Perkembangan Kependuduk Desa Lohbener
 </b>
-<p align="center">Kelompok 8 <br>
+<p align="center">Kelompok 1 <br>
  Hilmy Lazuardi 				(1603099)<br>
  Ismatul Maula		(1603100)<br>
  jakaria			(1603101)<br><br><br>
@@ -28,11 +28,11 @@
 
 **1.1** **Tujuan **
 
-Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Sistem Monitoring Perkembangan Penduduk Desa Lohbener (Merdu Saloh), dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
+Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Monitoring Perkembangan Penduduk Desa Lohbener (Merdu Saloh), dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
 
 **1.2** **Lingkup Masalah**
 
-Aplikasi Monitoring ini di desain dengan kebutuhan pihak pemerintahan desa Lohbener dan kebutuhan penduduk desa lohbener .Untuk bidang pemerintahan desa aplikasi ini dirancang untuk menginputkan data seperti angka kelahiran, angka kematian ,bidang pendidikan jumlah wanita maupun laki-laki dan transparasi dana .Setelah admin menginputkan data tersebut maka data tersebut akan di export kedalam grafik sehingga masyarakat dapat memantau mengenai perkembangan desa Lohbener .Adanya fungsi laporan surat bulanan untuk pemerintah desa seperti angka kelahiran dan lain sebagainya. dibidang masyarakat, masyarakat mampu mengetahui perkembangan desa Lohbener serta mengetahui transparasi dana desa lohbener menggunakan aplikasi berbasis android ( mobile ). Masyarakat dapat mengirim kritik dan saran mengenai perkembangan desa Lohbener dengan fungsi yang tersedia saat login.
+Monitoring ini di desain dengan kebutuhan pihak pemerintahan desa Lohbener dan kebutuhan penduduk desa lohbener .Untuk bidang pemerintahan desa aplikasi ini dirancang untuk menginputkan data seperti angka kelahiran, angka kematian ,bidang pendidikan jumlah wanita maupun laki-laki dan transparasi dana .Setelah admin menginputkan data tersebut maka data tersebut akan di export kedalam grafik sehingga masyarakat dapat memantau mengenai perkembangan desa Lohbener .Adanya fungsi laporan surat bulanan untuk pemerintah desa seperti angka kelahiran dan lain sebagainya. dibidang masyarakat, masyarakat mampu mengetahui perkembangan desa Lohbener serta mengetahui transparasi dana desa lohbener menggunakan aplikasi berbasis android ( mobile ). Masyarakat dapat mengirim kritik dan saran mengenai perkembangan desa Lohbener dengan fungsi yang tersedia saat login.
 
 **1.3** **Definisi dan Istilah**
 
