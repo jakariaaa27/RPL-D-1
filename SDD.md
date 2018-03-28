@@ -8,7 +8,7 @@
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Monitoring Perkembangan Kependuduk Desa Lohbener
+<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener
 </b>
 <p align="center">Kelompok 1 <br>
  Hilmy Lazuardi 				(1603099)<br>
