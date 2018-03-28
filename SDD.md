@@ -535,11 +535,11 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 
 **3.2 Deskripsi Rinci Tabel**
 
-**3.2.1 Tabel **
+**3.2.1 Tabel**
 
-**3.2.2 Tabel **
+**3.2.2 Tabel**
 
-**3.3 Modul **
+**3.3 Modul**
 
 **3.3.1.1 Fungsi Modul**
 
