@@ -250,7 +250,7 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 
 ** Tabel Akun**
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ---- | ---- |
 | Id_akun| integer | 3 | | primary key| tidak | Nomer auto increment Id_akun|
 | status| varchar | 10 | | tidak | tidak |  status akun |
 
@@ -535,11 +535,11 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 
 **3.2 Deskripsi Rinci Tabel**
 
-**3.2.1 Tabel**
+**3.2.1 Tabel **
 
-**3.2.2 Tabel**
+**3.2.2 Tabel **
 
-**3.3 Modul**
+**3.3 Modul **
 
 **3.3.1.1 Fungsi Modul**
 
