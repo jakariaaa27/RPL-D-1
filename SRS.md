@@ -8,9 +8,9 @@
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Aplikasi Monitoring Perkembangan Penduduk Desa Lohbener
+<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener
 </b>
-<p align="center">Kelompok 8 <br>
+<p align="center">Kelompok 1 <br>
  Hilmy Lazuardi 				(1603099)<br>
  Ismatul Maula		(1603100)<br>
  jakaria			(1603101)<br><br><br>
@@ -27,11 +27,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen 	spesifikasi perangkat lunak untuk membangun "Aplikasi Monitoring Desa Lohbener". Dokumen ini dibangun untuk memudahkan penduduk desa Lohbener dalam melihat perkembangan yang ada didesa nya dan memudahkan admin untuk menginput data-data kependudukan yang ada di Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen 	spesifikasi perangkat lunak untuk membangun "Monitoring Perkembangan Kependudukan Desa Lohbener". Dokumen ini dibangun untuk memudahkan penduduk desa Lohbener dalam melihat perkembangan yang ada didesa nya dan memudahkan admin untuk menginput data-data kependudukan yang ada di Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER".
 
 1.2	Lingkup
 ----------
-Monitoiring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah penduduk desa Lohbener dalam melihat perkembangan yang ada di desanya khususnya perkembangan Anggaran desa, Kelulusan, piramida, pendidikan, kependudukan, agama, pekerjaan. dan memudahkan admin dalam mnginput data-datanya.
+Monitoring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah penduduk desa Lohbener dalam melihat perkembangan yang ada di desanya khususnya perkembangan Anggaran desa, Kelulusan, piramida, pendidikan, kependudukan, agama, pekerjaan. dan memudahkan admin dalam mnginput data-datanya.
 
 1.3	 Akronim, singkatan, definisi
 ----------
