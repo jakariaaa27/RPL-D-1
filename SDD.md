@@ -534,15 +534,25 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20%20level%201.1.1.jpg)
 
 **3.2 Deskripsi Rinci Tabel**
+
 **3.2.1 Tabel **
+
 **3.2.2 Tabel **
+
 **3.3 Modul **
+
 **3.3.1.1 Fungsi Modul**
+
 **3.3.1.2 Spesifikasi Layar Utama**
+
 **3.3.1.3 Spesifikasi Query**
+
 **3.3.1.4 Spesifikasi Field Data Layar**
+
 **3.3.1.5 Spesifikasi Objek-Objek pada Layar**
+
 **3.3.1.6 Spesifikasi Proses/Algoritma**
+
 **3.4 Matriks Kerunutan**
 
 
