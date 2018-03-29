@@ -116,7 +116,7 @@ masyarakat dan kepala desa mempunyai fungsi yang sama yaitu melakukan view data 
 |  |  |
 |--|--|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/loading.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/login%20user.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/buat%20akun.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/lupa%20password.png) |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Buat%20akun2.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/lupa%20password2.png) |
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/halaman%20awal.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/halaman%20biodata.png) |
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20pendidikan.png) |
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/grafik%20pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Pekerjaan.png) |
@@ -174,7 +174,7 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 	
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/BlankERD.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Usecase2.png)
 
 - Tabel Kebutuhan Fungsional 
 
