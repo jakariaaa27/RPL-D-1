@@ -512,7 +512,9 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 
 
 **BAB 3 DESKRIPSI PERANCANGAN RINCI**
-** 3.1 Diagram konteks**
+
+**3.1 Diagram konteks**
+
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Monitoring Perkembangan Penduduk Desa Lohbener.
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20konteks.jpg)
@@ -526,10 +528,12 @@ Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk m
 
 **3.1.2 DFD Level 1 Proses M**
 
+
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.jpg)
 
+
 **3.1.3 DFD Level 1 Proses N**
-DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini admin dapat menambahkan data kelahiran, menghapus data kelahiran, menampilakan ata kelahiran pada user
+DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini admin dapat menambahkan, menghapus, dan menampilkan data seperti data kelahiran, kematian, pekerjaan, agama, pendidikan dan anggaran desa maka data-data ini akan ditampilkan pada user admin desa dan juga masyarakat.
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.6.1.jpg)
 
@@ -547,6 +551,7 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 **3.2 Deskripsi Rinci Tabel**
 
 **3.2.1 Data User Masyarakat, Admin Desa, Kepala Desa**
+
 | Data | Keterangan |
 | ------ | ------ | 
 | NIK|digunakan untuk login | 
@@ -567,6 +572,7 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 **3.3.1.6 Spesifikasi Proses/Algoritma**
 
 **3.4 Matriks Kerunutan**
+
 
 
 
