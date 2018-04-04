@@ -528,6 +528,7 @@ Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk m
 
 **3.1.2 DFD Level 1 Proses M**
 
+DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.jpg)
 
