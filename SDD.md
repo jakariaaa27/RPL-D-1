@@ -26,7 +26,7 @@
 
 **BAB I PENDAHULUAN**
 
-**1.1** **Tujuan **
+**1.1** **Tujuan**
 
 Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Monitoring Perkembangan Penduduk Desa Lohbener (Merdu Saloh), dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
 
@@ -253,7 +253,7 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 | krisan | text | | | tidak | tidak |  memasukan kritik dan saran |
 | status| varchar | 10 | | tidak | tidak | Untuk mengirim sebuah kritik dan saran tentang perkembangan |
 
-** Tabel Akun**
+**Tabel Akun**
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ---- | ---- |
 | Id_akun| integer | 3 | | primary key| tidak | Nomer auto increment Id_akun|
@@ -375,14 +375,14 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 | krisan |text | 
 | status| varchar | 
 
-** Tabel Akun**
+**Tabel Akun**
 
 | Domain name | Power Designer Type |
 | ------ | ------ | 
 | Id_akun| primary key |
 | status| varchar | 
 
-**2.2.2 Conceptual Data Model **
+**2.2.2 Conceptual Data Model**
 **2.2.3 Physical Data Mode**
 **2.2.4 Daftar Tabel Aplikasi**
 
@@ -515,11 +515,16 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 ** 3.1 Diagram konteks**
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Monitoring Perkembangan Penduduk Desa Lohbener.
 
-**3.1.1 DFD Level 0 **
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20konteks.jpg)
+
+
+**3.1.1 DFD Level 0**
+Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Monitoring Perkembangan Kependudukan Desa Lohbener.
+
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%200%20revisi.jpg)
 
-**3.1.2 DFD Level 1 Proses M **
+**3.1.2 DFD Level 1 Proses M**
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.jpg)
 
@@ -540,11 +545,13 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 
 **3.2 Deskripsi Rinci Tabel**
 
-**3.2.1 Tabel **
+**3.2.1 Data User Masyarakat, Admin Desa, Kepala Desa**
+| Data | Keterangan |
+| ------ | ------ | 
+| NIK|digunakan untuk login | 
 
-**3.2.2 Tabel **
 
-**3.3 Modul **
+**3.3 Modul**
 
 **3.3.1.1 Fungsi Modul**
 
@@ -559,6 +566,7 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 **3.3.1.6 Spesifikasi Proses/Algoritma**
 
 **3.4 Matriks Kerunutan**
+
 
 
 
