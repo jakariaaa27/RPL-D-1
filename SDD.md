@@ -2,13 +2,13 @@
 <body>
 <div align="center"><h1> Software Design Description</h1></div>
 
-<p align="center"><b>Version 1.5 </b><br>
+<p align="center"><b>Version 1.6 </b><br>
 <p align="center">19 Maret 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener
+<p align="center"><b>Manajemen Administrasi Data Kependudukan Desa Lohbener
 </b>
 <p align="center">Kelompok 1 <br>
  Hilmy Lazuardi 				(1603099)<br>
@@ -28,11 +28,11 @@
 
 **1.1** **Tujuan**
 
-Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Monitoring Perkembangan Penduduk Desa Lohbener (Merdu Saloh), dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
+Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah-langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Manajemen Administrasi Data Kependudukan Desa Lohbener, dan juga memberi definisi kebutuhan untuk sistem dan spesifikasi kebutuhan fungsional. Fungsi utama dari aplikasi ini yaitu dapat memudahkan admin desa dalam menginput data yang ada di desa Lohbener.
 
 **1.2** **Lingkup Masalah**
 
-Monitoring ini di desain dengan kebutuhan pihak pemerintahan desa Lohbener dan kebutuhan penduduk desa lohbener .Untuk bidang pemerintahan desa aplikasi ini dirancang untuk menginputkan data seperti angka kelahiran, angka kematian ,bidang pendidikan jumlah wanita maupun laki-laki dan transparasi dana .Setelah admin menginputkan data tersebut maka data tersebut akan di export kedalam grafik sehingga masyarakat dapat memantau mengenai perkembangan desa Lohbener .Adanya fungsi laporan surat bulanan untuk pemerintah desa seperti angka kelahiran dan lain sebagainya. dibidang masyarakat, masyarakat mampu mengetahui perkembangan desa Lohbener serta mengetahui transparasi dana desa lohbener menggunakan aplikasi berbasis android ( mobile ). Masyarakat dapat mengirim kritik dan saran mengenai perkembangan desa Lohbener dengan fungsi yang tersedia saat login.
+Administrasi data ini di desain dengan kebutuhan pihak pemerintahan desa Lohbener desa lohbener. Untuk bidang pemerintahan desa aplikasi ini dirancang untuk menginputkan data seperti angka kelahiran, angka kematian, bidang pendidikan jumlah wanita maupun laki-laki dan lain-lain. Setelah admin menginputkan data tersebut maka data tersebut akan di export kedalam grafik sehingga kepala desa dapat memantau mengenai perkembangan penduduk desa Lohbener. Adanya fungsi laporan surat bulanan untuk pemerintah desa seperti angka kelahiran dan lain sebagainya. Dibidang kepala desa, kepala desa mampu mengetahui grafik perkembangan penduduk serta mengetahui laporan desa lohbener menggunakan aplikasi berbasis website. 
 
 **1.3** **Definisi dan Istilah**
 
@@ -46,7 +46,6 @@ c. PDM : Physicall Data Model
 
 d. Query : Ekspresi yang digunakan dalam pengaksesan basis data
 
-e. Merdu Saloh : Montoring perkembangan penduduk desa lohbener
 
 **1.4** **Referensi**
 Dokumen yang digunakan sebagai acuan/rujukan dalam penyusunan dokumen SDD ini yaitu :
@@ -125,19 +124,18 @@ Dalam pengembangan sistem informasi SDD ini, rancangan lingkungan implementasi y
 a. Sistem operasi
 Sistem operasi yang digunakan untuk pengembangan perangkat lunak adalah :
 - Untuk aplikasi server menggunakan Sublime Text untuk membuat web nya.
-- Untuk aplikasi client menggunakan Android Studio untuk membuat android nya.
+- Untuk aplikasi client menggunakan Sublime Text untuk membuat web nya.
 - Untuk aplikasi pembuatan laporan menggunakan Microsoft Word 2010.
 b. DBMS
 DBMS yang digunakan adalah MySql.
 c. Development tools
-- Menggunakan Android Studio
 - Menggunakan Sublime Text 
 d. Filling system
 e. Bahasa Pemograman
-Bahasa yang digunakan bahasa Java (android)
+Bahasa yang digunakan PHP
 
 **2.2 Deskripsi Data**
-Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkembangan penduduk desa lohbener adalah sebagai berikut :
+Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebagai berikut :
 
 **Tabel User**
 
@@ -515,39 +513,29 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi monitoring perkemb
 
 **3.1 Diagram konteks**
 
-Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Monitoring Perkembangan Penduduk Desa Lohbener.
+Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20konteks.jpg)
 
 
 **3.1.1 DFD Level 0**
-Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Monitoring Perkembangan Kependudukan Desa Lohbener.
+Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Manajemen Administrasi Data Kependudukan Desa Lohbener.
 
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%200%20revisi.jpg)
 
 **3.1.2 DFD Level 1 Proses M**
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.jpg)
 
 
 **3.1.3 DFD Level 1 Proses N**
-DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini admin dapat menambahkan, menghapus, dan menampilkan data seperti data kelahiran, kematian, pekerjaan, agama, pendidikan dan anggaran desa maka data-data ini akan ditampilkan pada user admin desa dan juga masyarakat.
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.6.1.jpg)
+DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini admin dapat menambahkan, menghapus, dan menampilkan data seperti data kelahiran, kematian, pekerjaan, agama, pendidikan dan anggaran desa maka data-data ini akan ditampilkan pada user admin desa dan juga kepala desa.
 
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.2.1.jpg)
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.3.1.jpg)
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.4.1.jpg)
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20level%201.5.1.jpg)
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/dfd%20%20level%201.1.1.jpg)
 
 **3.2 Deskripsi Rinci Tabel**
 
@@ -573,6 +561,8 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 **3.3.1.6 Spesifikasi Proses/Algoritma**
 
 **3.4 Matriks Kerunutan**
+
+
 
 
 
