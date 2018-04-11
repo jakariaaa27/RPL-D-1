@@ -146,55 +146,55 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Manajem
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
    
-**2.2.1 Masyarakat Login**
+**2.2.1 Kepala Desa Login**
 
 Use Case: Login
 
 Diagram : 
 
 Deskripsi Singkat
-Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
+Kepala desa melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
 Deskripsi langkah-langkah
-1. Masyarakat melakukan login dengan username dan password
+1. Kepala desa melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.1, Login masyarakat
+Xref: Bagian 3.2.1, Login Kepala Desa
    
-**2.2.2 Masyarakat melihat data dan grafik**
+**2.2.2 Kepala desa melihat grafik kependudukan**
 
-Use Case: View data dan grafik
+Use Case: View grafik kependudukan
 
 Diagram:
 
 Deskripsi Singkat
-Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
+Kepala desa dapat melihat grafik perkembangan kependudukan desa lohbener.
 Deskripsi Langkah-langkah:
-1. Sistem menampilkan halaman beranda yang berisi button ikon.
-2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll.
-3. Sistem menampilkan data dan grafik
+1. Sistem menampilkan halaman beranda yang berisi button.
+2. Kepala desa dapat mengklik button grafik kependudukan terdiri dari pekerjaan, agama, pendidikan, dll.
+3. Sistem menampilkan grafik kependudukan sesuai dengan perintah yang di eksekusi
 
-Xref: Bagian 3.2.2, View data dan grafik masyaratkat
-   
-**2.2.3 Masyarakat mengirim kritik dan saran**
+Xref: Bagian 3.2.2, View grafik kependudukan   
 
-Use Case: Kritik dan Saran
+**2.2.3 Kepala desa melihat laporan kependudukan**
+
+Use Case: View laporan kependudukan
 
 Diagram: 
 
 
 Deskripsi Singkat
-Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
+Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
 Deskripsi Langkah-langkah
-1. Masyarakat mengklik tombol kritik dan saran
-2. Sitem akan menampilkan form kritik dan saran
-3. Masyrakat mengisi form tersebut dan klik tombol kirim
-4. Sistem akan mengirimkan ke admin.
+1. Kepala desa mengklik navbar laporan
+2. Sitem akan menampilkan combobox pilihan bulan dan tahun
+3. Kepala desa memilih combobox tersebut dan klik tombol lihat
+4. Sistem akan menampilkan hasil laporan.
 
-Xref: Bagian 3.2.3, Kritik dan saran
+Xref: Bagian 3.2.3, View laporan kependudukan
 
-**2.2.4 admin login**
+**2.2.4 Admin login**
 
 Use Case: Login
 
@@ -211,9 +211,9 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.4, Login admin
       
-**2.2.5 Input data dan menampilkan data & grafik**
+**2.2.5 Admin input data kependudukan**
 
-Use Case: Input data dan menampilkan data & grafik
+Use Case: Input data kependudukan
 
 Diagram:
 
@@ -221,27 +221,26 @@ Diagram:
 Deskripsi Singkat
 Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain
-2. Admin mengklik tombol simpan
-3. Sistem menyimpan data kependudukan
+1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain.
+2. Admin mengklik tombol simpan.
+3. Sistem menyimpan data kependudukan.
 
-Xref: Bagian 3.2.5, Input data dan menampilkan data & grafik
+Xref: Bagian 3.2.5, Input data kependudukan
 
-**2.2.6 notifikasi kritik dan saran**
+**2.2.6 Admin melihat data kependudukan**
 
-Use Case: notifikasi kritik saran
+Use Case: View data kependudukan
 
 Diagram:
 
 
 Deskripsi Singkat
-Admin akan mendapat notifikasi di web dan melihat kritik saran
+Admin dapat melihat data kependudukan setelah di inputkan.
 Deskripsi Langkah-langkah
-1. Sistem akan menampilkan notifikasi
-2. Admin membuka notifikasi
-3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
+1. Sistem akan menampilkan data kependudukan desa Lohbener.
+2. Admin melihat data dan dapat mengedit atau menghapusnya.
 
-Xref: Bagian 3.2.6, notifikasi kritik dan saran
+Xref: Bagian 3.2.6, View data kependudukan
    
 **2.2.7 Cetak Laporan**
 
@@ -258,20 +257,21 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.7, Cetak Laporan
 
-**2.2.8 View Data dan Grafik**
+**2.2.8 Admin mengelola user**
 
-Use Case: View Data dan Grafik
+Use Case: Mengelola user
 
 Diagram:
 
 
 Deskripsi Singkat
-Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
 Deskripsi Langkah-langkah
-1. Sistem menampilkan laporan kependudukan
-2. Admin mencetak laporan 
+1. Sistem menampilkan form
+2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.
+3. Sistem akan menyimpan data user ke database.
 
-Xref: Bagian 3.2.8, View Data dan Grafik
+Xref: Bagian 3.2.8, Mengelola user
 
 
 
@@ -313,43 +313,43 @@ Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan ol
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Login masyarakat**
+**3.2.1 Kepala desa Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login masyarakat |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | Halaman utama untuk login |
-| Basic Path | 1. Masyarakat mengisi form login dengan username dan password <br> 2.Masyarakat mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Xref | Bagian 2.2.1, Login Kepala desa |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Halaman login |
+| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | User dapat login dan mengakses aplikasi monitoring |
+| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
 | Exception Push | Username dan password salah |
    
-**3.2.2 masyarakat melihat data dan grafik**
+**3.2.2 Kepala desa melihat grafik kependudukan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data dan grafik |
-| Xref | Bagian 2.2.2, View data dan grafik masyaratkat  |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | Setelah login dengan usernmae dan password |
-| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button ikon. <br> 2. Masyarakat dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, anggaran, dll. <br> 3. Sistem menampilkan data dan grafik |
+| Nama Fungsi | View grafik kependudukan |
+| Xref | Bagian 2.2.2, View grafik kependudukan  |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Setelah berhasil login dengan usernmae dan password / halaman dashboard kepala desa |
+| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button. <br> 2. Kepala desa dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, dll. <br> 3. Sistem menampilkan grafik kependudukan sesuai perintah eksekusi |
 | Alternative | Tidak ada |
-| Post Condition | User melihat data dan grafik |
+| Post Condition | Kepala desa melihat grafik kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.3 masyarakat mengirim kritik dan saran**
+**3.2.3 Kepala desa melihat laporan kependudukan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Kritik dan Saran |
-| Xref | Bagian 22.3, Kritik dan saran |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman data dan grafik kependudukan |
-| Basic Path | 1. Masyarakat mengklik tombol kritik dan saran <br> 2. Sitem akan menampilkan form kritik dan saran <br>3. Masyrakat mengisi form tersebut dan klik tombol kirim <br>4. Sistem akan mengirimkan ke admin. |
+| Nama Fungsi | View laporan kependudukan |
+| Xref | Bagian 2.2.3, View laporan kependudukan |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Membuka halaman grafik kependudukan |
+| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
 | Alternative | Tidak ada |
-| Post Condition | User Mengisi form kritik dan saran |
+| Post Condition | Kepala desa melihat laporan kependudukan |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.4 admin login**
@@ -546,6 +546,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | ------ | ------ | ------ |
 | Id_akun| int | Nomer auto increment Id_akun|
 | status | varchar | status akun masyarakat |
+
 
 
 
