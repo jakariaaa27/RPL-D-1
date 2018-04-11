@@ -395,7 +395,7 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 **Tabel User**
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
-| ------ | ------ | ------ | ------ | ------ | ------- | ------ |
+| ------ | ------ | ------ | ------ | ------ |
 | Id_user| Primary Key | D7 | Auto increment | Nomer auto increment Id_user|
 | Username | tidak | D7 | Tidak ada | berisikan Nik untuk akses login user dan username untuk akses admin |
 | Password | tidak|  D7 | Tidak ada | berisikan password untuk login admin dan user |
@@ -558,7 +558,7 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 **3.3.1.1 Fungsi Modul**
 
 | No| Fungsi | jenis | Tabel terkait |
-| ------ | ------ | ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ | 
 | 1 | Login | From entry Tabular | users |
 
 
