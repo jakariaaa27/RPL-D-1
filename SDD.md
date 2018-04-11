@@ -542,10 +542,6 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 
 
-
-
-
-
 **3.2 Deskripsi Rinci Tabel**
 
 **3.2.1 Data User Masyarakat, Admin Desa, Kepala Desa**
@@ -559,14 +555,46 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 **3.3.1.1 Fungsi Modul**
 
+| No| Fungsi | jenis | Tabel terkait |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 1 | Login | From entry Tabular | users |
+
 **3.3.1.2 Spesifikasi Layar Utama**
 
 **3.3.1.3 Spesifikasi Query**
 
+| ID Query | Deskripsi | Ekspresi Query |
+| ------ | ------ | ------ |
+| QUE-01 | Masuk sebagai admin | select * from users where level = 'admin' |
+| QUE-2 | Masuk sebagai masyarakat |select * from users where level ='masyarakat'|
+
+
 **3.3.1.4 Spesifikasi Field Data Layar**
+
+| Label | Field | Tabel/Query | Validasi | Keterangan |
+| ------ | ------ | ------ | ------ | ------ |
+|username | username | select * from users | cek username | login |
+| password | password | select * from users | cek password | login |
+
 
 **3.3.1.5 Spesifikasi Objek-Objek pada Layar**
 
+| id_users | jenis | keterangan |
+|------|------|------|
+|username | input type text | masukkan username sesuai dengan database |
+|paassword | input type password | memasukkan password sesuai dengan database |
+|btnLogin| Button | jika diklik maka akan diasosiasikan ke QUE-01. QUE-02 pada sub-bab 3.3.1.3|
+
+
 **3.3.1.6 Spesifikasi Proses/Algoritma**
 
+|spesifikasi proses / Algoritma |
+|-------- |
+|1. buka web |
+|2. masukan username & password |
+|3. IF username & password sesuai , maka akan masuk ke halaman dashboard sesuai dengan level nya |
+| ELSE username & password tidak sesuai, maka akan muncul pesan "gagal login |
+
+
 **3.4 Matriks Kerunutan**
+
