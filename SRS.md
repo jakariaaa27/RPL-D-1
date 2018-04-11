@@ -2,18 +2,18 @@
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center"><b>Version 1.6 </b><br>
+<p align="center"><b>Version 1.7 </b><br>
 <p align="center">28 Maret 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Monitoring Perkembangan Kependudukan Desa Lohbener <br> ( Merdu Saloh )
+<p align="center"><b>Manajemen Administrasi Data Kependudukan Desa Lohbener <br>
 </b>
 <p align="center">Kelompok 1 <br>
- Hilmy Lazuardi 				(1603099)<br>
- Ismatul Maula		(1603100)<br>
- jakaria			(1603101)<br><br><br>
+ Hilmy Lazuardi            (1603099)<br>
+ Ismatul Maula    (1603100)<br>
+ jakaria       (1603101)<br><br><br>
 
 <p align="center"><b>Jurusan Teknik Informatika</b><br>
 <p align="center"><b>Politeknik Negeri Indramayu</b>
@@ -27,72 +27,67 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen 	spesifikasi perangkat lunak untuk membangun "Monitoring Perkembangan Kependudukan Desa Lohbener". Dokumen ini dibangun untuk memudahkan penduduk desa Lohbener dalam melihat perkembangan yang ada didesa nya dan memudahkan admin untuk menginput data-data kependudukan yang ada di Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MONITORING PERKEMBANGAN KEPENDUDUKAN DESA LOHBENER".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen   spesifikasi perangkat lunak untuk membangun "Manajemen Administrasi Data Kependudukan Desa Lohbener". Dokumen ini dibangun untuk memudahkan pemerintah desa Lohbener untuk menginput data-data kependudukan yang ada di desa Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MANAJEMEN ADMINISTRASI DATA KEPENDUDUKAN DESA LOHBENER".
 
-1.2	Lingkup
+1.2   Lingkup
 ----------
-Monitoring Perkembangan Kependudukan desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah penduduk desa Lohbener dalam melihat perkembangan yang ada di desanya khususnya perkembangan Anggaran desa, Kelulusan, piramida, pendidikan, kependudukan, agama, pekerjaan. dan memudahkan admin dalam mnginput data-datanya.
+Manajemen Administrasi Data Kependudukan Desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah kepala desa Lohbener dalam melihat perkembangan yang ada di desanya yaitu perkembangan pendidikan, angka kelahiran, angka kematian, agama, pekerjaan. dan memudahkan admin dalam menginput data-datanya.
 
-1.3	 Akronim, singkatan, definisi
+1.3    Akronim, singkatan, definisi
 ----------
 
 | Istilah | Definisi |
 | ------ | ------ |
 | SRS |Software Requirement Specification|
-| Merdu Saloh |Monitoring Perkembangan Kependudukan Desa Lohbener|
 | Login | Digunakan untuk mengakses aplikasi |
-| software Requirement Specification | perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
-| USe Case | ituasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
+| Software Requirement Specification | perangkat lunak yang akan dibuat dan sebagai penyembatani komunikasi pembuat dengan pengguna |
+| Use Case | situasi dimana sistem anda digunakan untuk memenuhi satu atau lebih kebutuhan pemakaian anda |
 
-1.4	Referensi
+1.4   Referensi
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 - https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
 - http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software 	Requirements Specifications. IEEE Computer Society, 1998. 1.5	Overview	
+- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
 
 Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
 - bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
 - Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
 - Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
 
-1.5	Overview
+1.5   Overview
 ----------
 
-Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, Sistem Interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
+Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, sistem interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat ,salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh banyak himbauan masyarakat ingin mengatahui langsung perkembangan mengenai kependudukan di daerah desa Lohbener ini .maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan masyarakat dan pemerintah desa dengan menerpakan monitoring perkembangan penduduk desa Lohbener .Sehingga memudahkan masyarakat untuk melakukan pemantauan perkembangan kependudukan .sowftware yang kami buat ini berbasis website dan android dimana website sebagai admin dan android untukk user .sistem yang kami buat di dalamnya terdapat angka kelahiran ,angka kematian ,pekerjaan ,agama ,anggaran desa ,laporan ( untuk admin ) ,kritik dan saran ( untuk user ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh pembuatan laporan kependudukan di desa Lohbener ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan pemerintah desa dengan menerapkan manajemen administrasi data kependudukan desa Lohbener. Sehingga memudahkan admin dalam menginputkan data-data kependudukan. Software yang kami buat ini berbasis website dimana website sebagai admin, sekdes dan kepala desa. Sistem yang kami buat di dalamnya terdapat angka kelahiran, angka kematian, pekerjaan, agama, laporan ( untuk admin/sekdes ), grafik dan laporan ( untuk kepala desa ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
    - Input Angka Kelahiran
    - Input Angka Kematian
    - Input Agama
    - Input Pendidikan
    - Input Pekerjaan
-   - Input Anggaran Desa
    - Laporan
    
-   Berikut ini fungsi user :
+   Berikut ini fungsi user dalam bentuk grafik :
    - View Angka Kelahiran
    - View Angka Kematian
    - View Agama
    - View Pekerjaan
    - View Pendidikan
    - View Anggaran Desa
-   - Kritik dan Saran
+   - View Laporan
 
-2.1	Perspektif produk
+2.1   Perspektif produk
 ----------
-Aplikasi Monitoring pekembangan kependudukan desa Lohboner adalah sebuah sistem monitoring yang di aplikasiskan pada android. Terdapat 2 jenis yaitu admin dan pengguna .Pengolahan data di kelola oleh admin pada website dan user hanya memview data pada android
+Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebuah sistem administrasi data yang di aplikasiskan pada website. Terdapat 3 jenis yaitu admin, sekdes dan kepala desa. Pengolahan data di kelola oleh admin dan sekdes pada website dan kepala desa hanya melihat grafik dan laporan pada website.
 
 Pada sistem monitoring ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Antarmuka%20sistem.png)
-
-Sistem aplikasi Monitoring Perkembangan penduduk desa lohbener memiliki 3 user yaitu masyarakat ,admin dan kepala desa .
-masyarakat dan kepala desa mempunyai fungsi yang sama yaitu melakukan view data namun pada kepala desa bissa view laporan dan hal itu tidak ada dalam fungsi masyarakat. Admin bertugas untuk mengelola data ,supaya data bisa di akses oleh masyarakat dan kepala desa
+Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -110,44 +105,22 @@ masyarakat dan kepala desa mempunyai fungsi yang sama yaitu melakukan view data 
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Anggaran%20Desa.png) |  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Laporan.png)|
 |![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halman%20Dropdone%20Confirm.png)  | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Kritik%20dan%20Saran.png) |
 |  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Akun.png)|  |
-
-   - **Mockup User ( Android )**
-
-|  |  |
-|--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/loading.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/login%20user.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Buat%20akun2.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/lupa%20password2.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/halaman%20awal.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/halaman%20biodata.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20pendidikan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/grafik%20pendidikan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Pekerjaan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20pekerjaan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/grafik%20pekerjaan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Agama.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20Agama.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/grafik%20Agama.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/kritik%20saran.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/anggaran.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/kependudukan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/angka%20kelahiran.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20angka%20kelahiran.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Grafik%20kelahiran.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/angka%20kematian.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/data%20kematian.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Grafik%20kematian.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/maps.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/tentang%20aplikasi.png) |
  
 **2.1.3 Antarmuka perangkat keras**
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
-1. Smartphone Android
 
-Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android versi Jelly Beans
-
-3. PC / Laptop
+1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Antarmuka%20Perangkat%20Keras.png)
 
 **2.1.4 Antarmuka perangkat lunak**
 
 **2.1.5 Antarmuka Komunikasi**
 
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA Lohbener antara lain :
-1.	Kabel Lan UTP RJ45
-2.	Modem
-3.	wifi
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Administrasi Data Kependudukan Desa Lohbener antara lain :
+1. Kabel Lan UTP RJ45
+2. Modem
+3. wifi
 
 **2.1.6 Batasan memori**
 
@@ -157,7 +130,6 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 
 | Operasi | Fungsi |
 | ------ | ------ |
-|Daftar Masyarakat|Digunakan bagi masyarakat untuk mendaftar|
 | Login | Digunakan untuk mengakses aplikasi |
 | Input Data | Digunakan untuk memasukkan data-data |
 | Kembali | Digunakan untuk kembali ke halaman sebelumnya |
@@ -166,35 +138,19 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak MORSA L
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
 | Cetak | Digunakan untuk mencetak laporan |
-| Kritik dan saran | digunakan bagi masyarakat untuk berkomentar|
 
 **2.1.8 Kebutuhan adaptasi**
 
 
-	
+   
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Usecase2.png)
-
-- Tabel Kebutuhan Fungsional 
-
-	| No | Deskripsi |
-	| ------ | ------ |
-	| 1 | Perangkat lunak dapat menampilkan halaman login pada website  |
-	| 2 | Perangkat lunak dapat menampilkan halaman login pada android |
-	| 3 | Perangkat lunak dapat menampilkan Halaman daftar akun pada android |
-	| 4 | Perangkat lunak dapat menginputkan kependudukan, pendidikan ,agama, pekerjaan, anggaran dan laporan pada website admin
-	| 5 | Perangkat lunak dapat menampilkan grafik pada halaman sistem user |
-	| 6 | Perangkat lunak dapat mengirimkan notifikasi komentar user kepada admin |
-	| 7 | Perangkat lunak dapat mengirimkan notifikasi apabila ada user baru yang mendaftar akun |
-	
+   
 **2.2.1 Masyarakat Login**
 
 Use Case: Login
 
 Diagram : 
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0089.jpg)
 
 Deskripsi Singkat
 Masyarakat melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses masyarakat dapat mendaftar akun dahulu.
@@ -205,14 +161,12 @@ Deskripsi langkah-langkah
 4. Bila gagal sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.1, Login masyarakat
-	
+   
 **2.2.2 Masyarakat melihat data dan grafik**
 
 Use Case: View data dan grafik
 
 Diagram:
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 
 Deskripsi Singkat
 Masyarakat dapat melihat data dan grafik perkembangan kependudukan desa lohbener.
@@ -222,14 +176,13 @@ Deskripsi Langkah-langkah:
 3. Sistem menampilkan data dan grafik
 
 Xref: Bagian 3.2.2, View data dan grafik masyaratkat
-	
+   
 **2.2.3 Masyarakat mengirim kritik dan saran**
 
 Use Case: Kritik dan Saran
 
-Diagram:	
+Diagram: 
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/use%20case%20masyarakat.png)
 
 Deskripsi Singkat
 Masyarakat dapat memanfaatkan fungsi kritik dan saran untuk menyalurkan aspirasinya
@@ -247,7 +200,6 @@ Use Case: Login
 
 Diagram :
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0084.jpg) 
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
@@ -258,15 +210,14 @@ Deskripsi Langkah-langkah
 4. Bila gagal sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.4, Login admin
-		
+      
 **2.2.5 Input data dan menampilkan data & grafik**
 
 Use Case: Input data dan menampilkan data & grafik
 
 Diagram:
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0087.jpg)
-		
+      
 Deskripsi Singkat
 Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
@@ -282,7 +233,6 @@ Use Case: notifikasi kritik saran
 
 Diagram:
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/admin-notifikasi.jpg)
 
 Deskripsi Singkat
 Admin akan mendapat notifikasi di web dan melihat kritik saran
@@ -292,14 +242,13 @@ Deskripsi Langkah-langkah
 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile
 
 Xref: Bagian 3.2.6, notifikasi kritik dan saran
-	
+   
 **2.2.7 Cetak Laporan**
 
 Use Case: Laporan
 
 Diagram:
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0085.jpg)
 
 Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
@@ -315,7 +264,6 @@ Use Case: View Data dan Grafik
 
 Diagram:
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/IMG-20180303-WA0090.jpg)
 
 Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
@@ -327,31 +275,31 @@ Xref: Bagian 3.2.8, View Data dan Grafik
 
 
 
-2.3	Spesifikasi Kebutuhan non-fungsional
+2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
 - Tabel Kebutuhan Non-Fungsional 
 
-	| No | Deskripsi |
-	| ------ | ------ |
-	| 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-	| 2 | Perangkat Lunak mampu mengirimkan notifikasi kepada admin maksimal dalam waktu 1 menit |
-	| 3 | Perangkat lunak menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter |
-	| 4 | Perangkat Lunak dapat dipakai di platofrm Windows ( Admin ) dan Android Os ( User )
+   | No | Deskripsi |
+   | ------ | ------ |
+   | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
+   | 2 | Perangkat Lunak mampu mengirimkan notifikasi kepada admin maksimal dalam waktu 1 menit |
+   | 3 | Perangkat lunak menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter |
+   | 4 | Perangkat Lunak dapat dipakai di platofrm Windows ( Admin, sekdes dan kepala desa ) 
  
-2.4	Karakteristik pengguna
+2.4   Karakteristik pengguna
 ----------
 Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
-2.5	Batasan-batasan
+2.5   Batasan-batasan
 ----------
-- Perangkat lunak web hanya dijalankan di windows (7,8,10). Dan perangkat lunak mobile hanya bisa dijalankan di android (min. API 16/Jelly Bean).
+- Perangkat lunak web hanya dijalankan di windows (7,8,10). 
 - Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 
-2.6	Asumsi-asumsi
+2.6   Asumsi-asumsi
 ----------
 Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
 
-2.7	Kebutuhan Penyeimbang
+2.7   Kebutuhan Penyeimbang
 ----------
 
 
@@ -359,12 +307,12 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan mendaftar, Pendaftaran secara online melalui aplikasi ini dengan mencantumkan NIK kemudian sistem akan mencocokkan NIK masyarakat lohbener. Setelah login berhasil masyarakat dapat memantau perkembangan kependudukan desa lohbener dan dapat mengirimkan kritik dan saran di aplikasi tersebut.
-		
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login secara online melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
+      
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
-		
+      
 **3.2.1 Login masyarakat**
 
 |  |  |
@@ -377,7 +325,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | User dapat login dan mengakses aplikasi monitoring |
 | Exception Push | Username dan password salah |
-	
+   
 **3.2.2 masyarakat melihat data dan grafik**
 
 |  |  |
@@ -390,7 +338,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | User melihat data dan grafik |
 | Exception Push | Tidak ada koneksi |
-	
+   
 **3.2.3 masyarakat mengirim kritik dan saran**
 
 |  |  |
@@ -403,7 +351,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | User Mengisi form kritik dan saran |
 | Exception Push | Tidak ada koneksi |
-	
+   
 **3.2.4 admin login**
 
 |  |  |
@@ -416,7 +364,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
 | Exception Push | Username dan password salah |
-	
+   
 **3.2.5 Input data dan menampilkan data & grafik**
 
 |  |  |
@@ -429,7 +377,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data |
 | Exception Push | Tidak ada koneksi |
-	
+   
 **3.2.6 notifikasi kritik dan saran**
 
 |  |  |
@@ -442,7 +390,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Halaman kritik dan saran |
 | Exception Push | Tidak ada koneksi |
-	
+   
 **3.2.7 Cetak Laporan**
 
 |  |  |
@@ -467,12 +415,11 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Sistem menampilkan data kependudukan <br>2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
 | Post Condition | Halaman tampil data kependudukan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
-	
+   
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/Erd6.jpg)
 
 **Tabel User**
 
@@ -600,10 +547,5 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_akun| int | Nomer auto increment Id_akun|
 | status | varchar | status akun masyarakat |
 
-**Tabel Krisan**
 
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_krisan| int | Nomer auto increment Id_krisan|
-| krisan | varchar | kritik dan Saran masyarakat |
 
