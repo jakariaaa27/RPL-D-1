@@ -75,7 +75,6 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
    - View Agama
    - View Pekerjaan
    - View Pendidikan
-   - View Anggaran Desa
    - View Laporan
 
 2.1   Perspektif produk
