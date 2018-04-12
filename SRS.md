@@ -464,104 +464,123 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Password | varchar | berisikan password untuk login admin dan user |
 | level | varchar | untuk membedakan level saat login antara admin dan user
 
-**Tabel Masyarakat**
+**Tabel Warga**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_masyarakat| int | Nomer auto increment Id_masyarakat|
-| Id_user| int | untuk mengambil username dan password peserta pada tabel user|
+| Id_warga| int | Nomer auto increment Id_masyarakat|
 | NIK | varchar | nomer kependudukan|
-| Nama_lengkap | varchar | nomer kependudukan|
-| Tmp_lahir | varchar | tempat lahir peserta |
+| Nama | varchar | nomer kependudukan|
+| jns_kelamin | varchar | Identifikasi jenis kelamin|
 | Tgl_lahir | date | tanggal lahir peserta |
-| Alamat | varchar | alamat lengkap peserta |
-| Telp | varchar | nomer telepon peserta |
+| Agama | varchar | Identifikasi agama |
 
-
-**Tabel Bioadmin**
+**Tabel Pegawai**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_bioadmin| int | Nomer auto increment Id_bioadmin|
+| Id_pegawai| int | Nomer auto increment Id_bioadmin|
 | Id_user| int | untuk mengambil username dan password admin pada tabel user|
 | nik| varchar | nik admin|
 | nama | varchar | nama admin|
-| jabatan | varchar | jabatan admin|
-| email | varchar | email admin|
-| telp | varchar | telepon admin|
-| foto | varchar | foto admin|
-
-**Tabel Kepedudukan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_admin| int | untuk mengidentifikasi admin|
-| Id_peserta| int | untuk mengidentifikasi peserta|
-| Id_kelahiran| int | untuk mengidentifikasi kelahiran|
-| Id_kematian| int | untuk mengidentifikasi kematian|
-| Id_agama| int | untuk mengidentifikasi agama|
-| Id_pekerjaan| int | untuk mengidentifikasi pekerjaan |
-| Id_angdes| int | untuk mengidentifikasi anggaran desa|
-| Id_akun| int | untuk mengidentifikasi akun|
-| Id_laporan| int | untuk mengidentifikasi laporan|
+| jabatan | varchar | mendefinisikan level user |
+| tgl_masuk | date | awal jabatan|
+| tgl_keluar | date | akhir jabatan|
 
 **Tabel Kelahiran**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_kelahiran| int | Nomer auto increment Id_kelahiran|
-| nama | varchar | nama anak|
+| Id_warga| int | foreignt key tabel warga |
 | tgl_lahir| date | tanggal lahir anak |
 | jns_kelamin| varchar | jenis kelamin anak|
+| ayah | varchar | nama ayah|
+| ibu | varchar | nama ibu|
+| tmp_lahir| varchar | tempat lahir anak |
+| rt | int | nomor rt|
+| rw | int | nomor rw|
 
 **Tabel Kematian**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_kematian| int | Nomer auto increment Id_kematian|
-| nama | varchar | nama orang meninggal |
+| Id_warga| int | foreignt key tabel warga |
+| tmp_kematian| varchar | tempat lahir anak |
 | tgl_kematian| date | tanggal lahir anak |
-| jns_kelamin| varchar | jenis kelamin orang meninggal|
-
-**Tabel Agama**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_agama| int | Nomer auto increment Id_agama|
-| nama | varchar | nama masyarakat |
-| agama| varchar | agama masyarakat  |
-| tgl_input | date | tanggal input agama |
-| jns_kelamin| varchar | jenis kelamin  |
+| rt | int | nomor rt|
+| rw | int | nomor rw|
 
 **Tabel Pekerjaan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
-| nama | varchar | nama masyarakat |
+| Id_warga| int | foreignt key tabel warga |
 | pekerjaan| varchar | pekerjaan masyarakat  |
 | tgl_input | date | tanggal input pekerjaan |
-| jns_kelamin| varchar | jenis kelamin  |
 
 **Tabel Pendidikan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_pendidikan| int | Nomer auto increment Id_pendidikan|
-| nama | varchar | nama masyarakat |
+| Id_warga| int | foreignt key tabel warga |
 | pendidikan| varchar | pendidikan masyarakat  |
-| tgl_input | date | tanggal input pekerjaan |
-| jns_kelamin| varchar | jenis kelamin  |
+| tgl_masuk | date | tanggal masuk pendidikan |
 
-**Tabel Anggaran Desa**
+**Tabel ktp**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_angdes| varchar | Nomer auto increment Id_angdes|
-| nama_anggaran | int | nama anggaran desa |
-| jml_dana| varchar | Banyaknya anggaran Desa|
-| tgl_masuk | date | tanggal masuk anggaran |
-| alokasi_dana | varchar | keterangan penggunaan dana |
+| Id_ktp| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| status_ktp| varchar | Identifikasi memiliki atau belum memiliki ktp |
+| masa_berlaku | date | tanggal berlaku ktp |
+
+**Tabel kk**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_kk| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| kepala_keluarga| varchar | nama kepala keluarga |
+| no_kk | varchar | nomor kk |
+
+**Tabel pindah**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_pindah| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| tgl_pindah | date | tanggal akan pindah |
+| ket | varchar | alamat pindah |
+
+**Tabel datang**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_datang| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| tgl_datang | date | tanggal kedatangan |
+| ket | varchar | alamat sebelum datang |
+
+**Tabel pilih**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_pilih| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| status_pilih | varchar | hak pilih |
+
+**Tabel kawin**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_kawin| varchar | Nomer auto increment Id_angdes|
+| Id_warga| int | foreignt key tabel warga |
+| status_kawin | varchar | status warga |
 
 **Tabel Laporan**
 
@@ -574,12 +593,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | link | varchar | link download laporan |
 
 
-**Tabel Akun**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_akun| int | Nomer auto increment Id_akun|
-| status | varchar | status akun masyarakat |
 
 
 
