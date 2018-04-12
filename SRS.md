@@ -46,7 +46,6 @@ Manajemen Administrasi Data Kependudukan Desa Lohbener merupakan aplikasi yang k
 1.4   Referensi
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
-- https://code18.blogspot.co.id/2016/01/definisi-android-studio.html
 - http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
 - IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
 
