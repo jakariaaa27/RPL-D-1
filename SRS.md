@@ -76,6 +76,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
    - View Agama
    - View Pekerjaan
    - View Pendidikan
+   - View Anggaran Desa
    - View Laporan
 
 2.1   Perspektif produk
@@ -272,6 +273,21 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.8, Mengelola user
 
+**2.2.9 Admin melihat grafik kependudukan**
+
+Use Case: Admin view grafik kependudukan
+
+Diagram:
+
+Deskripsi Singkat
+Admin dapat melihat grafik perkembangan kependudukan desa lohbener.
+Deskripsi Langkah-langkah:
+1. Sistem menampilkan halaman beranda yang berisi button.
+2. Admin dapat mengklik button grafik kependudukan terdiri dari pekerjaan, agama, pendidikan, dll.
+3. Sistem menampilkan grafik kependudukan sesuai dengan perintah yang di eksekusi.
+
+Xref: Bagian 3.2.9, Admin view grafik kependudukan   
+
 
 
 2.3   Spesifikasi Kebutuhan non-fungsional
@@ -414,6 +430,19 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
 | Exception Push | Tidak ada koneksi, data belum diinput |
+
+**3.2.9 Admin melihat grafik kependudukan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Admin view grafik kependudukan |
+| Xref | Bagian 2.2.9, Admin view grafik kependudukan  |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Seletah melakukan input data kependudukan |
+| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button. <br> 2. Admin dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, dll. <br> 3. Sistem menampilkan grafik kependudukan sesuai perintah eksekusi |
+| Alternative | Tidak ada |
+| Post Condition | Admin melihat grafik kependudukan |
+| Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
