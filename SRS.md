@@ -204,7 +204,7 @@ Diagram :
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
 Deskripsi Langkah-langkah
-1. admin melakukan login dengan username dan password
+1. Admin melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
@@ -352,43 +352,43 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Kepala desa melihat laporan kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.4 admin login**
+**3.2.4 Admin login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.4, Login admin |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | Halaman utama untuk login |
-| Basic Path | 1. admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Halaman login admin |
+| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin dapat login dan mengakses aplikasi monitoring |
+| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Exception Push | Username dan password salah |
    
-**3.2.5 Input data dan menampilkan data & grafik**
+**3.2.5 Admin input data kependudukan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data dan menampilkan data & grafik |
-| Xref | 2.5, Input data dan menampilkan data & grafik |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | Sesudah login admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menampilkan data dan grafik <br> 4. Admin dapat mengedit dan hapus data bila terjadi kesalahan |
+| Nama Fungsi | Input data kependudukan |
+| Xref | Bagian 2.2.5, Input data kependudukan |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | Halaman utama admin |
+| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data |
+| Post Condition | Halaman form input data kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 notifikasi kritik dan saran**
+**3.2.6 Admin melihat data kependudukan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | notifikasi kritik saran |
-| Xref | Bagian 2.2.6, notifikasi kritik dan saran |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
+| Nama Fungsi | View data kependudukan |
+| Xref | Bagian 2.2.6, View data kependudukan |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan notifikasi <br> 2. Admin membuka notifikasi <br> 3. Admin memfilter kritik dan saran untuk di tampilkan ke mobile|
+| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya.|
 | Alternative | Tidak ada |
-| Post Condition | Halaman kritik dan saran |
+| Post Condition | Halaman data kependudukan |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.7 Cetak Laporan**
@@ -397,23 +397,23 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.7, Cetak Laporan |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener |
-| Precondition | halaman awal aplikasi |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Precondition | halaman utama admin |
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
-**3.2.8  View Data  dan Grafik**
+**3.2.8  Admin mengelola user**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View Data dan Grafik |
-| Xref | Bagian 2.2.8, View Data dan Grafik |
-| Trigger | Membuka aplikasi Monitoring Perkembangan Kependudukan Desa Lohbener | 
-| Precondition | halaman input data kependudukan |
-| Basic Path | 1. Sistem menampilkan data kependudukan <br>2. Bila terjadi kesalahan data admin dapat menghapus atau mengedit data  |
-| Post Condition | Halaman tampil data kependudukan |
+| Nama Fungsi | Mengelola user |
+| Xref | Bagian 2.2.8, Mengelola user |
+| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
+| Precondition | halaman utama admin |
+| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
+| Post Condition | Halaman user |
 | Exception Push | Tidak ada koneksi, data belum diinput |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
@@ -546,6 +546,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | ------ | ------ | ------ |
 | Id_akun| int | Nomer auto increment Id_akun|
 | status | varchar | status akun masyarakat |
+
 
 
 
