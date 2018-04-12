@@ -85,6 +85,8 @@ Pada sistem monitoring ini akan menampilkan grafik kependudukan yang sudah di in
 
 **2.1.1 Antarmuka sistem**
 
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem.png)
+
 Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
 
 **2.1.2 Antarmuka pengguna**
@@ -105,6 +107,8 @@ Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 
 |  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Akun.png)|  |
  
 **2.1.3 Antarmuka perangkat keras**
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras.png)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
 
@@ -143,6 +147,8 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Manajem
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case.png)
    
 **2.2.1 Kepala Desa Login**
 
@@ -572,6 +578,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | ------ | ------ | ------ |
 | Id_akun| int | Nomer auto increment Id_akun|
 | status | varchar | status akun masyarakat |
+
 
 
 
