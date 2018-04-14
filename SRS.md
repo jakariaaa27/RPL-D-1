@@ -48,11 +48,7 @@ Manajemen Administrasi Data Kependudukan Desa Lohbener merupakan aplikasi yang k
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 - http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
 - IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
-
-Dokumen SRS ini dibagi menjadi tiga bagian utama, yaitu :
-- bagian pertama berisi penjelasan tentang dokumen SRS yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum.
-- Bagian kedua berisi penjelasan secara umum mengenai Aplikasi Random Grup yang akan dibangun, meliputi fungsi dari perangkat lunak, karakteristik pengguna, batasan dan asumsi yang diambil dala pembuatan perangkat lunak.
-- Bagian ketiga berisi uraian kebutuhan perangkat lunak secara lebih rinci.
+- _SRSExample-webapp.pdf_
 
 1.5   Overview
 ----------
@@ -85,7 +81,7 @@ Pada sistem monitoring ini akan menampilkan grafik kependudukan yang sudah di in
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem%202.png)
 
 Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
 
@@ -108,7 +104,7 @@ Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras.png)
+
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
 
@@ -116,6 +112,8 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Mo
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
 **2.1.4 Antarmuka perangkat lunak**
+
+Tidak ada
 
 **2.1.5 Antarmuka Komunikasi**
 
@@ -126,7 +124,7 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Manajem
 
 **2.1.6 Batasan memori**
 
-
+Tidak ada
 
 **2.1.7 Operasi-operasi**
 
@@ -143,12 +141,11 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Manajem
 
 **2.1.8 Kebutuhan adaptasi**
 
-
+Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case%202.png)
    
 **2.2.1 Kepala Desa Login**
 
@@ -301,9 +298,7 @@ Xref: Bagian 3.2.9, Admin view grafik kependudukan
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak mampu mengirimkan notifikasi kepada admin maksimal dalam waktu 1 menit |
-   | 3 | Perangkat lunak menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter |
-   | 4 | Perangkat Lunak dapat dipakai di platofrm Windows ( Admin, sekdes dan kepala desa ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin, sekdes dan kepala desa ) 
  
 2.4   Karakteristik pengguna
 ----------
@@ -316,17 +311,18 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 
 2.6   Asumsi-asumsi
 ----------
-Maksimal penginputan data atau memasukkan nama pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
+Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
 
 2.7   Kebutuhan Penyeimbang
 ----------
+Tidak ada
 
 
 BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login secara online melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
       
 3.2 Functional Requirement
 ----------
@@ -591,11 +587,4 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | jns_laporan| varchar | jenis laporan|
 | tgl_laporan | date | tanggal laporan |
 | link | varchar | link download laporan |
-
-
-
-
-
-
-
 
