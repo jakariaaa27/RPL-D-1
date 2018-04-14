@@ -77,7 +77,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 ----------
 Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebuah sistem administrasi data yang di aplikasiskan pada website. Terdapat 3 jenis yaitu admin, sekdes dan kepala desa. Pengolahan data di kelola oleh admin dan sekdes pada website dan kepala desa hanya melihat grafik dan laporan pada website.
 
-Pada sistem monitoring ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
+Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
 
 **2.1.1 Antarmuka sistem**
 
