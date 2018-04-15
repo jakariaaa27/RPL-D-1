@@ -148,97 +148,141 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_user| Integer | 3 | | Primary key |Tidak | Nomer auto increment Id_user|
-| Username | varchar | 16 | | Tidak | Tidak | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Password | varchar | 15 | | Tidak | Tidak | berisikan password untuk login admin dan user |
-| level | varchar | 11 | | Tidak | Tidak | untuk membedakan level saat login antara admin dan user
+| Id_user| Integer | 3 | Primary key| Iya|Auto_increment | Nomer auto increment Id_user|
+| Username | varchar | 25 |Tidak | Tidak | - | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Password | varchar | 25 |Tidak | Tidak | - | berisikan password untuk login admin dan user |
+| level | varchar | 15 |Tidak | Tidak | - | untuk membedakan level saat login antara admin dan user
 
-**Tabel Masyarakat**
-
-| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_masyarakat| Integer | 3 | | Primary key | Tidak | Nomer auto increment Id_masyarakat|
-| Id_user| Integer | 3 | | Primary key | Tabel user | untuk mengambil username dan password peserta pada tabel user|
-| NIK | varchar | 16 | | Tidak | Tidak | nomer kependudukan|
-| Nama | varchar | 25 | | Tidak |Tidak | nama kependudukan|
-|jns_kelamin | Text | | | Tidak | Tidak | jenis kelamin masyarakat|
-| Tmp_lahir | varchar | 25 | | Tidak | Tidak | tempat lahir masyarakat |
-| Tgl_lahir | date | | | Tidak | Tidak | tanggal lahir masyarakat |
-| Alamat | text | | | Tidak | Tidak | alamat lengkap masyarakat |
-| Telp | varchar | 13 | | Tidak | Tidak |nomer telepon masyarakat |
-
-
-**Tabel Admin**
+**Tabel Warga**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_admin| integer | 3 | | Primary key | Tidak | Nomer auto increment Id_admin|
-| Id_user| varchar | 3 | | Primary key | Tabel user | untuk mengambil username dan password admin pada tabel user|
-|nik | varchar | 17 | | Tidak | Tidak | nik kependudukan |
-|nama| varchar | 25 | | Tidak | Tidak | nama admin |
-|jabatan | varchar | 25 | | Tidak | Tidak | jabatan admin |
-|email|varchar | 50 | | Tidak | Tidak | email admin |
-| telp | varchar | 13 | | Tidak | Tidak | nomer telepon admin |
-|foto| text | | | Tidak | Tidak | foto admin |
+| Id_warga| Integer | 3 |Primary key | Iya | Auto_increment | Nomer auto increment Id_warga|
+| nik | varchar | 17 |Tidak | Tidak | - | nomer kependudukan|
+| nama | varchar | 50 |Tidak | Tidak |- | nama kependudukan|
+| alamat | text | | Tidak| Tidak | - | alamat lengkap masyarakat |
+| agama | varchar | 17 |Tidak | Tidak |- | agama kependudukan|
 
-**Tabel Kepedudukan**
+**Tabel Pegawai**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_admin| Integer | 3 | | Primary key | Tabel admin | untuk mengidentifikasi admin|
-| Id_masyarakat| Integer | 3 | Primary key | Tabel masyarakat | untuk mengidentifikasi peserta|
-| Id_kelahiran| Integer| 3 | | Primary key | Tabel kelahiran | untuk mengidentifikasi kelahiran|
-| Id_kematian| Integer | 3 | | Primary key | Tabel kematian | untuk mengidentifikasi kematian|
-| Id_agama| Integer | 3 | | Primary key | Tabel agama | untuk mengidentifikasi agama|
-| Id_pekerjaan| Integer | 3 | | Primary key | Tabel pekerjaan |untuk mengidentifikasi pekerjaan |
-| Id_angdes| Integer | 3 | | Primary key | Tabel angdes | untuk mengidentifikasi anggaran desa|
-| Id_laporan|Integer | 3 | | Primary key | Tabel laporan | untuk mengidentifikasi laporan|
+| Id_pegawai| integer | 3 |Primary key | Iya | Auto_increment | Nomer auto increment Id_pegawai|
+| Id_user| varchar | 3 |Tidak | Foreign key | id_user pada user | untuk mengambil username dan password admin pada tabel user|
+|nik | varchar | 17 | Tidak| Tidak | -| nik kependudukan |
+|nama| varchar | 25 |Tidak | Tidak | - | nama pegawai |
+|jabatan | varchar | 25 |Tidak | Tidak | -| jabatan pegawai |
+|tgl_masuk | date |  |Tidak | Tidak | -| jabatan pegawai |
+|tgl_keluar | date |  |Tidak | Tidak | -| jabatan pegawai |
+|status | varchar | 9 |Tidak | Tidak | -| status pegawai |
 
 **Tabel Kelahiran**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_kelahiran| integer | 3 | | Primary key | Tidak | Nomer auto increment Id_kelahiran|
-| nama | varchar | 50 | | Tidak | Tidak | nama anak|
-| tgl_lahir| date | | | Tidak | Tidak | tanggal lahir anak |
-| jns_kelamin| text | | | Tidak | Tidak | jenis kelamin anak|
+| Id_kelahiran| integer | 6 | Primary key| Iya | Auto_increment | Nomer auto increment Id_kelahiran|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| nama | varchar | 50 |Tidak  | Tidak | - | nama anak|
+| ayah | varchar | 50 |Tidak  | Tidak | - | nama anak|
+| ibu| varchar | 50 |Tidak  | Tidak | - | nama anak|
+| tgl_lahir| date | |Tidak  | Tidak | - | tanggal lahir anak |
+| tmp_lahir | varchar | 50 |Tidak  | Tidak | - | tempat lahir anak|
+| jns_kelamin| varchar |9 | | Tidak | - | jenis kelamin anak|
+| alamat | varchar | 50 |Tidak  | Tidak | - | alamat lahit anak|
 
 **Tabel Kematian**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_kematian| integer | 3 | | Primary key | Tidak | Nomer auto increment Id_kematian|
-| nama | varchar | 50 | | Tidak | Tidak | nama orang meninggal |
-| tgl_kematian| date | | | Tidak | Tidak | tanggal lahir anak |
-| jns_kelamin| text | | | Tidak | Tidak | jenis kelamin orang meninggal|
+| Id_kematian| integer | 3 |Primary key | Iya | Auto_increment | Nomer auto increment Id_kematian|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| tgl_kematian| date | |Tidak  | Tidak | - | tanggal lahir anak |
+| jns_kelamin| varchar |9 |Tidak | Tidak | -| jenis kelamin orang meninggal|
+| tmp_kematian| varchar |50 |Tidak | Tidak | -|tempat orang meninggal|
+| rt | integer | 2 |Tidak | Tidak | - | rt warga|
+| rw | integer | 2 |Tidak | Tidak | - | rw warga|
 
 **Tabel Agama**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_agama| integer | 3 | | primary key | Tidak | Nomer auto increment Id_agama|
-| nama | varchar | 3 | | Tidak | Tidak | nama masyarakat |
-|jns_kelamin | text | | Tidak |Tidak |jenis kelamin masyarakat |
-| agama| text || | Tidak | Tidak | agama masyarakat  |
-|tgl_input| date | | |Tidak | Tidak | tanggal inputan |
+| Id_agama| integer | 3 |primary key | Iya | Auto_increment | Nomer auto increment Id_agama|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| agama| varchar |25|Tidak | Tidak | - | agama masyarakat  |
+
 
 **Tabel Pekerjaan**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_pekerjaan| varchar | Nomer auto increment Id_pekerjaan|
-| nama | varchar | nama masyarakat |
-| pekerjaan| varchar | jenis pekerjaan  |
+| Id_pekerjaan| varchar |6 |primary key | iya|auto_increment |Nomer auto increment Id_pekerjaan|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| pekerjaan| varchar |50|tidak|tidak|-| jenis pekerjaan  |
+| tgl_input| date ||tidak|tidak|-| jenis pekerjaan  |
 
-**Tabel Anggaran Desa**
+**Tabel Pendidikan**
 
 | Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_angdes| integer | 3 | | Primary key | Tidak | Nomer auto increment Id_angdes|
-| nama_anggaran | varchar | 50 | | Tidak | Tidak | nama anggaran desa |
-| jml_dana| varchar | 20 | | Tidak | Tidak | Banyaknya anggaran Desa|
-| tgl_masuk | date | | | Tidak | Tidak |tanggal masuk anggaran |
-| alokasi_dana | text | | | tidak |tidak | keterangan penggunaan dana |
+| Id_pendidikan| integer | 6 | primary key| iya | auto_increment | Nomer auto increment Id_pendidikan|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| pendidikan| varchar | 25 |tidak | Tidak | - | Banyaknya anggaran Desa|
+| tgl_masuk | date | |tidak | Tidak | - |tanggal masuk anggaran |
+
+
+**Tabel ktp**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_ktp| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_ktp|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| status_ktp| varchar | 15 |tidak | Tidak | - | status dari ktp warga|
+| masa_berlaku | date | |tidak | Tidak | - |masa berlaku ktp |
+
+
+**Tabel kk**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_kk| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_kk|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| kepala_keluarga| varchar | 50 |tidak | Tidak | - | nama kepala keluarga|
+| no_kk | varchar | 17|tidak | Tidak | - |nomor kk |
+
+**Tabel pindah**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_pindah| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_pindah|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| tgl_pindah| date |  |tidak | Tidak | - | tanggal pindah warga|
+| ket | varchar | 50|tidak | Tidak | - |keterangan alamat pindah |
+
+**Tabel datang**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_datang| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_datang|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| tgl_datang| date |  |tidak | Tidak | - | tanggal datang warga|
+| ket | varchar | 50|tidak | Tidak | - |keterangan alamat datang |
+
+**Tabel pilih**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_pilih| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_pilih|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| status_pilih| varchar | 25 |tidak | Tidak | - | status pilih warga|
+
+**Tabel pernikahan**
+
+| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Id_nikah| integer | 3 | primary key| iya | auto_increment | Nomer auto increment Id_pilih|
+| id_warga | integer | 3 |Tidak | Foreign key | id_warga pada warga | r lasi untuk menampilkan warga|
+| status_nikah| varchar | 25 |tidak | Tidak | - | status nikah warga|
+
 
 **Tabel Laporan**
 
@@ -542,12 +586,12 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 
 Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener.
 
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Diagram%20context.PNG)
 
 **3.1.1 DFD Level 0**
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Manajemen Administrasi Data Kependudukan Desa Lohbener.
 
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Diagram%20level%200.PNG)
 
 **3.1.2 DFD Level 1 Proses M**
 
@@ -623,5 +667,3 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 
 **3.4 Matriks Kerunutan**
-
-
