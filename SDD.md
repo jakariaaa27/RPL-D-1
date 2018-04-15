@@ -121,18 +121,25 @@ Bab III Deskripsi Perancangan Rinci
 **2.1 Rancangan Lingkungan Implementasi**
 
 Dalam pengembangan sistem informasi SDD ini, rancangan lingkungan implementasi yang digunakan adalah sebagai berikut :
+
 a. Sistem operasi
+
 Sistem Operasi yang digunakan adalah :
-		-   Microsoft Windows 7
-		-   Microsoft Windows 10
+
+-   Microsoft Windows 7
+-   Microsoft Windows 10
 
 b. DBMS
+
 DBMS yang digunakan adalah Mysql
+
 c. Development tools
-		- Menggunakan Sublime Text 
-d. Filling system
-e. Bahasa Pemograman
-		- Pada Admin (Web) menggunakan bahasa pemrograman PHP, HTML, Bootstrap dan CSS.
+
+- Menggunakan Sublime Text 
+
+d. Bahasa Pemograman
+
+- Pada Admin (Web) menggunakan bahasa pemrograman PHP, HTML, Bootstrap dan CSS.
 
 **2.2 Deskripsi Data**
 Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebagai berikut :
