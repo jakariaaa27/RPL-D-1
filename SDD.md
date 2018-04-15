@@ -591,16 +591,32 @@ Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan 
 **3.1.1 DFD Level 0**
 Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur. Berikut DFD Level 0 Manajemen Administrasi Data Kependudukan Desa Lohbener.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Diagram%20level%200.PNG)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20levell%200.png)
 
-**3.1.2 DFD Level 1 Proses M**
+**3.1.2 DFD Level 1 Proses **
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20level%201.png)
 
 
 
-**3.1.3 DFD Level 1 Proses N**
-DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini admin dapat menambahkan, menghapus, dan menampilkan data seperti data kelahiran, kematian, pekerjaan, agama, pendidikan dan anggaran desa maka data-data ini akan ditampilkan pada user admin desa dan juga kepala desa.
+**3.1.3 DFD Level 2 Proses**
+
+DFD Level 2 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 2 
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20level%202.png)
+
+**3.1.3 DFD Level 3 Proses**
+
+DFD Level 3 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 3 
+
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20level%203.png)
+
+
+**3.1.3 DFD Level 4Proses**
+
+DFD Level 4 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 4 
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/diagram%20level%204.png)
 
 
 
