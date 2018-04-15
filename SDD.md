@@ -131,7 +131,7 @@ Sistem Operasi yang digunakan adalah :
 
 b. DBMS
 
-DBMS yang digunakan adalah Mysql
+- DBMS yang digunakan adalah Mysql
 
 c. Development tools
 
