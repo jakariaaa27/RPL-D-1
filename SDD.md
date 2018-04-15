@@ -614,7 +614,9 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 
 **3.3 Modul**
+
 **3.3.1 Modul Agama**
+
 **3.3.1.1 Fungsi Modul**
 
 | No| Fungsi | jenis | Tabel terkait | Kategori |
@@ -623,17 +625,18 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 | 2 | Delete Data Agama| Import File atau Form Modal | Admin |Web|
 | 3 | Update Data Agama | Button Warning | Admin |Web |
 | 4 | Menampilkan Data Agama | Tabel| Admin |Web |
-| 5 | Lihat Grafik Kependudukan | Grafik | Kepala Desa |Web |
-| 6 | Lihat Laporan | Tabel| Kepala Desa |Web |
+
 
 **3.3.1.2 Spesifikasi Layar Utama**
+
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Screenshot%20%28505%29.png)
 
 **3.3.1.3 Spesifikasi Query**
 
 | ID Query | Deskripsi | Ekspresi Query |
 | ------ | ------ | ------ |
 | QRY-01 | Input Data Agama | INSERT INTO agama SET agama="$agama"; |
-| QRY-02 | Delete Data Agama |DELETE FROM agama WHERE id_agama="$is_agama";|
+| QRY-02 | Delete Data Agama |DELETE FROM agama WHERE id_agama="$id_agama";|
 | QRY-03 | Update Data Agama |UPDATE agama SET agama="$agama";|
 | QRY-04 | Menampilkan Data Agama |SELECT * FROM agama;|
 
@@ -644,26 +647,293 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 | ------ | ------ | ------ | ------ | ------ |
 |Id_agama | Id_agama | agama | - | primary key dan diinputkan otomatis oleh sistem |
 | id_warga | id_warga | warga | - | forigen key yang di ambil dari warga menandakan id ini dimiliki warga tersebut dan ini dipilih oleh admin |
-|agama | agama | agama | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama mahasiswa diinputkan manual oleh admin |
+|agama | agama | agama | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama pendidikan diinputkan manual oleh admin |
 
 
 **3.3.1.5 Spesifikasi Objek-Objek pada Layar**
 
-| id_users | jenis | keterangan |
-|------|------|------|
-|username | input type text | masukkan username sesuai dengan database |
-|paassword | input type password | memasukkan password sesuai dengan database |
-|btnLogin| Button | jika diklik maka akan diasosiasikan ke QUE-01. QUE-02 pada sub-bab 3.3.1.3|
+| id_users | jenis | keterangan | Kategori|
+|------|------|------|------|
+|agama | input type text | masukkan nama agama |WEB|
+|btnTambah | Button tambah | untuk menambahkan agama |WEB|
+|btnSimpan | Button Submit| untuk menyimpan data yang di inputkan |WEB|
+|btnEdit | Button Primary | Tombol untuk memunculkan Modal edit agama |WEB|
 
 
 **3.3.1.6 Spesifikasi Proses/Algoritma**
 
-|spesifikasi proses / Algoritma |
-|-------- |
-|1. buka web |
-|2. masukan username & password |
-|3. IF username & password sesuai , maka akan masuk ke halaman dashboard sesuai dengan level nya |
-| ELSE username & password tidak sesuai, maka akan muncul pesan "gagal login |
+OP01 : Tambah Agama
+Objek Terkait : agama
+Event : Tambah agama
 
+|Inisial State (IS)|
+|--|
+| Form agama kosong |
+
+|Final State (FS)|
+|--|
+| Tabel agama di update dengan data yang baru |
+
+|Spesifikasi Proses/Algoritma|
+|--|
+| IF data agama sudah ada |
+| THEN data tidak di masukan dan ulang input |
+| ELSE masukan data ke database dan update data agama yang lama |
+
+#### 3.3.2 Modul Pendidikan
+
+**3.3.2.1 Fungsi Modul**
+
+| No| Fungsi | jenis | Tabel terkait | Kategori |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1 | Input Data Pendidikan | Import File | Admin  |Web |
+| 2 | Delete Data Pendidikan| Import File atau Form Modal | Admin |Web|
+| 3 | Update Data Pendidikan | Button Warning | Admin |Web |
+| 4 | Menampilkan Data Pendidikan | Tabel| Admin |Web |
+
+**3.3.2.2 Spesifikasi Layar Utama**
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Screenshot%20%28506%29.png)
+
+**3.3.2.3 Spesifikasi Query**
+
+| ID Query | Deskripsi | Ekspresi Query |
+| ------ | ------ | ------ |
+| QRY-01 | Input Data Pendidikan | INSERT INTO pendidikan SET pendidikan="$pendidikan"; |
+| QRY-02 | Delete Data Pendidikan |DELETE FROM pendidikan WHERE id_pendidikan="$id_pendidikan";|
+| QRY-03 | Update Data Pendidikan |UPDATE pendidikan SET pendidikan="$pendidikan";|
+| QRY-04 | Menampilkan Data Pendidikan |SELECT * FROM pendidikan;|
+
+**3.3.2.4 Spesifikasi Field Data Layar**
+
+| Label | Field | Tabel/Query | Validasi | Keterangan |
+| ------ | ------ | ------ | ------ | ------ |
+|Id_pendidikan | Id_pendidikan | pendidikan | - | primary key dan diinputkan otomatis oleh sistem |
+| id_warga | id_warga | warga | - | forigen key yang di ambil dari warga menandakan id ini dimiliki warga tersebut dan ini dipilih oleh admin |
+|pendidikan| pendidikan | pendidikan | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama pendidikan diinputkan manual oleh admin |
+| tgl_masuk | tgl-masuk | date | - | tanggal masuk pendidikan |
+
+**3.3.2.5 Spesifikasi Objek-Objek pada Layar**
+
+| id_users | jenis | keterangan | Kategori|
+|------|------|------|------|
+|pendidikan | input type text | masukkan nama pendidikan |WEB|
+|btnTambah | Button tambah | untuk menambahkan pendidikan |WEB|
+|btnSimpan | Button Submit| untuk menyimpan data yang di inputkan |WEB|
+|btnEdit | Button Primary | Tombol untuk memunculkan Modal edit pendidikan |WEB|
+
+**3.3.2.6 Spesifikasi Proses/Algoritma**
+
+OP02 : Tambah Pendidikan
+Objek Terkait : pendidikan
+Event : Tambah pendidikan
+
+|Inisial State (IS)|
+|--|
+| Form pendidikan kosong |
+
+|Final State (FS)|
+|--|
+| Tabel pendidikan di update dengan data yang baru |
+
+|Spesifikasi Proses/Algoritma|
+|--|
+| IF data pendidikan sudah ada |
+| THEN data tidak di masukan dan ulang input |
+| ELSE masukan data ke database dan update data pendidikan yang lama |
+
+#### 3.3.3 Modul Pekerjaan
+
+**3.3.3.1 Fungsi Modul**
+
+| No| Fungsi | jenis | Tabel terkait | Kategori |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1 | Input Data Pekerjaan | Import File | Admin  |Web |
+| 2 | Delete Data Pekerjaan| Import File atau Form Modal | Admin |Web|
+| 3 | Update Data Pekerjaan | Button Warning | Admin |Web |
+| 4 | Menampilkan Data Pekerjaan | Tabel| Admin |Web |
+
+**3.3.3.2 Spesifikasi Layar Utama**
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Screenshot%20%28507%29.png)
+
+**3.3.3.3 Spesifikasi Query**
+
+| ID Query | Deskripsi | Ekspresi Query |
+| ------ | ------ | ------ |
+| QRY-01 | Input Data Pekerjaan | INSERT INTO pekerjaan SET pekerjaan="$pekerjaan"; |
+| QRY-02 | Delete Data Pekerjaan |DELETE FROM pekerjaan WHERE id_pekerjaan="$id_pekerjaan";|
+| QRY-03 | Update Data Pekerjaan |UPDATE pekerjaan SET pekerjaan="$pekerjaan";|
+| QRY-04 | Menampilkan Data Pekerjaan |SELECT * FROM pekerjaan;|
+
+**3.3.3.4 Spesifikasi Field Data Layar**
+
+| Label | Field | Tabel/Query | Validasi | Keterangan |
+| ------ | ------ | ------ | ------ | ------ |
+|Id_pekerjaan | Id_pekerjaan | pekerjaan | - | primary key dan diinputkan otomatis oleh sistem |
+| id_warga | id_warga | warga | - | forigen key yang di ambil dari warga menandakan id ini dimiliki warga tersebut dan ini dipilih oleh admin |
+|pekerjaan| pekerjaan | pekerjaan | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama pekerjaan diinputkan manual oleh admin |
+| tgl_input | tgl_input | date | - | tanggal input pekerjaan |
+
+**3.3.3.5 Spesifikasi Objek-Objek pada Layar**
+
+| id_users | jenis | keterangan | Kategori|
+|------|------|------|------|
+|pekerjaan | input type text | masukkan nama pekerjaan |WEB|
+|btnTambah | Button tambah | untuk menambahkan pekerjaan |WEB|
+|btnSimpan | Button Submit| untuk menyimpan data yang di inputkan |WEB|
+|btnEdit | Button Primary | Tombol untuk memunculkan Modal edit pekerjaan |WEB|
+
+**3.3.3.6 Spesifikasi Proses/Algoritma**
+
+OP03 : Tambah Pekerjaan
+Objek Terkait : pekerjaan
+Event : Tambah pekerjaan
+
+|Inisial State (IS)|
+|--|
+| Form pekerjaan kosong |
+
+|Final State (FS)|
+|--|
+| Tabel pekerjaan di update dengan data yang baru |
+
+|Spesifikasi Proses/Algoritma|
+|--|
+| IF data pekerjaan sudah ada |
+| THEN data tidak di masukan dan ulang input |
+| ELSE masukan data ke database dan update data pekerjaan yang lama |
+
+#### 3.3.4 Modul Kelahiran
+
+**3.3.4.1 Fungsi Modul**
+
+| No| Fungsi | jenis | Tabel terkait | Kategori |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1 | Input Data Kelahiran| Import File | Admin  |Web |
+| 2 | Delete Data Kelahiran| Import File atau Form Modal | Admin |Web|
+| 3 | Update Data Kelahiran | Button Warning | Admin |Web |
+| 4 | Menampilkan Kelahiran | Tabel| Admin |Web |
+
+**3.3.4.2 Spesifikasi Layar Utama**
+
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Screenshot%20%28511%29.png)
+
+**3.3.4.3 Spesifikasi Query**
+
+| ID Query | Deskripsi | Ekspresi Query |
+| ------ | ------ | ------ |
+| QRY-01 | Input Data Kelahiran | INSERT INTO kelahiran SET kelahiran="$kelahiran"; |
+| QRY-02 | Delete Data Kelahiran |DELETE FROM kelahiran WHERE id_kelahiran="$id_kelahiran";|
+| QRY-03 | Update Data Kelahiran |UPDATE kelahiran SET kelahiran="$kelahiran";|
+| QRY-04 | Menampilkan Data Kelahiran |SELECT * FROM kelahiran;|
+
+**3.3.4.4 Spesifikasi Field Data Layar**
+
+| Label | Field | Tabel/Query | Validasi | Keterangan |
+| ------ | ------ | ------ | ------ | ------ |
+|Id_kelahiran | Id_kelahiran | kelahiran | - | primary key dan diinputkan otomatis oleh sistem |
+| id_warga | id_warga | warga | - | forigen key yang di ambil dari warga menandakan id ini dimiliki warga tersebut dan ini dipilih oleh admin |
+|nama| nama | kelahiran | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama kelahiran diinputkan manual oleh admin |
+| tgl_lahir | tgl_lahir | kelahiran | - | tanggal lahir diinputkan manual oleh admin  |
+| ayah | ayah | kelahiran | - | nama ayah diinputkan manual oleh admin |
+| ibu | ibu | kelahiran | - | nama ibu diinputkan manual oleh admin |
+| tmp_lahir | tmp_lahir | kelahiran | - | tempat lahir diinputkan manual oleh admin |
+| alamat | alamat | kelahiran | - |alamat lahir diinputkan manual oleh admin |
+| jns_kelamin| jns_kelamin| kelahiran | - |jenis kelamin diinputkan manual oleh admin |
+
+**3.3.4.5 Spesifikasi Objek-Objek pada Layar**
+
+| id_users | jenis | keterangan | Kategori|
+|------|------|------|------|
+|kelahiran | input type text | masukkan nama kelahiran |WEB|
+|btnTambah | Button tambah | untuk menambahkan kelahiran |WEB|
+|btnSimpan | Button Submit| untuk menyimpan data yang di inputkan |WEB|
+|btnEdit | Button Primary | Tombol untuk memunculkan Modal edit kelahiran |WEB|
+
+**3.3.4.6 Spesifikasi Proses/Algoritma**
+
+OP04 : Tambah Kelahiran
+Objek Terkait : kelahiran
+Event : Tambah kelahiran
+
+|Inisial State (IS)|
+|--|
+| Form kelahiran kosong |
+
+|Final State (FS)|
+|--|
+| Tabel kelahiran di update dengan data yang baru |
+
+|Spesifikasi Proses/Algoritma|
+|--|
+| IF data kelahiran sudah ada |
+| THEN data tidak di masukan dan ulang input |
+| ELSE masukan data ke database dan update data kelahiran yang lama |
+
+#### 3.3.5 Modul Pegawai
+
+**3.3.5.1 Fungsi Modul**
+
+| No| Fungsi | jenis | Tabel terkait | Kategori |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1 | Input Data Pegawai| Import File | Admin  |Web |
+| 2 | Delete Data Pegawai| Import File atau Form Modal | Admin |Web|
+| 3 | Update Data Pegawai | Button Warning | Admin |Web |
+| 4 | Menampilkan Pegawai | Tabel| Admin |Web |
+
+**3.3.5.2 Spesifikasi Layar Utama**
+
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SDD/Screenshot%20%28512%29.png)
+
+**3.3.5.3 Spesifikasi Query**
+
+| ID Query | Deskripsi | Ekspresi Query |
+| ------ | ------ | ------ |
+| QRY-01 | Input Data Pegawai | INSERT INTO pegawai SET pegawai="$pegawai"; |
+| QRY-02 | Delete Data Pegawai |DELETE FROM pegawai WHERE id_pegawai="$id_pegawai";|
+| QRY-03 | Update Data Pegawai |UPDATE pegawai SET pegawai="$pegawai";|
+| QRY-04 | Menampilkan Data Pegawai |SELECT * FROM pegawai;|
+
+**3.3.5.4 Spesifikasi Field Data Layar**
+
+| Label | Field | Tabel/Query | Validasi | Keterangan |
+| ------ | ------ | ------ | ------ | ------ |
+|Id_pegawai | Id_kelahiran | kelahiran | - | primary key dan diinputkan otomatis oleh sistem |
+| id_user | id_user | user | - | forigen key yang di ambil dari user menandakan id ini dimiliki user tersebut dan ini dipilih oleh admin |
+|nik| nik| warga | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nik diambil dari tabel warga |
+|nama| nama | pegawai | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama pegawai diinputkan manual oleh admin |
+| tgl_masuk | tgl_masuk | pegawai | - | tanggal masuk diinputkan manual oleh admin  |
+| tgl_keluar | tgl_keluar| pegawai | - | tanggal kealuar diinputkan manual oleh admin  |
+| status| status | pegawai | - |status user diinputkan manual oleh admin |
+
+**3.3.5.5 Spesifikasi Objek-Objek pada Layar**
+
+| id_users | jenis | keterangan | Kategori|
+|------|------|------|------|
+|pegawai | input type text | masukkan nama pegawai |WEB|
+|btnTambah | Button tambah | untuk menambahkan pegawai |WEB|
+|btnSimpan | Button Submit| untuk menyimpan data yang di inputkan |WEB|
+|btnEdit | Button Primary | Tombol untuk memunculkan Modal edit pegawai |WEB|
+
+**3.3.5.6 Spesifikasi Proses/Algoritma**
+
+OP05 : Tambah Pegawai
+Objek Terkait : pegawai
+Event : Tambah pegawai
+
+|Inisial State (IS)|
+|--|
+| Form pegawai kosong |
+
+|Final State (FS)|
+|--|
+| Tabel pegawai di update dengan data yang baru |
+
+|Spesifikasi Proses/Algoritma|
+|--|
+| IF data pegawai sudah ada |
+| THEN data tidak di masukan dan ulang input |
+| ELSE masukan data ke database dan update data pegawai yang lama |
 
 **3.4 Matriks Kerunutan**
