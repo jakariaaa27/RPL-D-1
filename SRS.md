@@ -91,22 +91,19 @@ Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Login.png) |  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Lupa%20Password.png)|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Dashboard.png)|  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halman%20Dropdone%20Kependudukan.png)|
-|  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Angka%20Kelahiran.png)| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Grafik%20Angka%20Kelahiran.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Angka%20Kematian.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Grafik%20Angka%20Kematian.png)|
-|  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Pendidikan.png)|  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Grafik%20Pendidikan.png)|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Agama.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Grafik%20Agama.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Pekerjaan.png) | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Grafik%20Pekerjaan.png) |
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Anggaran%20Desa.png) |  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Laporan.png)|
-|![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halman%20Dropdone%20Confirm.png)  | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Kritik%20dan%20Saran.png) |
-|  ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Gambar/Halaman%20Akun.png)|  |
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Dashboard.png) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Dropdone%20Kependudukan.png) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Agama.png) Pada Halaman agama dapat menginputkan data agama penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Warga.png) Pada Halaman warga dapat menginputkan data warga|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pendidikan.png) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kelahiran.png) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kematian.png) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kelahiran.png) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kematian.png) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
  
 **2.1.3 Antarmuka perangkat keras**
 
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
 
-
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Monitoring Perkembangan Kependudukan Desa Lohbener antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Administrasi Data Kependudukan Desa Lohbener antara lain :
 
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
@@ -152,6 +149,7 @@ Tidak ada
 Use Case: Login
 
 Diagram : 
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
 Deskripsi Singkat
 Kepala desa melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
@@ -168,6 +166,7 @@ Xref: Bagian 3.2.1, Login Kepala Desa
 Use Case: View grafik kependudukan
 
 Diagram:
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20grafik%20kependudukan%20kepdes.png)
 
 Deskripsi Singkat
 Kepala desa dapat melihat grafik perkembangan kependudukan desa lohbener.
@@ -183,7 +182,7 @@ Xref: Bagian 3.2.2, View grafik kependudukan
 Use Case: View laporan kependudukan
 
 Diagram: 
-
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
 
 Deskripsi Singkat
 Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
@@ -200,7 +199,7 @@ Xref: Bagian 3.2.3, View laporan kependudukan
 Use Case: Login
 
 Diagram :
-
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
@@ -217,7 +216,7 @@ Xref: Bagian 3.2.4, Login admin
 Use Case: Input data kependudukan
 
 Diagram:
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data.png)
       
 Deskripsi Singkat
 Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
@@ -233,7 +232,7 @@ Xref: Bagian 3.2.5, Input data kependudukan
 Use Case: View data kependudukan
 
 Diagram:
-
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
 
 Deskripsi Singkat
 Admin dapat melihat data kependudukan setelah di inputkan.
@@ -243,18 +242,20 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.6, View data kependudukan
    
-**2.2.7 Cetak Laporan**
+**2.2.7 Generate Laporan**
 
 Use Case: Laporan
 
 Diagram:
-
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
 
 Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
 1. Sistem menampilkan laporan kependudukan
-2. Admin mencetak laporan 
+2. Admin memilih combobox tersebut dan klik tombol lihat
+3. Sistem akan menampilkan hasil laporan.
+4. Admin mencetak laporan 
 
 Xref: Bagian 3.2.7, Cetak Laporan
 
@@ -263,7 +264,7 @@ Xref: Bagian 3.2.7, Cetak Laporan
 Use Case: Mengelola user
 
 Diagram:
-
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
 
 Deskripsi Singkat
 Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
@@ -279,6 +280,7 @@ Xref: Bagian 3.2.8, Mengelola user
 Use Case: Admin view grafik kependudukan
 
 Diagram:
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20grafik%20kependudukan.png)
 
 Deskripsi Singkat
 Admin dapat melihat grafik perkembangan kependudukan desa lohbener.
@@ -414,7 +416,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7, Cetak Laporan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | halaman utama admin |
-| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin mencetak laporan  |
+| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
@@ -449,7 +451,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/ERD.jpeg)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
 
 **Tabel User**
 
@@ -464,7 +466,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_warga| int | Nomer auto increment Id_masyarakat|
 | NIK | varchar | nomer kependudukan|
 | Nama | varchar | nomer kependudukan|
 | jns_kelamin | varchar | Identifikasi jenis kelamin|
@@ -478,7 +479,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_pegawai| int | Nomer auto increment Id_bioadmin|
 | Id_user| int | untuk mengambil username dan password admin pada tabel user|
 | nik| varchar | nik admin|
-| nama | varchar | nama admin|
 | jabatan | varchar | mendefinisikan level user |
 | tgl_masuk | date | awal jabatan|
 | tgl_keluar | date | akhir jabatan|
@@ -583,8 +583,13 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_laporan| int | Nomer auto increment Id_laporan|
-| nama_laporan | varchar | nama laporan |
-| jns_laporan| varchar | jenis laporan|
-| tgl_laporan | date | tanggal laporan |
-| link | varchar | link download laporan |
+| Id_warga| int | foreignt key tabel warga |
+| laporan | varchar | berisi laporan kependudukan |
 
+**Tabel Agama**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_agama| int | Nomer auto increment Id_laporan|
+| Id_warga| int | foreignt key tabel warga |
+| agama| varchar | berisi agama penduduk |
