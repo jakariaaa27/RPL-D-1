@@ -939,3 +939,20 @@ Event : Tambah pegawai
 | ELSE masukan data ke database dan update data pegawai yang lama |
 
 **3.4 Matriks Kerunutan**
+
+
+| ID Kebutuhan | Modul | Keterangan |
+|--|--|--|
+| username | Login | untuk validasi agar bisa mengakses aplikasi manajemen administrasi data |
+| id_agama | agama | menampilkan data agama |
+| id_pekerjaan | pekerjaan | menampilkan data pekerjaan |
+| id_pendidikan | pendidikan | menampilkan data pendidikan |
+| id_datang | datang | menampilkan data datang |
+| id_kelahiran | kelahiran | menampilkan data kealhiran |
+| id_warga | warga| menampilkan data warga |
+| id_nikah | pernikahan | menampilkan data nikah |
+| id_kk | kk | menampilkan data kk |
+| id_ktp| ktp | menampilkan data ktp |
+| id_pegawai | pegawai | menampilkan data pegawai |
+| id_user | user | menampilkan data user |
+| id_kematian |kematian | menampilkan data kematian |
