@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1> Software Design Description</h1></div>
 
-<p align="center"><b>Version 1.6 </b><br>
+<p align="center"><b>Version 1.7 </b><br>
 <p align="center">19 Maret 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
@@ -244,6 +244,7 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 | link | text || | tidak | tidak | link download laporan |
 
 **2.2.1 Definisi Domain/Type**
+
 **Tabel User**
 
 | Domain name | Keterangan |
@@ -503,6 +504,7 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 | link | tidak | - | Tidak ada | link download laporan |
 
 **2.3 Deskripsi Modul**
+
 | No | Nama Modul | Deskripsi |
 |--|--|--|
 | 1 | Agama | Modul yang mencakup input, edit, delete dan update semua data agama |
