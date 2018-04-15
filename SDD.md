@@ -1,6 +1,3 @@
-
-Welcome file
-
 <html>
 <body>
 <div align="center"><h1> Software Design Description</h1></div>
@@ -125,17 +122,17 @@ Bab III Deskripsi Perancangan Rinci
 
 Dalam pengembangan sistem informasi SDD ini, rancangan lingkungan implementasi yang digunakan adalah sebagai berikut :
 a. Sistem operasi
-Sistem operasi yang digunakan untuk pengembangan perangkat lunak adalah :
-- Untuk aplikasi server menggunakan Sublime Text untuk membuat web nya.
-- Untuk aplikasi client menggunakan Sublime Text untuk membuat web nya.
-- Untuk aplikasi pembuatan laporan menggunakan Microsoft Word 2010.
+Sistem Operasi yang digunakan adalah :
+		-   Microsoft Windows 7
+		-   Microsoft Windows 10
+
 b. DBMS
-DBMS yang digunakan adalah MySql.
+DBMS yang digunakan adalah Mysql
 c. Development tools
-- Menggunakan Sublime Text 
+		- Menggunakan Sublime Text 
 d. Filling system
 e. Bahasa Pemograman
-Bahasa yang digunakan PHP
+		- Pada Admin (Web) menggunakan bahasa pemrograman PHP, HTML, Bootstrap dan CSS.
 
 **2.2 Deskripsi Data**
 Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebagai berikut :
@@ -246,142 +243,147 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 | tgl_laporan | date | | | tidak | tidak | tanggal laporan |
 | link | text || | tidak | tidak | link download laporan |
 
-**Tabel Krisan (kritik dan saran)**
-
-| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Id_krisan| integer | 3 | | primary key| tidak | Nomer auto increment Id_krisan|
-| krisan | text | | | tidak | tidak |  memasukan kritik dan saran |
-| status| varchar | 10 | | tidak | tidak | Untuk mengirim sebuah kritik dan saran tentang perkembangan |
-
-**Tabel Akun**
-| Nama tabel | Jenis | Volume | Laju | Primary key | Constraint integrity |  Deskripsi | 
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ---- | ---- |
-| Id_akun| integer | 3 | | primary key| tidak | Nomer auto increment Id_akun|
-| status| varchar | 10 | | tidak | tidak |  status akun |
-
-
 **2.2.1 Definisi Domain/Type**
 **Tabel User**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ |
 | Id_user| integer | 
 | Username | varchar | 
 | Password | varchar | 
 | level | varchar | 
 
-**Tabel Masyarakat**
+**Tabel Warga**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
-| Id_masyarakat| integer | 
-| Id_user| integer | 
 | NIK | varchar | 
-| Nama_lengkap | varchar | 
-|jns_kelamin| text |
-| Tmp_lahir | varchar | 
+| Nama | varchar | 
+|jns_kelamin| varchar |
 | Tgl_lahir | date | 
-| Alamat | text | 
-| Telp | varchar | 
+| Agama | varchar |  
 
+**Tabel Pegawai**
 
-**Tabel Admin**
-
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
-| Id_admin| integer | 
-| Id_user| integer | 
+| Id_pegawai| integer | 
+| Id_warga| integer | 
 |nik | varchar |
-|nama | varchar |
 |jabatan | varchar |
-|email | varchar |
-|foto | text |
-
-**Tabel Kepedudukan**
-
-| Domain name | Power Designer Type |
-| ------ | ------ | 
-| Id_admin| integer | 
-| Id_masyarakat|integer| 
-| Id_kelahiran| integer | 
-| Id_kematian|integer | 
-| Id_agama|integer | 
-| Id_pekerjaan| integer | 
-| Id_angdes| integer | 
-| Id_laporan| integer | 
+|tgl_masuk | date |
+|tgl_keluar | date|
 
 **Tabel Kelahiran**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
 | Id_kelahiran| integer | 
-| nama | varchar | 
-| tgl_lahir| date | 
-| jns_kelamin| text | 
+| Id_warga| integer | 
+| Tgl_lahir | date | 
+|jns_kelamin| varchar |
+|ayah| varchar |
+|ibu| varchar |
+| tmp_lahir| varchat | 
+| rt| integer |
+| rw| integer | 
 
 **Tabel Kematian**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
 | Id_kematian| integer | 
-| nama | varchar | 
+| Id_warga| integer | 
+| tmp_kematian | varchar | 
 | tgl_kematian| date | 
-| jns_kelamin| varchar |  
+| rt| integer |
+| rw| integer | 
 
 **Tabel Agama**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
 | Id_agama| varchar | 
-| nama | varchar | 
-|jns_kelamin | text |
+| Id_warga| integer | 
 | agama| varchar | 
 
 **Tabel Pekerjaan**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
 | Id_pekerjaan|integer | 
-| nama | varchar | 
-|jns_kelamin | text |
+| Id_warga| integer | 
 | pekerjaan| varchar | 
 |tgl_input | date |
 
-**Tabel Anggaran Desa**
+**Tabel Pendidikan**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
-| Id_angdes|integer | 
-| nama_anggaran | varchar | 
-| jml_dana| varchar | 
-| tgl_masuk | date | 
-| alokasi_dana | text | 
+| Id_pendidikan|integer | 
+| Id_warga| integer | 
+|pendidikan|varchar|
+| tgl_masuk | date |
+ 
+**Tabel Ktp**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_ktp|integer | 
+| Id_warga| integer | 
+|status_ktp|varchar|
+| masa_berlaku| varchar| 
+
+**Tabel Kk**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_kk|integer | 
+| Id_warga| integer | 
+|kepala_keluarga|varchar|
+| no_kk| varchar| 
+
+**Tabel Pindah**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_pindah|integer | 
+| Id_warga| integer | 
+|tgl_pindah|date|
+| ket| varchar| 
+
+**Tabel Datang**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_datang|integer | 
+| Id_warga| integer | 
+|tgl_datang|date|
+| ket| varchar| 
+
+**Tabel Pilih**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_pilih|integer | 
+| Id_warga| integer |
+| satus_pilih| varchar| 
+
+**Tabel Kawin**
+
+| Domain name | Keterangan |
+| ------ | ------ | 
+| Id_kawin|integer | 
+| Id_warga| integer |
+| satus_kawin| varchar| 
 
 **Tabel Laporan**
 
-| Domain name | Power Designer Type |
+| Domain name | Keterangan |
 | ------ | ------ | 
 | Id_laporan| integer | 
-| nama_laporan | varchar | 
-| jns_laporan| text | 
-| tgl_laporan | date | 
-| link | text | 
-
-**Tabel Krisan (kritik dan saran)**
-
-| Domain name | Power Designer Type |
-| ------ | ------ | 
-| Id_krisan| primary key |
-| krisan |text | 
-| status| varchar | 
-
-**Tabel Akun**
-
-| Domain name | Power Designer Type |
-| ------ | ------ | 
-| Id_akun| primary key |
-| status| varchar | 
+| Id_warga| integer | 
+| laporan| varchar |
 
 **2.2.2 Conceptual Data Model**
 
@@ -400,7 +402,6 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 | Username | tidak | D7 | Tidak ada | berisikan Nik untuk akses login user dan username untuk akses admin |
 | Password | tidak|  D7 | Tidak ada | berisikan password untuk login admin dan user |
 | level | tidak | D7 | Tidak ada | untuk membedakan level saat login antara admin dan user |
-
 
 
 **Tabel Masyarakat**
@@ -501,23 +502,29 @@ Deskripsi tabel-tabel basis data yang terlibat dalam aplikasi Manajemen Administ
 | tgl_laporan |  tidak | - | Tidak ada | tanggal laporan |
 | link | tidak | - | Tidak ada | link download laporan |
 
-**Tabel Krisan (kritik dan saran)**
-
-| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
-| ------ | ------ | ------ | ------ | ------ | 
-| Id_krisan| primary key |- | Auto increment | Nomer auto increment Id_krisan|
-| krisan |  tidak | - | Tidak ada | memasukan kritik dan saran |
-| status| tidak | - | Tidak ada | Untuk mengirim sebuah kritik dan saran tentang perkembangan |
-
-** Tabel Akun**
-
-| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
-| ------ | ------ | ------ | ------ | ------ | 
-| Id_akun| Primary eky |-| tidak ada | Nomer auto increment Id_akun|
-| status| tidak | - | tidak ada | status akun |
-
-
 **2.3 Deskripsi Modul**
+| No | Nama Modul | Deskripsi |
+|--|--|--|
+| 1 | Agama | Modul yang mencakup input, edit, delete dan update semua data agama |
+| 2 | Pekerjaan | Modul yang mencakup input, edit, delete dan update semua data pekerjaan |
+| 3 | Pendidikan | Modul yang mencakup input, edit, delete dan update semua data pendidikan |
+| 4 | Kelahiran | Modul yang mencakup input, edit, delete dan update semua data kelahiran |
+| 5 | Datang | Modul yang mencakup input, edit, delete dan update semua data datang |
+| 6 | Warga | Modul yang mencakup input, edit, delete dan update semua data warga |
+| 7 | Pernikahan | Modul yang mencakup input, edit, delete dan update semua data pernikahan |
+| 8 | Kematian | Modul yang mencakup input, edit, delete dan update semua data kematian |
+| 9 | Pegawai | Modul yang mencakup input, edit, delete dan update semua data pegawai |
+| 10 | KK | Modul yang mencakup input, edit, delete dan update semua data kk |
+| 11 | KTP | Modul yang mencakup input, edit, delete dan update semua data ktp |
+| 12 | User | Modul yang mencakup input, edit, delete dan update semua data user |
+| 13 | Login | Modul yang di gunakan untuk vailidasi akses masuk ke sistem Manajemen Adminstrasi Data di web |
+| 14 | Laporan Kematian | Modul yang digunakan untuk mendata semua hasil kematian |
+| 15 | Laporan Kelahiran | Modul yang digunakan untuk mendata semua hasil kelahiran |
+| 16 | Laporan Datang | Modul yang digunakan untuk mendata semua hasil datang |
+| 17 | Laporan Warga | Modul yang digunakan untuk mendata semua hasil warga |
+| 18 | Laporan Penikahan | Modul yang digunakan untuk mendata semua hasil pernikahan |
+| 19 | Laporan KTP | Modul yang digunakan untuk mendata semua hasil ktp |
+| 20 | Laporan KK | Modul yang digunakan untuk mendata semua hasil kk |
 
 
 **BAB 3 DESKRIPSI PERANCANGAN RINCI**
@@ -554,13 +561,17 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 
 **3.3 Modul**
-
+**3.3.1 Modul Agama**
 **3.3.1.1 Fungsi Modul**
 
-| No| Fungsi | jenis | Tabel terkait |
-| ------ | ------ | ------ | ------ | 
-| 1 | Login | From entry Tabular | users |
-
+| No| Fungsi | jenis | Tabel terkait | Kategori |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1 | Input Data Agama | Import File | Admin  |Web |
+| 2 | Delete Data Agama| Import File atau Form Modal | Admin |Web|
+| 3 | Update Data Agama | Button Warning | Admin |Web |
+| 4 | Menampilkan Data Agama | Tabel| Admin |Web |
+| 5 | Lihat Grafik Kependudukan | Grafik | Kepala Desa |Web |
+| 6 | Lihat Laporan | Tabel| Kepala Desa |Web |
 
 **3.3.1.2 Spesifikasi Layar Utama**
 
@@ -568,16 +579,19 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 | ID Query | Deskripsi | Ekspresi Query |
 | ------ | ------ | ------ |
-| QUE-01 | Masuk sebagai admin | select * from users where level = 'admin' |
-| QUE-2 | Masuk sebagai masyarakat |select * from users where level ='masyarakat'|
+| QRY-01 | Input Data Agama | INSERT INTO agama SET agama="$agama"; |
+| QRY-02 | Delete Data Agama |DELETE FROM agama WHERE id_agama="$is_agama";|
+| QRY-03 | Update Data Agama |UPDATE agama SET agama="$agama";|
+| QRY-04 | Menampilkan Data Agama |SELECT * FROM agama;|
 
 
 **3.3.1.4 Spesifikasi Field Data Layar**
 
 | Label | Field | Tabel/Query | Validasi | Keterangan |
 | ------ | ------ | ------ | ------ | ------ |
-|username | username | select * from users | cek username | login |
-| password | password | select * from users | cek password | login |
+|Id_agama | Id_agama | agama | - | primary key dan diinputkan otomatis oleh sistem |
+| id_warga | id_warga | warga | - | forigen key yang di ambil dari warga menandakan id ini dimiliki warga tersebut dan ini dipilih oleh admin |
+|agama | agama | agama | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama mahasiswa diinputkan manual oleh admin |
 
 
 **3.3.1.5 Spesifikasi Objek-Objek pada Layar**
@@ -600,4 +614,5 @@ DFD ini menjelaskan tentang proses pada tabel kelahiran dimana pada tabel ini ad
 
 
 **3.4 Matriks Kerunutan**
+
 
