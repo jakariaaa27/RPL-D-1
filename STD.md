@@ -102,12 +102,41 @@ Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujia perangk
 2.5   Prosedur Umum Pengujian
 ----------
 **2.5.1 Pengenalan dan latihan**
+
+Pengujian aplikasi ini diujikan oleh kita sebagai Developer. Pada dasar nya penguji memiliki kemampuan tentang pemograman PHP, Data base, dan Framework.
+
 **2.5.2 Persiapan awal**
+
 **2.5.2.1 Persiapan prosedural**
+
+Pengujian ini dilakukan di area local (localhost) dimana pengujian ini dilakukan oleh kita sendiri sebagai Developer. alat yang digunakan 1 buah laptop dengan software yang telah diinstalasi.
+
 **2.5.2.2  Persiapan Perangkat Keras**
+
+Perangkat keras yang diperlukan adalah :
+Sebuah perangkat komputer yang dilengkapi dengan :
+
+- Processor : Intel Core i5
+- Memory : 4 GB DDR3
+- Harddisk : 500 GB
+
 **2.5.2.3 Persiapan perangkat lunak**
+
+Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Microsoft Windows 7 adalah sebagai berikut : 
+
+-  Persiapkan sistem operasi Microsoft Windows. 
+-  Perangkat lunak yang akan di uji di copy ke sebuah direktori, misalnya C:\XAMPP\htdocs. 
+-  Browser Google Chrome. 
+- Database di import ke phpMyAdmin di database db_konser. 
+-  Adobe Dreamweaver atau notepad ++ untuk melihat source code
+
 **2.3.5 Pelaksanaan**
+
+Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak Manajemen Administrasi Data Kependudukan Desa Lohbener dengan mengikuti skenario tertentu yang dibuat berdasarkan skenario yang terdapat pada dokumen SKPL-Manajemen Administrasi Data Kependudukan Desa Lohbener
+
 **2.4.5 Pelaporan Hasil**
+
+Dokumen hasil uji dari aplikasi ini akan diberikan kepada Pemerintahan Desa Lohbener sebagai mitra proyek kami . sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjutnya.
 
 
 BAB III Identifikasi dan Rencana Pengujian
@@ -115,15 +144,8 @@ BAB III Identifikasi dan Rencana Pengujian
 **Tabel 1 Identifikasi dan rencana Pengujian**
 
 
-| Kelas Uji | Butir Uji | Identifikasi | Tingkat Pengujian | Jenis Pengujian | Penguji |
-| ------ | ------ | ----- | ------ | ------ | ------ | ------| ------ |
-
-
-
-
 BAB IV Deskripsi dan Hasil Uji
 ----------
 **Tabel 2 Deskripsi dan Hasil Uji**
 
-| Identifikasi | Deskripsi | Prosedur Pengujian | Masukan | Keluaran yang diharapkan  | Kriteria evaluasi hasil | Hasil yang didapat | Kesimpulan |
-| ------ | ------ | ----- | ------ | ------ | ------ | ------| ------ |
+
