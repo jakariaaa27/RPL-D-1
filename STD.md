@@ -90,6 +90,14 @@ Perangkat keras yang diperlukan untuk menguji aplikasi Manajemen Administrasi Da
 
 2.4   Sumber Daya Manusia
 ----------
+
+Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujia perangkat lunak ini adalah :
+
+- Memahami konsep pemograman berorientasi objek dalam bahasa PHP
+- Memahami proses pengujian perangkat lunak berorientasi objek
+- Memahami konsep pemrograman data base XAMPP
+-
+
  
 2.5   Prosedur Umum Pengujian
 ----------
