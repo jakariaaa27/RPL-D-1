@@ -143,9 +143,105 @@ BAB III Identifikasi dan Rencana Pengujian
 ----------
 **Tabel 1 Identifikasi dan rencana Pengujian**
 
+<table border="2">
+<tr>  
+<td rowspan="2" align="center"><b>Kelas Uji</b></td>
+<td rowspan="2" align="center"><b>Butir Uji</b></td>
+<td colspan="2" align="center"><b>Identifikasi</b></td>
+<td rowspan="2" align="center"><b>Tingkat Pengujian</b></td>    
+<td rowspan="2" align="center"><b>Jenis Pengujian</b></td>
+<td rowspan="2" align="center"><b>Penguji</b></td> 
+</tr>
+<tr>
+<td align="center">SKPL/DPPL</td>
+<td align="center">DUPL</td>
+</tr>
+<tr>
+<td rowspan="2">SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+</tr>
+<tr>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+</tr>
+<tr>
+<td rowspan="2">SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+</tr>
+<tr>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+<td>SKPL/DPPL</td>
+<td>DUPL</td>
+</tr>
+</table>
 
 BAB IV Deskripsi dan Hasil Uji
 ----------
 **Tabel 2 Deskripsi dan Hasil Uji**
+<table border="2">  
+<tr>  
+<td><b>Identifikasi</b></td> 
+<td colspan="3"></td>  
+</tr>  
+<tr>  
+<td><b>Nama Butir Uji</b></td>
+<td colspan="3"></td> 
+</tr>  
+<tr>  
+<td><b>Tujuan</b></td>
+<td colspan="3"></td> 
+</tr>  
+<tr>  
+<td><b>Kondisi Awal</b></td>
+<td colspan="3"></td> 
+</tr>  
+<tr>  
+<td><b>Tanggal Pengujian</b></td>
+<td colspan="3"></td> 
+</tr>  
+<tr>  
+<td><b>Pengujian</b></td>
+<td colspan="3"></td> 
+</tr>  
+<tr>  
+<td align="center" colspan="4"><b>Skenario</b></td>
+</tr>
+<tr>  
+<td colspan="8"></td>
+</tr>
+<tr>  
+<td align="center" colspan="4"><b>Hasil</b></td>
+</tr>
+<tr>  
+<td align="center"><b>Data yang Diberikan</b></td>
+<td align="center"><b>Yang Diharapkan</b></td>
+<td align="center"><b>Pengamatan</b></td>
+<td align="center"><b>Kesimpulan</b></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
 
 
