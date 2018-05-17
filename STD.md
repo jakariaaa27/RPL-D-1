@@ -85,6 +85,9 @@ Perangkat keras yang diperlukan untuk menguji aplikasi Manajemen Administrasi Da
 2.3   Material Pengujian
 ----------
 
+Pada program "Management Administrasi Data Kependudukan Desa Lohbener" ini diakses oleh sekdes. Sekdes sendiri dapat memanipulasi data kependudukan ,admin dapat mencetak laporan dengan memilih Id kategori laporan yang akan di filter berdasarkan kategori penduduk.setelah memilih id tersebut sekdes dapat memilih tanggal mulai data yang akan di ambil dan tanggal sampai data diambil
+
+
 
 
 
