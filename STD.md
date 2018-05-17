@@ -143,105 +143,134 @@ BAB III Identifikasi dan Rencana Pengujian
 ----------
 **Tabel 1 Identifikasi dan rencana Pengujian**
 
-<table border="2">
-<tr>  
-<td rowspan="2" align="center"><b>Kelas Uji</b></td>
-<td rowspan="2" align="center"><b>Butir Uji</b></td>
-<td colspan="2" align="center"><b>Identifikasi</b></td>
-<td rowspan="2" align="center"><b>Tingkat Pengujian</b></td>    
-<td rowspan="2" align="center"><b>Jenis Pengujian</b></td>
-<td rowspan="2" align="center"><b>Penguji</b></td> 
+<table>  
+	<thead>  
+<tr>
+	<td rowspan="2" align="center"><strong>Kelas Uji</td>
+	<td rowspan="2" align="center"><strong>Butir Uji </td>
+	<td colspan="2" align="center"><strong>Identifikasi</td>
+	<td rowspan="2" align="center"><strong>Tingkat Pengujian</td>
+	<td rowspan="2" align="center"><strong>Teknik Pengujian</td>
+	<td rowspan="2" align="center"><strong>Penguji</td>
+</tr>
+		<tr>
+			<td align="center"><strong>SRS/SDD</td>
+			<td align="center"><strong>STD</td>
+		</tr>
+<tr>
+	<td rowspan="3" align="center"><strong></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
 </tr>
 <tr>
-<td align="center">SKPL/DPPL</td>
-<td align="center">DUPL</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
 </tr>
-<tr>
-<td rowspan="2">SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-</tr>
-<tr>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-</tr>
-<tr>
-<td rowspan="2">SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-</tr>
-<tr>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-<td>SKPL/DPPL</td>
-<td>DUPL</td>
-</tr>
+
+</thead>  
 </table>
 
 BAB IV Deskripsi dan Hasil Uji
 ----------
 **Tabel 2 Deskripsi dan Hasil Uji**
-<table border="2">  
-<tr>  
-<td><b>Identifikasi</b></td> 
-<td colspan="3"></td>  
-</tr>  
-<tr>  
-<td><b>Nama Butir Uji</b></td>
-<td colspan="3"></td> 
-</tr>  
-<tr>  
-<td><b>Tujuan</b></td>
-<td colspan="3"></td> 
-</tr>  
-<tr>  
-<td><b>Kondisi Awal</b></td>
-<td colspan="3"></td> 
-</tr>  
-<tr>  
-<td><b>Tanggal Pengujian</b></td>
-<td colspan="3"></td> 
-</tr>  
-<tr>  
-<td><b>Pengujian</b></td>
-<td colspan="3"></td> 
-</tr>  
-<tr>  
-<td align="center" colspan="4"><b>Skenario</b></td>
-</tr>
-<tr>  
-<td colspan="8"></td>
-</tr>
-<tr>  
-<td align="center" colspan="4"><b>Hasil</b></td>
-</tr>
-<tr>  
-<td align="center"><b>Data yang Diberikan</b></td>
-<td align="center"><b>Yang Diharapkan</b></td>
-<td align="center"><b>Pengamatan</b></td>
-<td align="center"><b>Kesimpulan</b></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3"><br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
 </table>
-
-
 
