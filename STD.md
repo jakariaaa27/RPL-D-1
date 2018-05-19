@@ -1,3 +1,4 @@
+
 <html>
 <body>
 <div align="center"><h1> DOKUMEN PENGUJIAN PERANGKAT LUNAK </h1></div>
@@ -258,6 +259,7 @@ BAB III Identifikasi dan Rencana Pengujian
 </thead>  
 </table>
 
+
 BAB IV Deskripsi dan Hasil Uji
 ----------
 **Tabel 2 Deskripsi dan Hasil Uji**
@@ -266,38 +268,38 @@ BAB IV Deskripsi dan Hasil Uji
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3"></td>
+			<td colspan="3">STD 1.0</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
-			<td colspan="3"></td>
+			<td colspan="3">Login Petugas IT dengan username dan password yang di inputkan sesuai dengan data</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3"></td>
+			<td colspan="3">Mengecek apakah login user sudah berhasil</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Kondisi Awal</td>
-			<td colspan="3"><br>
+			<td colspan="3">Halaman Login<br>
 			</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3"></td>
+			<td colspan="3">19/5/2019</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
-			<td colspan="3"></td>
+			<td colspan="3">Hilmy Lazuardi</td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center"><strong>Skenario</td>
 		</tr>
 		<tr>
 			<td colspan="4">
-				<ul>
-					<li></li>
-					<li></li>
-				</ul>
+				<ol>
+					<li>Menginputkan username dan password yang sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
 			</td>
 		</tr>
 		<tr>
@@ -312,24 +314,23 @@ BAB IV Deskripsi dan Hasil Uji
 		<tr>
 			<td rowspan="1">
 				<ul>
-					<li></li>
-					<li></li>
+					<li>Username : 8888</li>
+					<li>Password : 8888</li>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
+					<li>Petugas IT berhasil login dengan akun yang benar</li>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
-					<li></li>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
+					<li>OK</li>
 				</ul>
 			</td>
 		</tr>
@@ -346,3 +347,5 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
+
