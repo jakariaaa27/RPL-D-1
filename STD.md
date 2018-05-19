@@ -229,6 +229,31 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td>Black Box</td>
 	<td>Hilmy</td>
 </tr>
+<tr>
+	<td rowspan="3" align="center"><strong>Mengelola User</td>
+	<td>Memilih nik baru dan hak akses</td>
+	<td>SRS 2.2.8</td>
+	<td>STD 1.3</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+<tr>
+	<td>Memilih nik yang sudah terdapat pada tabel dan hak akses yang sama pada tabel</td>
+	<td>SRS 2.2.8</td>
+	<td>STD 1.3</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+</tr>
+<tr>
+	<td>Memilih nik yang sudah terdapat pada tabel dan hak akses yang berbeda dengan tabel</td>
+	<td>SRS 2.2.8</td>
+	<td>STD 1.3</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+</tr>
+
 
 </thead>  
 </table>
@@ -321,5 +346,3 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
-
-
