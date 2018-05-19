@@ -1,3 +1,4 @@
+
 <html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
@@ -240,6 +241,9 @@ Admin dapat melihat data kependudukan setelah di inputkan.
 Deskripsi Langkah-langkah
 1. Sistem akan menampilkan data kependudukan desa Lohbener.
 2. Admin melihat data dan dapat mengedit atau menghapusnya.
+3. Sistem menampilkan edit data kependudukan
+4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
+5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
 Xref: Bagian 3.2.6, View data kependudukan
    
@@ -391,7 +395,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.5, Input data kependudukan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan |
+| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data kependudukan |
 | Exception Push | Tidak ada koneksi |
@@ -404,7 +408,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, View data kependudukan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya.|
+| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
 | Alternative | Tidak ada |
 | Post Condition | Halaman data kependudukan |
 | Exception Push | Tidak ada koneksi |
