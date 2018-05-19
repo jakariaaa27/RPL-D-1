@@ -224,6 +224,7 @@ Deskripsi Langkah-langkah
 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain.
 2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data kependudukan.
+4. Bila data sudah ada sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.5, Input data kependudukan
 
@@ -593,3 +594,4 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| int | Nomer auto increment Id_laporan|
 | Id_warga| int | foreignt key tabel warga |
 | agama| varchar | berisi agama penduduk |
+
