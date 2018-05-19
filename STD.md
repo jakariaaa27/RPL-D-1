@@ -205,7 +205,30 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td>Black Box</td>
 	<td>Hilmy</td>
 </tr>
-
+<tr>
+	<td rowspan="3" align="center"><strong>Melihat Data Kependudukan</td>
+	<td>Mengedit data kependudukan baru</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 1.2</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+<tr>
+	<td>Mengedit data kependudukan yang sudah ada</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 1.2</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+</tr>
+<tr>
+	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 1.2</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+</tr>
 
 </thead>  
 </table>
@@ -298,4 +321,5 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
 
