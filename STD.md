@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1> DOKUMEN PENGUJIAN PERANGKAT LUNAK </h1></div>
 
-<p align="center"><b>Version 1.0 </b><br>
+<p align="center"><b>Version 1.1 </b><br>
 <p align="center">9 Mei 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
@@ -85,9 +85,6 @@ Perangkat keras yang diperlukan untuk menguji aplikasi Manajemen Administrasi Da
 2.3   Material Pengujian
 ----------
 
-Pada program "Management Administrasi Data Kependudukan Desa Lohbener" ini diakses oleh sekdes. Sekdes sendiri dapat memanipulasi data kependudukan ,admin dapat mencetak laporan dengan memilih Id kategori laporan yang akan di filter berdasarkan kategori penduduk.setelah memilih id tersebut sekdes dapat memilih tanggal mulai data yang akan di ambil dan tanggal sampai data diambil
-
-
 
 
 
@@ -161,29 +158,54 @@ BAB III Identifikasi dan Rencana Pengujian
 			<td align="center"><strong>STD</td>
 		</tr>
 <tr>
-	<td rowspan="3" align="center"><strong></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td rowspan="3" align="center"><strong>Login Pegawai IT</td>
+	<td>Username dan password yang di inputkan sesuai dengan data</td>
+	<td>SRS 2.2.4</td>
+	<td>STD 1.0</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
 <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>Username dan password yang di inputkan tidak sesuai dengan data</td>
+	<td>SRS 2.2.4</td>
+	<td>STD 1.0</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
 </tr>
 <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>Username yang di inputkan sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
+	<td>SRS 2.2.4</td>
+	<td>STD 1.0</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
 </tr>
+<tr>
+	<td rowspan="3" align="center"><strong>Data Kependudukan</td>
+	<td>Menambahkan data kependudukan baru</td>
+	<td>SRS 2.2.5</td>
+	<td>STD 1.1</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+<tr>
+	<td>Menambahkan data kependudukan yang sudah ada</td>
+	<td>SRS 2.2.5</td>
+	<td>STD 1.1</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+</tr>
+<tr>
+	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
+	<td>SRS 2.2.5</td>
+	<td>STD 1.1</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Hilmy</td>
+</tr>
+
 
 </thead>  
 </table>
