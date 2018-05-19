@@ -169,7 +169,7 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td>Username dan password yang di inputkan tidak sesuai dengan data</td>
 	<td>SRS 2.2.4</td>
-	<td>STD 1.0</td>
+	<td>STD 1.1</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -177,7 +177,7 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td>Username yang di inputkan sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
 	<td>SRS 2.2.4</td>
-	<td>STD 1.0</td>
+	<td>STD 1.2</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -186,14 +186,14 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td rowspan="3" align="center"><strong>Data Kependudukan</td>
 	<td>Menambahkan data kependudukan baru</td>
 	<td>SRS 2.2.5</td>
-	<td>STD 1.1</td>
+	<td>STD 1.3</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
 <tr>
 	<td>Menambahkan data kependudukan yang sudah ada</td>
 	<td>SRS 2.2.5</td>
-	<td>STD 1.1</td>
+	<td>STD 1.4</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -201,7 +201,7 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
 	<td>SRS 2.2.5</td>
-	<td>STD 1.1</td>
+	<td>STD 1.5</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -210,14 +210,14 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td rowspan="3" align="center"><strong>Melihat Data Kependudukan</td>
 	<td>Mengedit data kependudukan baru</td>
 	<td>SRS 2.2.6</td>
-	<td>STD 1.2</td>
+	<td>STD 1.6</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
 <tr>
 	<td>Mengedit data kependudukan yang sudah ada</td>
 	<td>SRS 2.2.6</td>
-	<td>STD 1.2</td>
+	<td>STD 1.7</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -225,7 +225,7 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
 	<td>SRS 2.2.6</td>
-	<td>STD 1.2</td>
+	<td>STD 1.8</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
@@ -348,4 +348,171 @@ BAB IV Deskripsi dan Hasil Uji
 	</thead>
 </table>
 
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 1.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Login Petugas IT dengan username dan password yang di inputkan tidak sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek apakah login user sudah sesuai</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19/5/2019</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Hilmy Lazuardi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Menginputkan username dan password yang tidak sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Username : 3231</li>
+					<li>Password : 3231</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Petugas IT tidak berhasil login dengan akun yang salah</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 1.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Login Petugas IT dengan username yang sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek apakah login user sudah sesuai</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19/5/2019</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Hilmy Lazuardi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Menginputkan username yang sesuai dengan data dan password yang tidak sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Username : 8888</li>
+					<li>Password : 3231</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Petugas IT tidak berhasil login dengan username yang benar dan password yang salah</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
 
