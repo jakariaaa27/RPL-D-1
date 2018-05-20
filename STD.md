@@ -254,6 +254,30 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td>Black Box</td>
 	<td>Jakaria</td>
 </tr>
+<tr>
+	<td rowspan="3" align="center"><strong>Login Kepala Desa</td>
+	<td>Username dan password yang di inputkan sesuai dengan data</td>
+	<td>SRS 2.2.1</td>
+	<td>STD 2.2</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+<tr>
+	<td>Username dan password yang di inputkan tidak sesuai dengan data</td>
+	<td>SRS 2.2.1</td>
+	<td>STD 2.3</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+</tr>
+<tr>
+	<td>Username yang di inputkan sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
+	<td>SRS 2.2.1</td>
+	<td>STD 2.4</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+</tr>
 
 
 </thead>  
@@ -1259,6 +1283,258 @@ BAB IV Deskripsi dan Hasil Uji
 				<ul>
 					<li>Tombol tambah dapat diklik jika nik dan hak akses sudah terisi</li>
 					<li>Jika nik dan hak akses kosong maka akan muncul peringatan "Kolom tidak boleh kosong"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Login Kepala Desa dengan username dan password yang di inputkan sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek apakah login user sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Menginputkan username dan password yang sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Username : 3209121902061095</li>
+					<li>Password : 3209121902061095</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Kepala desa berhasil login dengan akun yang benar</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.3</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Login Kepala Desa dengan username dan password yang di inputkan tidak sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek apakah login user sudah sesuai</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Menginputkan username dan password yang tidak sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Username : 3209121902061095</li>
+					<li>Password : 3209121902061095</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Kepala desa tidak berhasil login dengan akun yang salah</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.4</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Login Kepala Desa dengan username yang sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek apakah login user sudah sesuai</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Menginputkan username yang sesuai dengan data dan password yang tidak sesuai dengan data</li>
+					<li>Klik tombol login</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Username : 3209121902061095</li>
+					<li>Password : 3209120802</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Kepala desa tidak berhasil login dengan username yang benar dan password yang salah</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol login dapat diklik jika username dan password sudah terisi</li>
 				</ul>
 			</td>
 			<td rowspan="1">
