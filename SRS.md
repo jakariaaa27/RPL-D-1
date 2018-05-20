@@ -243,7 +243,7 @@ Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
 1. Sistem menampilkan laporan kependudukan
-2. Admin memilih combobox tersebut dan klik tombol lihat
+2. Admin memilih combobox tersebut dan klik tombol cetak
 3. Sistem akan menampilkan hasil laporan.
 4. Admin mencetak laporan 
 
@@ -541,6 +541,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| int | Nomer auto increment Id_laporan|
 | Id_warga| int | foreignt key tabel warga |
 | agama| varchar | berisi agama penduduk |
+
 
 
 
