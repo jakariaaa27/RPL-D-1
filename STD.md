@@ -285,7 +285,7 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3">19/5/2019</td>
+			<td colspan="3">19/5/2018</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
@@ -369,7 +369,7 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3">19/5/2019</td>
+			<td colspan="3">19/5/2018</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
@@ -453,7 +453,7 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3">19/5/2019</td>
+			<td colspan="3">19/5/2018</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
@@ -516,4 +516,257 @@ BAB IV Deskripsi dan Hasil Uji
 	</thead>
 </table>
 
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 1.9</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih NIK baru dan hak akses</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Menambahkan hak akses user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Dashboard Petugas IT<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Memilih nik dan memilih hak akses</li>
+					<li>Klik tombol tambah</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>NIK : 3209121902061095</li>
+					<li>Hak akses : Sekertaris Desa</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Hak akses berhasil ditambahkan dengan nik baru</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol tambah dapat diklik jika nik dan hak akses sudah terisi</li>
+					<li>Jika nik dan hak akses kosong maka akan muncul peringatan "Kolom tidak boleh kosong"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
 
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih nik yang sudah terdapat pada tabel dan hak akses yang sama pada tabel</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Menambahkan hak akses user yang sudah ada</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Menejemen user<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Memilih nik dan memilih hak akses</li>
+					<li>Klik tombol tambah</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>NIK : 3209121902061095</li>
+					<li>Hak akses : Sekertaris Desa</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Hak akses gagal ditambahkan dengan nik dan hak akses yang sudah ada</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol tambah dapat diklik jika nik dan hak akses sudah terisi</li>
+					<li>Jika nik dan hak akses kosong maka akan muncul peringatan "Kolom tidak boleh kosong"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih nik yang sudah terdapat pada tabel dan hak akses yang berbeda dengan tabel</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Menambahkan hak akses user yang sudah ada</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Menejemen User<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Memilih nik dan memilih hak akses</li>
+					<li>Klik tombol tambah</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>NIK : 3209121902061095</li>
+					<li>Hak akses : Kepala Desa</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Hak akses gagal ditambahkan dengan nik dan hak akses yang sudah ada</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol tambah dapat diklik jika nik dan hak akses sudah terisi</li>
+					<li>Jika nik dan hak akses kosong maka akan muncul peringatan "Kolom tidak boleh kosong"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
