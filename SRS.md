@@ -259,9 +259,9 @@ Diagram:
 Deskripsi Singkat
 Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
 Deskripsi Langkah-langkah
-1. Sistem menampilkan form
-2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.
-3. Sistem akan menyimpan data user ke database.
+1. Admin mengklik manajemen user, lalu memilih nik dan hak akses user kemudian klik tambah
+2. Sistem akan menyimpan data user ke database dan menampilkan data user yang dipilih.
+3. Admin bisa menghapus hak akses user.
 
 Xref: Bagian 3.2.7, Mengelola user
 
@@ -541,5 +541,6 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| int | Nomer auto increment Id_laporan|
 | Id_warga| int | foreignt key tabel warga |
 | agama| varchar | berisi agama penduduk |
+
 
 
