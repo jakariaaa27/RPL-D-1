@@ -161,14 +161,14 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td rowspan="3" align="center"><strong>Login Pegawai IT</td>
 	<td>Username dan password yang di inputkan sesuai dengan data</td>
-	<td>SRS 2.2.4</td>
+	<td>SRS 2.2.3</td>
 	<td>STD 1.0</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
 <tr>
 	<td>Username dan password yang di inputkan tidak sesuai dengan data</td>
-	<td>SRS 2.2.4</td>
+	<td>SRS 2.2.3</td>
 	<td>STD 1.1</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -176,7 +176,7 @@ BAB III Identifikasi dan Rencana Pengujian
 </tr>
 <tr>
 	<td>Username yang di inputkan sesuai dengan data dan password yang di inputkan tidak sesuai dengan data</td>
-	<td>SRS 2.2.4</td>
+	<td>SRS 2.2.3</td>
 	<td>STD 1.2</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -185,14 +185,14 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td rowspan="3" align="center"><strong>Data Kependudukan</td>
 	<td>Menambahkan data kependudukan baru</td>
-	<td>SRS 2.2.5</td>
+	<td>SRS 2.2.4</td>
 	<td>STD 1.3</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
 <tr>
 	<td>Menambahkan data kependudukan yang sudah ada</td>
-	<td>SRS 2.2.5</td>
+	<td>SRS 2.2.4</td>
 	<td>STD 1.4</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -200,7 +200,7 @@ BAB III Identifikasi dan Rencana Pengujian
 </tr>
 <tr>
 	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
-	<td>SRS 2.2.5</td>
+	<td>SRS 2.2.4</td>
 	<td>STD 1.5</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -209,14 +209,14 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td rowspan="3" align="center"><strong>Melihat Data Kependudukan</td>
 	<td>Mengedit data kependudukan baru</td>
-	<td>SRS 2.2.6</td>
+	<td>SRS 2.2.5</td>
 	<td>STD 1.6</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Hilmy</td>
 <tr>
 	<td>Mengedit data kependudukan yang sudah ada</td>
-	<td>SRS 2.2.6</td>
+	<td>SRS 2.2.5</td>
 	<td>STD 1.7</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -224,7 +224,7 @@ BAB III Identifikasi dan Rencana Pengujian
 </tr>
 <tr>
 	<td>Menambahkan data kependudukan dengan satu field tidak diisi</td>
-	<td>SRS 2.2.6</td>
+	<td>SRS 2.2.5</td>
 	<td>STD 1.8</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
@@ -233,23 +233,23 @@ BAB III Identifikasi dan Rencana Pengujian
 <tr>
 	<td rowspan="3" align="center"><strong>Mengelola User</td>
 	<td>Memilih nik baru dan hak akses</td>
-	<td>SRS 2.2.8</td>
-	<td>STD 1.3</td>
+	<td>SRS 2.2.7</td>
+	<td>STD 1.9</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Jakaria</td>
 <tr>
 	<td>Memilih nik yang sudah terdapat pada tabel dan hak akses yang sama pada tabel</td>
-	<td>SRS 2.2.8</td>
-	<td>STD 1.3</td>
+	<td>SRS 2.2.7</td>
+	<td>STD 2.0</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Jakaria</td>
 </tr>
 <tr>
 	<td>Memilih nik yang sudah terdapat pada tabel dan hak akses yang berbeda dengan tabel</td>
-	<td>SRS 2.2.8</td>
-	<td>STD 1.3</td>
+	<td>SRS 2.2.7</td>
+	<td>STD 2.1</td>
 	<td>Sistem</td>
 	<td>Black Box</td>
 	<td>Jakaria</td>
@@ -515,4 +515,5 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
 
