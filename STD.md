@@ -278,6 +278,30 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td>Black Box</td>
 	<td>Ismatul</td>
 </tr>
+<tr>
+	<td rowspan="3" align="center"><strong>Generate Laporan</td>
+	<td>Memilih menu laporan dan klik button print</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 2.5</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+<tr>
+	<td>memilih pilihan default dan klik button print</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 2.6</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+</tr>
+<tr>
+	<td>memilih pilihan default dan tidak mengklik button print</td>
+	<td>SRS 2.2.6</td>
+	<td>STD 2.7</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Jakaria</td>
+</tr>
 
 
 </thead>  
