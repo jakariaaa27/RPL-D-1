@@ -82,7 +82,7 @@ Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem%202.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
 Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
 
@@ -143,7 +143,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case%202.png)
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
    
 **2.2.1 Kepala Desa Login**
 
@@ -162,23 +162,8 @@ Deskripsi langkah-langkah
 
 Xref: Bagian 3.2.1, Login Kepala Desa
    
-**2.2.2 Kepala desa melihat grafik kependudukan**
 
-Use Case: View grafik kependudukan
-
-Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20grafik%20kependudukan%20kepdes.png)
-
-Deskripsi Singkat
-Kepala desa dapat melihat grafik perkembangan kependudukan desa lohbener.
-Deskripsi Langkah-langkah:
-1. Sistem menampilkan halaman beranda yang berisi button.
-2. Kepala desa dapat mengklik button grafik kependudukan terdiri dari pekerjaan, agama, pendidikan, dll.
-3. Sistem menampilkan grafik kependudukan sesuai dengan perintah yang di eksekusi
-
-Xref: Bagian 3.2.2, View grafik kependudukan   
-
-**2.2.3 Kepala desa melihat laporan kependudukan**
+**2.2.2 Kepala desa melihat laporan kependudukan**
 
 Use Case: View laporan kependudukan
 
@@ -193,9 +178,9 @@ Deskripsi Langkah-langkah
 3. Kepala desa memilih combobox tersebut dan klik tombol lihat
 4. Sistem akan menampilkan hasil laporan.
 
-Xref: Bagian 3.2.3, View laporan kependudukan
+Xref: Bagian 3.2.2, View laporan kependudukan
 
-**2.2.4 Admin login**
+**2.2.3 Admin login**
 
 Use Case: Login
 
@@ -210,14 +195,14 @@ Deskripsi Langkah-langkah
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.4, Login admin
+Xref: Bagian 3.2.3, Login admin
       
-**2.2.5 Admin input data kependudukan**
+**2.2.4 Admin input data kependudukan**
 
 Use Case: Input data kependudukan
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data.png)
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
       
 Deskripsi Singkat
 Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
@@ -227,9 +212,9 @@ Deskripsi Langkah-langkah
 3. Sistem menyimpan data kependudukan.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.5, Input data kependudukan
+Xref: Bagian 3.2.4, Input data kependudukan
 
-**2.2.6 Admin melihat data kependudukan**
+**2.2.5 Admin melihat data kependudukan**
 
 Use Case: View data kependudukan
 
@@ -245,9 +230,9 @@ Deskripsi Langkah-langkah
 4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
 5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
-Xref: Bagian 3.2.6, View data kependudukan
+Xref: Bagian 3.2.5, View data kependudukan
    
-**2.2.7 Generate Laporan**
+**2.2.6 Generate Laporan**
 
 Use Case: Laporan
 
@@ -262,9 +247,9 @@ Deskripsi Langkah-langkah
 3. Sistem akan menampilkan hasil laporan.
 4. Admin mencetak laporan 
 
-Xref: Bagian 3.2.7, Cetak Laporan
+Xref: Bagian 3.2.6, Cetak Laporan
 
-**2.2.8 Admin mengelola user**
+**2.2.7 Admin mengelola user**
 
 Use Case: Mengelola user
 
@@ -278,23 +263,7 @@ Deskripsi Langkah-langkah
 2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.
 3. Sistem akan menyimpan data user ke database.
 
-Xref: Bagian 3.2.8, Mengelola user
-
-**2.2.9 Admin melihat grafik kependudukan**
-
-Use Case: Admin view grafik kependudukan
-
-Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20grafik%20kependudukan.png)
-
-Deskripsi Singkat
-Admin dapat melihat grafik perkembangan kependudukan desa lohbener.
-Deskripsi Langkah-langkah:
-1. Sistem menampilkan halaman beranda yang berisi button.
-2. Admin dapat mengklik button grafik kependudukan terdiri dari pekerjaan, agama, pendidikan, dll.
-3. Sistem menampilkan grafik kependudukan sesuai dengan perintah yang di eksekusi.
-
-Xref: Bagian 3.2.9, Admin view grafik kependudukan   
+Xref: Bagian 3.2.7, Mengelola user
 
 
 
@@ -347,26 +316,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
 | Exception Push | Username dan password salah |
-   
-**3.2.2 Kepala desa melihat grafik kependudukan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View grafik kependudukan |
-| Xref | Bagian 2.2.2, View grafik kependudukan  |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Setelah berhasil login dengan usernmae dan password / halaman dashboard kepala desa |
-| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button. <br> 2. Kepala desa dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, dll. <br> 3. Sistem menampilkan grafik kependudukan sesuai perintah eksekusi |
-| Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat grafik kependudukan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.3 Kepala desa melihat laporan kependudukan**
+      
+**3.2.2 Kepala desa melihat laporan kependudukan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.3, View laporan kependudukan |
+| Xref | Bagian 2.2.2, View laporan kependudukan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Membuka halaman grafik kependudukan |
 | Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
@@ -374,12 +330,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Kepala desa melihat laporan kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.4 Admin login**
+**3.2.3 Admin login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.4, Login admin |
+| Xref | Bagian 2.2.3, Login admin |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman login admin |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
@@ -387,12 +343,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Exception Push | Username dan password salah |
    
-**3.2.5 Admin input data kependudukan**
+**3.2.4 Admin input data kependudukan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.5, Input data kependudukan |
+| Xref | Bagian 2.2.4, Input data kependudukan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman utama admin |
 | Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
@@ -400,12 +356,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 Admin melihat data kependudukan**
+**3.2.5 Admin melihat data kependudukan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.6, View data kependudukan |
+| Xref | Bagian 2.2.5, View data kependudukan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | Halaman form input data |
 | Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
@@ -413,12 +369,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman data kependudukan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.7 Cetak Laporan**
+**3.2.6 Cetak Laporan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.7, Cetak Laporan |
+| Xref | Bagian 2.2.6, Cetak Laporan |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
 | Precondition | halaman utama admin |
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
@@ -426,30 +382,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
-**3.2.8  Admin mengelola user**
+**3.2.7  Admin mengelola user**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.8, Mengelola user |
+| Xref | Bagian 2.2.7, Mengelola user |
 | Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
 | Precondition | halaman utama admin |
 | Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
 | Exception Push | Tidak ada koneksi, data belum diinput |
-
-**3.2.9 Admin melihat grafik kependudukan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Admin view grafik kependudukan |
-| Xref | Bagian 2.2.9, Admin view grafik kependudukan  |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Seletah melakukan input data kependudukan |
-| Basic Path | 1. Sistem menampilkan halaman beranda yang berisi button. <br> 2. Admin dapat mengklik tombol kependudukan terdiri dari pekerjaan, agama, pendidikan, dll. <br> 3. Sistem menampilkan grafik kependudukan sesuai perintah eksekusi |
-| Alternative | Tidak ada |
-| Post Condition | Admin melihat grafik kependudukan |
-| Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
@@ -598,4 +541,5 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| int | Nomer auto increment Id_laporan|
 | Id_warga| int | foreignt key tabel warga |
 | agama| varchar | berisi agama penduduk |
+
 
