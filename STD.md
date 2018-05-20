@@ -1580,3 +1580,253 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.5</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih menu laporan dan klik tombol cetak</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Laporan agama : Islam</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Sistem menampilkan data agama islam dan admin mencetak laporan</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.6</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih pilihan default dan klik tombol cetak</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin tidak memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>--</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Sistem Menampilkan peringatan "Harap pilih laporan"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.7</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih pilihan default dan tidak mengklik tombol cetak</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jakaria</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin tidak memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>--</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Data tidak muncul</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
