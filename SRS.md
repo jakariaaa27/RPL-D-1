@@ -174,9 +174,8 @@ Deskripsi Singkat
 Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
 Deskripsi Langkah-langkah
 1. Kepala desa mengklik navbar laporan
-2. Sitem akan menampilkan combobox pilihan bulan dan tahun
-3. Kepala desa memilih combobox tersebut dan klik tombol lihat
-4. Sistem akan menampilkan hasil laporan.
+2. Kepala desa memilih combobox tersebut dan klik tombol cetak laporan
+3. Sistem akan menampilkan hasil laporan.
 
 Xref: Bagian 3.2.2, View laporan kependudukan
 
@@ -541,6 +540,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Id_agama| int | Nomer auto increment Id_laporan|
 | Id_warga| int | foreignt key tabel warga |
 | agama| varchar | berisi agama penduduk |
+
 
 
 
