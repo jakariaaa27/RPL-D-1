@@ -302,6 +302,30 @@ BAB III Identifikasi dan Rencana Pengujian
 	<td>Black Box</td>
 	<td>Jakaria</td>
 </tr>
+<tr>
+	<td rowspan="3" align="center"><strong>Melihat Generate Laporan</td>
+	<td>Memilih menu laporan dan klik button print</td>
+	<td>SRS 2.2.2</td>
+	<td>STD 2.8</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+<tr>
+	<td>memilih pilihan default dan klik button print</td>
+	<td>SRS 2.2.2</td>
+	<td>STD 2.9</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+</tr>
+<tr>
+	<td>memilih pilihan default dan tidak mengklik button print</td>
+	<td>SRS 2.2.2</td>
+	<td>STD 3.0</td>
+	<td>Sistem</td>
+	<td>Black Box</td>
+	<td>Ismatul</td>
+</tr>
 
 
 </thead>  
@@ -1829,4 +1853,255 @@ BAB IV Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.8</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih menu laporan dan klik tombol cetak laporan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi cetak laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan Kepela Desa<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>Laporan agama : Islam</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Sistem menampilkan data agama hindu</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 2.9</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih pilihan default dan klik tombol cetak laporan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi cetak laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin tidak memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>--</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Sistem Menampilkan peringatan "Harap pilih laporan"</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD 3.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memilih pilihan default dan tidak mengklik tombol cetak laporan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengecek fungsi cetak laporan sudah berhasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Laporan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20/5/2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Ismatul Maula</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ol>
+					<li>Admin tidak memilih laporan</li>
+					<li>Klik tombol cetak</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li>--</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Data tidak muncul</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>Tombol cetak dapat diklik jika laporan telah dipilih</li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li>OK</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+
 
