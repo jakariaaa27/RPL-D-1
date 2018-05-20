@@ -3,8 +3,8 @@
 <body>
 <div align="center"><h1> SOFTWARE TESTING DOCUMENT </h1></div>
 
-<p align="center"><b>Version 1.2 </b><br>
-<p align="center">9 Mei 2018</b>
+<p align="center"><b>Version 1.3 </b><br>
+<p align="center">20 Mei 2018</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
